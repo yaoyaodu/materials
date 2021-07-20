@@ -1,0 +1,230 @@
+[toc]
+
+
+
+# 1 流程图 Flow Chart
+
+graph:
+
+Possible FlowChart orientations are:
+
+- TB - top to bottom
+- TD - top-down/ same as top to bottom
+- BT - bottom to top
+- RL - right to left
+- LR - left to right
+
+Links between nodes: 
+
+* A link with arrow head: A-->B
+* An open link: A --- B
+* A---|This is the text|B
+* A-->|text|B
+* Dotted link: A-.->B
+* Dotted link with text: A-. text .-> B
+
+```mermaid
+graph LR
+	good-->bad
+	today---tomorrow
+	C---|text|D
+	E-->|text|F
+	A--text---B
+	G-- text -->H
+	J-.->K
+	L-. text .-> M
+	O ==> P
+	Q == text ==> R
+```
+
+
+
+
+
+```mermaid
+graph LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+```mermaid
+graph TD
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+
+
+flowchart:
+
+
+
+```mermaid
+flowchart TD
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+```mermaid
+flowchart LR    
+	A --o B    
+	B --x C
+```
+
+```mermaid
+flowchart LR
+    A o--o B
+    B <--> C
+    C x--x D
+```
+
+```mermaid
+graph TD
+    A[Start] --> B{Is it?};
+    B -->|Yes| C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B ---->|No| E[End];
+```
+
+
+
+
+
+```mermaid
+flowchart LR
+  subgraph TOP
+    direction TB
+    subgraph B1
+        direction RL
+        i1 -->f1
+    end
+    subgraph B2
+        direction BT
+        i2 -->f2
+    end
+  end
+  A --> TOP --> B
+  B1 --> B2
+```
+
+
+
+
+
+
+
+```mermaid
+graph LR
+    id
+    id1[This is the text in the box]
+    id2(This is the text in the box)
+    id3([This is the text in the box])
+    id4[[This is the text in the box]]
+    id5[(Database)]
+    id6>This is the text in the box]
+    id7((This is the text in the circle))
+    id8[/This is the text in the box/]
+    id9[\This is the text in the box\]
+    A[/Christmas\]
+    B[\Go shopping/]
+    C{Decision}
+    d{{This is the text in the box}}
+    id10["This is the (text) in the box"]
+```
+
+
+
+```mermaid
+graph 
+    id
+    id1[This is the text in the box]
+    C{Decision}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2 时序图 Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice->>John: See you later!
+```
+
+
+
+```mermaid
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    loop Every minute
+        John-->Alice: Great!
+    end
+```
+
+
+
+
+
+
+
+```mermaid
+sequenceDiagram
+	autonumber
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    Note over Alice,John: A typical interaction
+    John-x Bob: How about you?
+    activate Bob
+    Bob--x John: Jolly good!
+    deactivate Bob
+```
+
+There are six types of arrows currently supported:
+
+| Type | Description                                      |
+| ---- | ------------------------------------------------ |
+| ->   | Solid line without arrow                         |
+| -->  | Dotted line without arrow                        |
+| ->>  | Solid line with arrowhead                        |
+| -->> | Dotted line with arrowhead                       |
+| -x   | Solid line with a cross at the end               |
+| --x  | Dotted line with a cross at the end.             |
+| -)   | Solid line with an open arrow at the end (async) |
+| --)  | Dotted line with a open arrow at the end (async) |
+
+
+
+
+
