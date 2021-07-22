@@ -1,19 +1,6 @@
----
-
-layout: post
-title: Programming Guide
-subtitle: User Guide
-author: John Snow
-creator: Typora inc.
-subject: Tutorial
-keywords: [Pandoc, Tutorial, Export]
----
-
-<img src="Markdow File Template.assets/logo.png" alt="logo" style="zoom:10%;" align="left"/>
 
 
-
-
+![logo](MarkdowFileTemplate7.20.assets/logo-1626915882094.png ':size=20%')
 
 
 
@@ -81,7 +68,7 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 <p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
 
-<table border="1" width="400" height="100" bordercolor="blue" cellspacing="0" cellpadding="0" rules="all"summary="日历信息">
+<table>
          <tr align="center" bgColor="a1a4a3">
              <th>Publication Date</th> 
              <th>Version</th>
@@ -94,7 +81,79 @@ All trademarks mentioned herein are the property of their respective owners. The
          </tr>
 </table>
 
+
 <div style="page-break-after:always" />
+
+# 图片缩放后无法显示
+
+![arch_appcall](MarkdowFileTemplate7.20.assets/arch_appcall.png ':size=20%')
+
+
+
+
+
+
+
+
+
+![arch_appcall](MarkdowFileTemplate7.20.assets/arch_appcall.png)
+
+
+
+
+<div style='color: red'>  
+    - listitem 
+    - listitem 
+    - listitem  
+</div>
+
+
+
+```html
+<div style='color: red'>
+
+- listitem
+- listitem
+- listitem
+
+</div>
+```
+
+
+
+
+
+
+
+<img src="Markdow File Template.assets/logo.png" alt="logo" style="zoom:10%;" align="left"/>
+
+
+
+<img src="Markdow File Template.assets/sunshine.jpg" align="center"/>
+
+
+
+
+
+![logo](MarkdowFileTemplate7.20.assets/logo.png ':size=50%' ':align="center"')
+
+
+
+
+
+![logo](MarkdowFileTemplate7.20.assets/logo.png ':size=50%')
+
+<center><b>Logo</b></center>
+
+
+
+# 代码块
+
+```c
+    IOT_ADC_WORK_MODE_SINGLE,
+    IOT_ADC_WORK_MODE_MULTI_CONTINUOUS,
+} IOT_ADC_WORK_MODE;
+```
 
 # List
 
@@ -109,9 +168,9 @@ All trademarks mentioned herein are the property of their respective owners. The
 9. 哈哈哈^基金会^
 10. 永远永远~哈哈哈~
 11. dfe2e5灰色
-12. ⚠⚠💛💚☣☢〽 🈺🔕⚠☣☢⚜❌📛🛑
+12. ⚠⚠💛💚☣☢〽 🈺🔕⚠☣☢⚜❌📛🛑⚠⚠⚠⚠
 
- <img src="C:\Users\user\Desktop\f\Markdow File Template.assets/R1bcb567c72da7bf925700004d773503a.jpg" width="200" border="5" align="center">
+ 
 
 # HTML嵌套规则
 
@@ -373,23 +432,7 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 <p>hello        may name is hjk HTML 会把多个连续的空格字符裁减（合并）为一个：<p>    
-
-<pre>pre标签 hello        may name is hjk</pre>    <pre>标签
-
- <pre>标签
-
-
-
-
-
-
-
-
- <div style="page-break-after:always" />
-
-# Glossary
-
-<a name="mcu">MCU</a>			Micro Control Unit
+ <div style="page-break-after:always" /
 
 
 
@@ -400,10 +443,6 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 
-
-
-
-<img src="General Rules4.assets/logo-1623294285010.png" alt="logo" style="zoom:10%;" align="right"/>
 
 
 
@@ -437,7 +476,8 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 
- <hr size="2" color="yellow" width="0%" noshade>
+
+
 
 ------
 
@@ -606,9 +646,14 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
              <td>8</td>
          </tr>
      </table>
-无序列表<ul><li></li></ul>
 
-<div style="background-color:#888"><img src="C:\Users\user\Desktop\7.12\WQ70XX_SDK_Env_Setup_Guide_V1.0.assets\note.png" align="left"/><b>说明： </b><p>安装目的地有两种：local和sys。</p>
+
+
+
+# HTML无序列表
+
+<div style="background-color:#888">
+    <img src="C:\Users\user\materials\docs\编辑器\Markdow File Template.assets\note.png" align="left"/><b>说明： </b><p>安装目的地有两种：local和sys。</p>
 <ul>
     <li>local</li>
     <li>sys是系统指定路径，一般在/usr/相关目录下，可能需要root或sudo权限。</li>
@@ -619,6 +664,8 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
   <li>nonet 指从本自动化安装工具目录内提供的安装包进行安装，不进行联网操作。</li>
 </ul>
 </div>
+
+
 
 
 
@@ -654,9 +701,7 @@ HTML去掉前面的符号
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>php.cn</title>
-    <style type="text/css">
-        ul,li{list-style:none;}/*去掉前面的符号*/
-    </style>
+
     </head>
     <body>
         <ul>
@@ -666,19 +711,10 @@ HTML去掉前面的符号
             <li>PHP</li>
         </ul>
     </body>
-</html>
 
 
+## DIV标签
 
-DIV
-
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>php.cn</title>
-</head>
-<body>
 <div id="html">
    <h2>HTML课程</h2>
     <ol>
@@ -695,11 +731,10 @@ DIV
        <li>PHP 零基础 轻松学</li>
     </ul>
 </div>
-</body>
-</html>
 
 
-调整某一元素的CSS：
+
+## 调整某一元素的CSS
 
 偏好设置—通用—开启调试模式。重启。右击—检查元素。
 
@@ -711,117 +746,19 @@ font-size: larger
 
 
 
-[开源工具，使用简单的文字描述画UML图。 (plantuml.com)](https://plantuml.com/zh/)
 
 
 
-Graph
 
-```mermaid
-graph TD;
-A-->B;
-A-->c;
-B-->D;
-```
+# Glossary
 
-
-
-```Mermaid
-graph LR;
-A-->B;
-A-->c;
-B-->D;
-```
+<a name="mcu">MCU</a>			Micro Control Unit
 
 
 
 
 
-时序图 Sequence Diagram
 
-->>带箭头
 
-->直线
 
-```mermaid
-sequenceDiagram
-A->>B: hello, how are you?
-B->>B: hello, how are you?
-B->>C: hello, how are you?
-C->>B:Fine
-B-->>A: Great!
-```
-
-状态图 State Diagram
-
-```mermaid
-stateDiagram
-[*] --> s1
-s1 --> [*]
-```
-
-类图 Class Diagram
-
-<|--表示继承
-
-+表示public
-
--表示private
-
-```mermaid
-classDiagram
-Animal <|-- Duck
-Animal <|-- Fish
-Animal <|-- Zebra
-Animal : +int age
-Animal : +String gener
-Animal : +isMammal()
-Animal : +mate()
-class Duck{
-	+String beakColor
-	+swim()
-	+quack()
-}
-class Fish{
-	+int sizeInFeet
-	+canEat()
-}
-class Zebra{
-	+bool is_wild
-	+run()
-}
-```
-
-甘特图 Gantt
-
-```mermaid
-gantt
-	title 工作计划
-	dateFormat YYYY-MM-DD
-	section Section
-	A task: al, 2020-01-01, 30d
-	Another task: after al, 20d
-	section Another 
-	Task in sec: 2020-01-12, 12d
-	another task: 24d
-```
-
-饼图 Pie
-
-```mermaid
-pie
-	title Key elements in product A
-	"Calcium" : 23 
-	"iron" : 55
-	"Magnesium" : 12
-```
-
-```mermaid
-pie
-    title Key elements in Product A
-    "Calcium" : 42.96
-    "Potassium" : 50.05
-    "Magnesium" : 10.01
-    "Iron" :  5
-```
 
