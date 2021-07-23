@@ -2,6 +2,16 @@
 
 标准流程图
 
+```html
+<i class="fas fa-fw fa-home"></i>
+```
+
+```html
+<i class="fa fa-car"></i>
+```
+
+
+
 ```flow
 st=>start: 开始框
 op=>operation: 处理框
@@ -21,7 +31,7 @@ cond(no)->sub1(right)->op
 
 
 sequenceDiagram
-  
+
 
 ```mermaid
 sequenceDiagram
