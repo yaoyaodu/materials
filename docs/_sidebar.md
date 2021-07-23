@@ -19,11 +19,13 @@
     * [Typora绘图Markdown](工具使用篇/绘图/Typora绘图Markdown.html)
 * 技术知识篇
 
-  * 芯片
-  * 计算机
-  * 通信
-* 参考文档篇
-
+  * [芯片](技术知识篇/芯片/)
+    * [电源总线、数据总线和地址总线的连接](技术知识篇/芯片/电源总线、数据总线和地址总线的连接.md)
+  * [计算机](技术知识篇/计算机/)
+    * [计算机网络基础知识](技术知识篇/通信/计算机网络基础知识.md)
+  * [通信](技术知识篇/通信/)
+    * [从1G到5G的革命性变化](技术知识篇/通信/从1G到5G的革命性变化.md)
+* [参考文档篇](参考文档篇/)
   * 描述类
   * 操作类
 * Test
@@ -31,5 +33,6 @@
   * [Flow Markdown](Test/Flow.md)
   * [PlantUML](Test/PlantUML_Language_Reference_Guide_zh.pdf)
   * [Style Guide](Test/WuqiStyleGuide7.19.docx)
+  * [OKR](Test/HowCanWePlaywithOKR.pptx)
   
 
