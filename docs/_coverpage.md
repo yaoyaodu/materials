@@ -1,12 +1,19 @@
-![logo](_media/star4.png ':size=25%')
+![logo](_media/star5.png ':size=25%')
 
-# 个人文档网站
+# **Hello Document**
 
-按[docsify官网](https://docsify.js.org/#/zh-cn/)的介绍，一句话:`一个神奇的文档网站生成工具`，使用它，可以使用简单的方式，构建一个专业的文档网站。如果使用过GitBook和Hexo的同学，可以知识它们使用markdown编写文档，然后转为html进行显示。而docsify 是一个动态生成文档网站的工具。不同于 GitBook、Hexo 的地方是它不会生成将 `.md` 转成 `.html` 文件，所有转换工作都是在运行时进行。只需要创建一个 `index.html` ，就可以开始写文档而且直接部署在 GitHub Pages进行发布，方便、快捷、格式友好，样式不错。
+Hello Document是一个通过docsify和github创建的技术文档写作相关的网站。
 
+本人从事技术写作已有五六年的时间，将技术写作一些相关资料整理出来，供大家学习参考。
 
+Hello Document主要包括以下内容：
 
-[GitHub](https://github.com/yaoyaodu/materials/tree/main/docs)
+- 写作规范
+- 技术知识
+- 工具使用
+- 参考文档
+
+持续更新中，敬请期待~~
 
 [Get Started](README.md)
 

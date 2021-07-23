@@ -1,25 +1,26 @@
-# 1 LaTex
+# LaTex公式
 
-[使用LaTeX基本数学公式_nankeyimeng的博客-CSDN博客](https://blog.csdn.net/qq_32126633/article/details/78725235)
+来源：[使用LaTeX基本数学公式_nankeyimeng的博客-CSDN博客](https://blog.csdn.net/qq_32126633/article/details/78725235)
 
-正文中的公式用 `$...$` 来定义，单独显示的用 `$$...$$` 来定义
+正文中的公式用 `$...$` 来定义，单独显示的用 `$$...$$` 来定义。docsify需要将公式用···tex···进行包围。
 
 1. 行内公式       $f(x) = \sum*_{i=0}^{N}\int_*{a}^{b} g(t,i) \text{ d}t$
 
 2. 行间公式
 
-   需要将公式用···tex···进行包围
-   
    ```tex
    f(x) = \sum*_{i=0}^{N}\int_*{a}^{b} g(t,i) \text{ d}t
    ```
+   
+   docsify不支持$$包围
 
 $$
 f(x) = \sum*_{i=0}^{N}\int_*{a}^{b} g(t,i) \text{ d}t
 $$
 
-​        	用tex出错
 
+
+​		用tex出错
 
 $$
 \varGamma(x) = \frac{\int_{\alpha}^{\beta} g(t)(x-t)^2\text{ d}t }{\phi(x)\sum_{i=0}^{N-1} \omega_i} \tag{2}
