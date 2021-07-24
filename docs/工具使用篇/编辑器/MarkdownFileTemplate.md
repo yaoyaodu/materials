@@ -1,12 +1,6 @@
+<p align="center"><font size=8 color="black"><b>Programming Guide</b></font></p>
 
-
-![logo](MarkdowFileTemplate7.20.assets/logo-1626915882094.png ':size=20%')
-
-
-
-
-
-<p align="right"><font size=8 color="black"><b>Programming Guide</b></font></p>
+<center><font size=8 color="black"><b>Programming Guide</b></center>
 
 <p align="right"><font size=5 color="black"><b>Programming Guide</b></font></p>
 
@@ -14,27 +8,17 @@
 
 ---
 
+<br />
 
+<br /><br />
 
+<br /><br />
 
+<br /><br />
 
+<br /><br />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br /><br />
 
 
 
@@ -62,8 +46,6 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 [TOC]
 
-
-
 <div style="page-break-after:always" />
 
 <p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
@@ -84,93 +66,108 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 <div style="page-break-after:always" />
 
-# 图片缩放后无法显示
+# 图片
 
-![arch_appcall](MarkdowFileTemplate7.20.assets/arch_appcall.png ':size=20%')
+# 图片
 
+1. 图片上传：通过PicGo将图片上传至SM.MS图床，使用URL。
 
+   <img src="https://i.loli.net/2021/07/24/yhc9XmFIZEolRA4.gif" alt="star" style="zoom:50%;" />
 
+1. 图片无缩放：`![arch_appcall](https://i.loli.net/2021/07/24/zdnmoXZQRxypsAO.png)`
 
-
-
-
-
-
-![arch_appcall](MarkdowFileTemplate7.20.assets/arch_appcall.png)
+![arch_appcall](https://i.loli.net/2021/07/24/zdnmoXZQRxypsAO.png 'align="center"')
 
 
 
+2. 图片缩放，设置为':size=10%' ： `![arch_appcall](https://i.loli.net/2021/07/24/zdnmoXZQRxypsAO.png ':size=10%')`
 
-<div style='color: red'>  
-    - listitem 
-    - listitem 
-    - listitem  
+![arch_appcall](https://i.loli.net/2021/07/24/zdnmoXZQRxypsAO.png ':size=10%')
+
+
+
+3. 设置图片居中：图片默认会在左边，通过div标签align设置图片居中。见图片<a href="#sunshine">Sunshine</a>。
+
+   格式：`<div align="center"><img src="" style="zoom:30%"/></div>` 
+
+   <a name="sunshine"></a>
+
+<div align="center">
+    <img src="https://i.loli.net/2021/07/24/JTycmE3RMrnsOgo.jpg" style="zoom:20%"/>
 </div>
 
 
+<p><center><b>Sunshine</b></center></p>
 
-```html
-<div style='color: red'>
+4. 图像在文本中：align分别设置为bottom, middle, top
 
-- listitem
-- listitem
-- listitem
+   <p>a 图像 <img src="https://i.loli.net/2021/07/24/3icfmywvkRAGUuZ.gif" align="bottom" style="zoom:20%"> 在文本中</p>
 
-</div>
-```
+   <p>b 图像 <img src ="https://i.loli.net/2021/07/24/3icfmywvkRAGUuZ.gif" align="middle" style="zoom:20%"> 在文本中</p>
 
+   <p>c 图像 <img src ="https://i.loli.net/2021/07/24/3icfmywvkRAGUuZ.gif" align="top" style="zoom:20%"> 在文本中</p>
 
 
 
+5. 图片浮动在文本左侧
 
-
-
-<img src="Markdow File Template.assets/logo.png" alt="logo" style="zoom:10%;" align="left"/>
-
-
-
-<img src="Markdow File Template.assets/sunshine.jpg" align="center"/>
+   <p>
+   <img src ="https://i.loli.net/2021/07/24/yhc9XmFIZEolRA4.gif" align ="left" style="zoom:30%"> 
+   带有图像的一个段落。图像的 align 属性设置为 "left"。图像将浮动到文本的左侧。
+   </p>
 
 
 
 
 
-![logo](MarkdowFileTemplate7.20.assets/logo.png ':size=50%' ':align="center"')
+<br />
 
+<br />
 
+<br />
 
+<br />
 
+# 调整某一元素的CSS
 
-![logo](MarkdowFileTemplate7.20.assets/logo.png ':size=50%')
+偏好设置—通用—开启调试模式。重启。右击—检查元素。
 
-<center><b>Logo</b></center>
+color: red     font-size: larger
 
-
-
-# 代码块
-
-```c
-    IOT_ADC_WORK_MODE_SINGLE,
-    IOT_ADC_WORK_MODE_MULTI_CONTINUOUS,
-} IOT_ADC_WORK_MODE;
-```
+> 你好   default： border-left     \#dfe2e5
 
 # List
 
-1. ==<abbr title="World Wide Web”>WWW</abbr>== 
-2. <abbr title="World Health Organization">WHO</abbr>  The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
-3. <abbr title="World Wide Web">WWW</abbr>    WHO 
-4. ℃   ¥   £℉↔↔↑↑↗↗╫±±××⅞￣⅞
-5. –  嘎嘎嘎—海域＿＿–––︳⑩⑦⑤⑧③⑥㈤㈡㈠㈣⑩㈥㈨⒙ⅰⅱⅲⅳⅴⅵⅷⅷ
-7. 注释：<!--No part of this document may be reproduced in any form without the written permission of the copyright owner.-->
-7. Tab 
-8. Shift+Tab 
-9. 哈哈哈^基金会^
-10. 永远永远~哈哈哈~
-11. dfe2e5灰色
-12. ⚠⚠💛💚☣☢〽 🈺🔕⚠☣☢⚜❌📛🛑⚠⚠⚠⚠
+1. 显示缩略语全称：加上abbr标签，将鼠标放在缩略语上方会显示缩略语全称。 
+   - <abbr title="World Wide Web">WWW</abbr>    
+   - The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+2. ℃   ¥   £℉↔↔↑↑↗↗╫±±××⅞￣⅞   –  嘎嘎嘎—海域＿＿–––︳⑩⑦⑤⑧③⑥㈤㈡㈠㈣⑩㈥㈨⒙ⅰⅱⅲⅳⅴⅵⅷⅷ
+3. 注释不会显示出来：<!--no display.-->
+4. Shift+Tab 
+5. 哈哈哈^基金会^
+6. 永远永远~哈哈哈~
+7. dfe2e5灰色
+8. ⚠⚠💛💚☣☢〽 🈺🔕⚠☣☢⚜❌📛🛑⚠⚠⚠⚠
 
- 
+9. <p>HTML会把多个连续的空格字符裁减（合并）为一个：hello        may name is hjk  <p>    
+
+10. HTML会把多个连续的空格字符裁减（合并）为一个：hello        may name is hjk 
+
+11. 水平分割线：段落—水平分割线；hr标签
+
+12. <hr size="5" color="red" width="80%" noshade>
+
+    <i><b>This text is bold and italic</b></i>
+
+13. <b><i>This text is bold and italic</i></b>
+
+14. 2021.6.21
+
+15. 使用br换行标签空行
+
+    `<br />` 是独立标签，使用两个[br换行](http://www.w3cschool.cn/htmltags/tag-br.html) 标签，即可实现换行空一行效果。
+
+16. 空格：
 
 # HTML嵌套规则
 
@@ -178,28 +175,46 @@ All trademarks mentioned herein are the property of their respective owners. The
 
   <div>one</div><div>two</div><div>three</div>
 
-* 行内元素：
+* 行内元素：span标签
 
   <span>one</span><span>two</span>
+  
+* div标签
 
-# General Rules
+  <div id="html">
+     <h2>HTML课程</h2>
+      <ol>
+         <li>轻松入门HTML+CSS，掌握编程必备技能</li>
+        <li>HTML 0基础入门教程</li>
+         <li>HTML+CSS 轻松入门</li>
+      </ol>
+  </div>
+  <div id="php">
+      <h2>PHP课程</h2>
+      <ul>
+         <li>轻松入门PHP，踏上成为大牛的第一步</li>
+         <li>php 新手入门</li>
+         <li>PHP 零基础 轻松学</li>
+      </ul>
+  </div>
 
-## British English
+# 链接
 
-## Something New
-
-链接：
 
 1. 网页链接：
    1. <https://www.baidu.com/>
-   2. 百度 （https://www.baidu.com/）
-   3. https://www.baidu.com/
-   4. In general, technical manuals are written in American English. <www.intel.com> written
-   5.  <a href="http://www.baidu.com/" target:_self>百度</a>  在新窗口中打开目标文件。
-   6. <a href="http://www.baidu.com/" target="_blank">百度</a>  在当前窗口中打开目标文件(默认打开)，相当于“替换”操作。
-   7. <a href="http://www.baidu.com/" target="_top">百度</a>  在最顶级窗口来打开目标文件。
-   8. <a href="http://www.baidu.com/" target="_parent">百度</a>  在父级窗口来打开目标文件。
-   9. <a href="http://www.php.cn/" >php.cn</a>
+   
+   2. 在当前窗口中打开目标文件(默认打开方式)，相当于“替换”操作：
+   
+      格式：`<a href="http:" target:_self>`  <a href="http://www.baidu.com/" target:_self>百度</a>  
+   
+   3. 在新窗口中打开目标文件：target="__blank"_
+   
+      <a href="http://www.baidu.com/" target="_blank">百度</a>  
+   
+   4. 在最顶级窗口来打开目标文件： <a href="http://www.baidu.com/" target="_top">百度</a>  
+   
+   5. 在父级窗口来打开目标文件：<a href="http://www.baidu.com/" target="_parent">百度</a>  
 2. 本地文件：[打开文档](C:\Users\user\Desktop\f\General Rules2.assets\logo1.png)
 
 * 一个小圆点`.`表示当前目录
@@ -213,8 +228,8 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 * 跳转到[General Rules](#General Rules)
 * 跳转到[List](#List)
-*  <a href="file:///C:\Users\user\Desktop\f\General Rules4.assets\logo.png" target="_blank">点击查看图片</a> 绝对地址
-*  <a href="General Rules4.assets/logo.png">点击查看图片</a>  相对地址
+* <a href="file:///C:\Users\user\Desktop\f\General Rules4.assets\logo.png" target="_blank">点击查看图片</a> 绝对地址
+* <a href="General Rules4.assets/logo.png">点击查看图片</a>  相对地址
 * 图片交叉引用：<a href="#figure1">图1</a>    或    [图1. Logo](#figure1) 为物骐公司标识。
 
 4. 超链接：床前明月光 
@@ -222,24 +237,20 @@ All trademarks mentioned herein are the property of their respective owners. The
    > 这是李白的诗句
    >
    > > 静夜思
+   
+5. <center style="color:blcak;text-decoration:underline"><b>图 4-1. Pad</b></center>
 
+6. <font size=3 color="red">字体颜色为红色，大小为3</font>
 
+7. <p align="center"><font size=3 color="red">字体颜色为红色，大小为3，居中</font></p>
 
-==要高亮的文本背景会用黄色填充==
+8. <p align="right">右对齐</p>
 
-<font size=3 color="red">字体颜色为红色，大小为3</font>
+9. <h3 align = "center">标题居中的方法</h1>
 
-<font size=3 color="violet">字体颜色为紫罗兰，大小为6</font>
+10. 删除线~~In a descriptive text,~~ **give information gradually and make sure that each sentence contains only one topic**. 
 
-<p align="center"><font size=3 color="red">字体颜色为红色，大小为3，居中</font></p>
-
-<p align="right">右对齐</p>
-
-
-
-
-
-<h1 align = "center">标题居中的方法</h1>
+11. 缩略语链接到Glossary: The <a  href="#mcu">MCU</a> is short for Micro Control Unit.
 
 ## Scannable Content
 
@@ -247,105 +258,27 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 
-<div style="background-color:#888"><img src="C:\Users\user\sw\app\app_wws\assets/note.png" align="left"/><b>Note: </b><p>For PIN-53, the default state of this pad is pull-down when power on the system; If it is pull-up by the external logic, the system enters the fast boot mode. For PIN-53, the default state of this pad is pull-down when power on the system; If it is pull-up by the external logic, the system enters the fast boot mode.</p></div>
+## Symbol Conventions
 
-1. *hi*
-2. *hello*
-3. *BYE*
+<div style="background-color:#888">⚠ <b>Note: </b><p>Use a maximum of 25 words in each sentence.</p></div>
 
+<div style="background-color:#888"><img src="https://i.loli.net/2021/07/24/JTL2fDENPGVz1lp.png" align="left"/><b>Warning: </b><p>Always keep your hands and feet away from the blade. When the motor operates, the blade turns and can cause injury.</p></div>
 
+<div style="background-color:#888">
+    <img src="https://i.loli.net/2021/07/24/JTL2fDENPGVz1lp.png" align="left"/><b>说明： </b><p>安装目的地有两种：local和sys。</p>
+<ul>
+    <li>local</li>
+    <li>sys是系统指定路径，一般在/usr/相关目录下，可能需要root或sudo权限。</li>
+</ul>
+    <p>安装源也有两种：net和nonet。</p>
+<ul>
+  <li>net 指从网络安装，包括使用包管理（apt/dnf/yum等）和 wget 进行下载安装包等，可能需要 root 权限。</li>
+  <li>nonet 指从本自动化安装工具目录内提供的安装包进行安装，不进行联网操作。</li>
+</ul>
+</div>
 
-| GND  | A Ground Signal                                              |
-| ---- | ------------------------------------------------------------ |
-| IA   | Analog input signal                                          |
-| I    | Digital input signal                                         |
-| IH   | Input signals with weak internal pull-up, to  prevent signals from floating when left open |
-| IL   | Input signals with weak internal pull-down, to  prevent signals from floating when left open |
-| I/O  | A digital bi-directional signal                              |
-| OA   | An analog output signal                                      |
-| O    | A digital output signal                                      |
-| P    | A power or ground signal                                     |
-
-
-
-# Descriptive Writing
-
-## Content structure
-
-`Descriptive writing gives information, not instructions. Descriptive writing can be:jkio`
-
-- A description of an item, a product, a system, or a component, its function, how it is made and how it operates
-- A text that gives general information
-- A note in a procedure
-
-### Give information gradually
-
-~~In a descriptive text,~~ **give information gradually and make sure that each sentence contains only one topic**. If you give too much information too quickly, your text will be difficult to understand and it will be necessary for the reader to read it again.
-
-### Use key words and phrases to organize your text logically
-
-- ~~Key words and phrases give structure to a text. `Key words` are words that often occur in a text to connect different ideas. Key phrases have the same function.~~ 
-
-- Such words and phrases **show how information in a text is related** and give the text a logical structure. You can also use **connecting words and phrases** to help the reader understand the **progression of ideas** in the text. 
-
-- They function as **traffic signs** and tell the reader **if the information is new, or different, or a conclusion based on preceding facts**. 
-
-- <!--Examples of such connecting words and phrases are-->: “and”, “but”, “thus”, “at the same time”, “as a result”, and many others.
-
-# Write Short Sentences
-
-Use **a maximum of 25 words** in each sentence.
-
-<a name="figure1"></a>
-
-<img src="General Rules4.assets/logo-1623219962140.png" alt="logo" style="zoom: 25%;" />
-
-<center style="color:"black"><b>图 1. Logo</b></cen></center>
-
-## Good technical writing
-
-Good technical writing uses short sentences for **[all types of topics (simple and complex)]()**. Short sentences make your writing stronger and easier to understand.
-
-![7b2bc2c5a87247e2becbfcec312a4c6c](General Rules4.assets/7b2bc2c5a87247e2becbfcec312a4c6c-1623220140350.jpg)
-
-<center style="color:blcak;text-decoration:underline"><b>图 4-1. Pad</b></center>
-
-# Descriptive Writing
-
-In descriptive writing, the maximum sentence length is 25 words. This is because descriptive text is more complex than <a  href="#mcu">MCU</a> procedural text.
 
  <div style="page-break-after:always" />
-
-<table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
-    <caption><b>2016.10日历</b></caption>
-         <tr bgColor="red" align="center">
-             <th>星期日</th> 
-             <th>星期一</th>
-             <th>星期二</th>
-             <th>星期三</th>
-             <th>星期四</th>
-             <th>星期五</th>
-             <th>星期六</th>
-         </tr>
-         <tr bgColor="grey" align="center">
-             <td height="50">25</td>
-             <td>26</td>
-             <td>27</td>
-             <td>28</td>
-             <td>29</td>
-             <td>30</td>
-             <td>1</td>
-         </tr>
-         <tr align="center">
-             <td  height="50">2</td>
-             <td>3</td>
-             <td>4</td>
-             <td colspan="4">5</td>
-         </tr>
-     </table> 
-
-
-
 
 
 
@@ -423,30 +356,28 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 </table>
 
 
-<b><i>This text is bold and italic</i></b>
-
-<i><b>This text is bold and italic</b></i>
-
-2021.6.21
 
 
 
-<p>hello        may name is hjk HTML 会把多个连续的空格字符裁减（合并）为一个：<p>    
- <div style="page-break-after:always" /
+<p align="center"><font size=3 color="black"><b>© 2021, Wu Qi Micro Limited. All rights reserved.</b></font></p>
+
+<p align="center"><font size=3 color="black"><b>No part of this document may be reproduced in any form without</b></font></p>
+
+<p align="center"><font size=3 color="black"><b>the written permission of the copyright owner.</b></font></p>
 
 
 
+<center style="color:blcak"><b>All rights reserved.</b></center>
 
 
 
+<p align="right"><font size=3 color="black"><b>Doc No.: </b>3100 05 01 11 02</font></p>
 
 
 
+# 表格
 
-
-
-
-   **Contact Us**
+**Contact Us**
 
 <table cellspacing="0" cellpadding="0" rules="all">
     <tr>
@@ -473,45 +404,33 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 
-
-
-
-
-
-
-------
-
-
-
-<hr size="5" color="red" width="80%" noshade>
-
-
-
-
-
-
-
-
-
-
-
-<p align="center"><font size=3 color="black"><b>© 2021, Wu Qi Micro Limited. All rights reserved.</b></font></p>
-
-<p align="center"><font size=3 color="black"><b>No part of this document may be reproduced in any form without</b></font></p>
-
-<p align="center"><font size=3 color="black"><b>the written permission of the copyright owner.</b></font></p>
-
-
-
-<center style="color:blcak"><b>All rights reserved.</b></center>
-
-
-
-<p align="right"><font size=3 color="black"><b>Doc No.: </b>3100 05 01 11 02</font></p>
-
-
-
-
+<table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
+    <caption><b>2016.10日历</b></caption>
+         <tr bgColor="red" align="center">
+             <th>星期日</th> 
+             <th>星期一</th>
+             <th>星期二</th>
+             <th>星期三</th>
+             <th>星期四</th>
+             <th>星期五</th>
+             <th>星期六</th>
+         </tr>
+         <tr bgColor="grey" align="center">
+             <td height="50">25</td>
+             <td>26</td>
+             <td>27</td>
+             <td>28</td>
+             <td>29</td>
+             <td>30</td>
+             <td>1</td>
+         </tr>
+         <tr align="center">
+             <td  height="50">2</td>
+             <td>3</td>
+             <td>4</td>
+             <td colspan="4">5</td>
+         </tr>
+     </table> 
 
 <!DOCTYPE HTML>
 <html>
@@ -551,8 +470,6 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
      </table> 
     </body>
 </html>
-
-
 
 
 <table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
@@ -649,28 +566,6 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 
-
-# HTML无序列表
-
-<div style="background-color:#888">
-    <img src="C:\Users\user\materials\docs\编辑器\Markdow File Template.assets\note.png" align="left"/><b>说明： </b><p>安装目的地有两种：local和sys。</p>
-<ul>
-    <li>local</li>
-    <li>sys是系统指定路径，一般在/usr/相关目录下，可能需要root或sudo权限。</li>
-</ul>
-    <p>安装源也有两种：net和nonet。</p>
-<ul>
-  <li>net 指从网络安装，包括使用包管理（apt/dnf/yum等）和 wget 进行下载安装包等，可能需要 root 权限。</li>
-  <li>nonet 指从本自动化安装工具目录内提供的安装包进行安装，不进行联网操作。</li>
-</ul>
-</div>
-
-
-
-
-
-
-
 |    模块 | 功能简介                                                     |
 | ------: | :----------------------------------------------------------- |
 |      BT | 负责蓝牙模块的系统状态维护，功能实现和相应的消息处理         |
@@ -693,6 +588,18 @@ In descriptive writing, the maximum sentence length is 25 words. This is because
 
 
 
+| GND  | A Ground Signal                                              |
+| ---- | ------------------------------------------------------------ |
+| IA   | Analog input signal                                          |
+| I    | Digital input signal                                         |
+| IH   | Input signals with weak internal pull-up, to  prevent signals from floating when left open |
+| IL   | Input signals with weak internal pull-down, to  prevent signals from floating when left open |
+| I/O  | A digital bi-directional signal                              |
+| OA   | An analog output signal                                      |
+| O    | A digital output signal                                      |
+| P    | A power or ground signal                                     |
+
+
 
 HTML去掉前面的符号
 
@@ -711,42 +618,6 @@ HTML去掉前面的符号
             <li>PHP</li>
         </ul>
     </body>
-
-
-## DIV标签
-
-<div id="html">
-   <h2>HTML课程</h2>
-    <ol>
-       <li>轻松入门HTML+CSS，掌握编程必备技能</li>
-      <li>HTML 0基础入门教程</li>
-       <li>HTML+CSS 轻松入门</li>
-    </ol>
-</div>
-<div id="php">
-    <h2>PHP课程</h2>
-    <ul>
-       <li>轻松入门PHP，踏上成为大牛的第一步</li>
-       <li>php 新手入门</li>
-       <li>PHP 零基础 轻松学</li>
-    </ul>
-</div>
-
-
-
-## 调整某一元素的CSS
-
-偏好设置—通用—开启调试模式。重启。右击—检查元素。
-
-color: red
-
-font-size: larger
-
-> 你好   default： border-left     \#dfe2e5
-
-
-
-
 
 
 
