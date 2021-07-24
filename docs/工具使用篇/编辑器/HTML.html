@@ -1,11 +1,27 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>用户注册</title>
-    </head>
-    <body>
-        <font size="5" color="red">欢迎注册php.cn</font>
+
+<body background="https://i.loli.net/2021/07/24/N8zVISjUHqO2sfX.jpg">
+
+<h2>设置图像背景</h2>
+
+<p>gif 和 jpg 文件均可用作 HTML 背景。</p>
+
+<p>如果图像小于页面，图像会进行重复。</p>
+
+
+
+
+<h2>制作图像链接</h2>
+<p>
+图像作为链接来使用。点击图片，跳转到网页。
+<a href="C:\Users\user\materials\docs\工具使用篇\编辑器\lastpage.html">
+<img border="0" src="https://i.loli.net/2021/07/24/unKDSJ91XTbezQq.jpg" style="zoom:5%"/>
+</a>
+</p>
+
+<h2>表单</h2>
+<font size="5" color="black"><b>欢迎注册php.cn</b></font>
         <form name="user" method="get" action="" >
             用户名：<input type="text" name="username"/>
             <br/>
@@ -29,10 +45,8 @@
             <br/>个性介绍：<br/><textarea name=" introduction" cols="30" rows="4"></textarea>
             <br/><input type="submit" value="提交信息"/>
         </form>
-    </body>
-
-<body>
- <font size="5" color="red">欢迎注册php.cn</font>
+<br />
+<br />
  <form name="user" method="get" action="" >
  用户名：<input type="text" name="username"/>
  <br/>
@@ -59,14 +73,8 @@
  <input type="image" src="http://photocdn.sohu.com/20160107/mp52903269_1452135104978_1_th.png" width="70"/>
  <input type="button" onclick=javascript:window.close()" value="关闭窗口"/>
  </form>
- </body>
-
-
-
-
-
-<body>
- <font size="5" color="red">欢迎注册php.cn</font>
+<br />
+<br />
  <form name="user" method="get" action="" >
  用户名：<input type="text" name="username"/>
  <br/>
@@ -93,5 +101,43 @@
  <input type="image" src="http://photocdn.sohu.com/20160107/mp52903269_1452135104978_1_th.png" width="70"/>
  <input type="button" onclick="javascript:window.close()" value="关闭窗口"/>
  </form>
- </body>
 
+
+<h2>创建图像地图</h2>
+<p>https://www.w3school.com.cn/tiy/t.asp?f=eg_html_areamap</p>
+
+<p>请点击图像上的星球，把它们放大。</p>
+
+<img
+src="/i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+
+<map name="planetmap" id="planetmap">
+
+<area
+shape="circle"
+coords="180,139,14"
+href ="/example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="/example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="/example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+</body>
+</html>

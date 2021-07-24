@@ -1,68 +1,6 @@
-**English Documentation Style Guide**
+# 英文技术文档写作规范
 
-Contents
-
-[1.   General Rules. 5](#_Toc74553931)
-
-[1.1    Scannable Content 5](#_Toc74553932)
-
-[1.1.1  Heading. 5](#_Toc74553933)
-
-[1.1.2  Bulleted Lists. 6](#_Toc74553934)
-
-[1.2    Wording. 6](#_Toc74553935)
-
-[1.2.1  Acronym and Abbreviation. 7](#_Toc74553936)
-
-[1.3    URL. 10](#_Toc74553937)
-
-[1.4    Punctuation. 11](#_Toc74553938)
-
-[1.5    Units of Measure Terms. 12](#_Toc74553939)
-
-[1.6    Bits and Bytes Terms. 15](#_Toc74553940)
-
-[1.7    Safety Instructions. 16](#_Toc74553941)
-
-[2.   Procedural Writing. 18](#_Toc74553942)
-
-[2.1    General Rules. 18](#_Toc74553943)
-
-[2.2    GUI-Based Task Topic. 18](#_Toc74553944)
-
-[2.2.1  Steps Rules: 18](#_Toc74553945)
-
-[2.2.2  Formatting Text in Instructions. 19](#_Toc74553946)
-
-[2.2.3  Keys and Keyboard Shortcuts (P58) 25](#_Toc74553947)
-
-[2.2.4  Prepositions界面元素前常用介词搭配... 31](#_Toc74553948)
-
-[2.2.5  Figure Related Rules. 31](#_Toc74553949)
-
-[2.2.6  Table. 32](#_Toc74553950)
-
-[2.3    Programming Guide Topic (MML-Based Task Topic) 35](#_Toc74553951)
-
-[2.3.1  Programming Guide/Register Control Flow.. 35](#_Toc74553952)
-
-[2.3.2  Q&A/Application Note/Troubleshooting. 35](#_Toc74553953)
-
-[3.   Descriptive Writing. 36](#_Toc74553954)
-
-[3.1    Content Structure. 36](#_Toc74553955)
-
-[3.1.1  Give Information Gradually. 36](#_Toc74553956)
-
-[3.1.2  Use Key Words and Phrases to Organize Your Text Logically. 36](#_Toc74553957)
-
-[3.2    Sentences. 36](#_Toc74553958)
-
-[3.3    Paragraphs. 37](#_Toc74553959)
-
-[4.   Glossary. 38](#_Toc74553960)
-
-
+来源：参考主流技术文档写作规范，针对工作过程中遇到的问题，整理而来
 
 # 1. General Rules
 
@@ -72,49 +10,45 @@ The volume of content available to customers is overwhelming. Part of a writer's
 
 **Organize text into discrete components to support scanning**. The following are some of the methods you can use:
 
-l  Headings
+- Headings
 
-l  Lists
+- Lists
 
-l  Tables
+- Tables
+
 
 How you write is equally important to scanning.
 
-### 1.1.1        Heading
+### 1.1.1 Heading
 
-l  Consider using a **heading** to help customers **find instructions quickly**. Use the heading to tell customers what the instructions will help them do. Examples: 
+* Consider using a **heading** to help customers **find instructions quickly**. Use the heading to tell customers what the instructions will help them do. Examples: 
+  * Adding an account 
+  * Add an account 
 
-Ø  Adding an account 
+* Choose **one phrasing style** for the headings, and write them all the same way **(in parallel structure**).
 
-Ø  Add an account 
+- Use parallel sentence structure for all headings at the same level. For example, use noun phrases for first-level headings, verb phrases for second-level headings, and infinitive phrases for headings in instructions.
 
-l  Choose **one phrasing style** for the headings, and write them all the same way **(in parallel structure**).
 
-l  Use parallel sentence structure for all headings at the same level. For example, use noun phrases for first-level headings, verb phrases for second-level headings, and infinitive phrases for headings in instructions.
+* **Don’t use ampersands (&) or plus signs (+) in headings** unless you're referring to UI that contains them or space is limited.
 
-l  **Don’t use ampersands (&) or plus signs (+) in headings** unless you're referring to UI that contains them or space is limited.
+* Use **vs**., not v. or versus, in headings.
 
-l  Use **vs**., not v. or versus, in headings.
+- **Keep headings as short as possible,** and put the most important idea at the beginning. 
+- **Be as specific as you can**, and **be even more detailed with lower-level headings**. For example, a second-level heading should be more specific than a first-level heading.
+- Don't end headings with a period. A question mark or (rarely) an exclamation point can be used if it's needed for meaning. Examples: 
+  - Not seeing what you want? 
+  - What can we help you find?
 
-l  **Keep headings as short as possible,** and put the most important idea at the beginning. 
+- **Run-in Headings** When you want to highlight the topic of a paragraph or bullet item, without defining it as a major heading level, begin the text with a bold run-in heading. **The preferred style for run-in headings is to end them with a bold period.** However, when meaning is better served by a colon or en dash with spaces, you can use that alternate punctuation. (A **run-in heading** is a heading positioned upon the very same line as the text. Frequently this text is put in either **italic or bold** type.)
 
-l  **Be as specific as you can**, and **be even more detailed with lower-level headings**. For example, a second-level heading should be more specific than a first-level heading.
-
-l  Don't end headings with a period. A question mark or (rarely) an exclamation point can be used if it's needed for meaning. Examples: 
-
-Ø  Not seeing what you want? 
-
-Ø  What can we help you find?
-
-l  **Run-in Headings** When you want to highlight the topic of a paragraph or bullet item, without defining it as a major heading level, begin the text with a bold run-in heading. **The preferred style for run-in headings is to end them with a bold period.** However, when meaning is better served by a colon or en dash with spaces, you can use that alternate punctuation. (A **run-in heading** is a heading positioned upon the very same line as the text. Frequently this text is put in either **italic or bold** type.)
-
-### 1.1.2        List
+### 1.1.2  List
 
 Lists area great way to present complex text in a way that's easy to scan. Lists work best when they have two to seven items. Each item should be fairly short—the reader should be able to see at least two, and preferably three, list items at a glance. It’s OK to have a couple of short paragraphs in a list item, but don’t exceed that length too often. 
 
 Make items in a list parallel. For example, each item should be a noun or a phrase that starts with a verb.
 
-#### 1.1.2.1      Bulleted Lists
+#### 1.1.2.1 Bulleted Lists
 
 l  Keep bulleted lists to **one or two lines** per bullet, **three at most**. 
 
@@ -126,27 +60,26 @@ l  **Initial capitalize the first word of each item** in a bulleted list, and **
 
 l  Rules for **periods** in a bulleted list: 
 
-Ø  Complete sentences: Use periods. 
+- Complete sentences: Use periods. 
 
-Ø  Sentence fragments, such as an inventory list format: Do not use periods. 
+- Sentence fragments, such as an inventory list format: Do not use periods. 
 
-Ø  List items that complete a sentence begun in the introductory statement: Do not use periods. 
+- List items that complete a sentence begun in the introductory statement: Do not use periods. 
+
 
 l  Use **bold type for run-in headings** in a bulleted list, followed by a period, an en dash with spaces, or a colon. **The period, colon, and dash are bold.** Use sentence case for the run-in heading. 
 
 Examples: 
 
-Ø  **Run-in heading.** Preferred style. End each true heading with a period. Initial capitalize the first word of follow-on text. Each bulleted item can be one to three lines long; present longer bullet text as paragraphs with run-in headings. 
-
-Ø  **Run-in heading –** Use an en dash when the run-in heading introduces a thought that the rest of the text completes. Lowercase the first word of follow-on text.
-
-Ø  **Single-word:** When they introduce what follows, end single-word headings—such as Example:, Note:, or Caution:—with a colon. Initial capitalize the first word of follow-on text.
+- **Run-in heading.** Preferred style. End each true heading with a period. Initial capitalize the first word of follow-on text. Each bulleted item can be one to three lines long; present longer bullet text as paragraphs with run-in headings. 
+- **Run-in heading –** Use an en dash when the run-in heading introduces a thought that the rest of the text completes. Lowercase the first word of follow-on text.
+- **Single-word:** When they introduce what follows, end single-word headings—such as Example:, Note:, or Caution:—with a colon. Initial capitalize the first word of follow-on text.
 
 #### 1.1.2.2      Numbered lists
 
 Use a numbered list for sequential items (like a procedure) or prioritized items (like a top 10 list).
 
-## 1.2            Wording
+## 1.2  Wording
 
 l  Do not use different technical names for the same item.
 
@@ -317,7 +250,7 @@ l  Where the abbreviation or acronym and numbers or other letters form a proper 
 
 **Note:** All acronyms, even those not expanded in the text, must be listed in the Glossary.
 
-## 1.4            URL
+## 1.4 URL
 
 \1.    In content for a **general audience**, use **address** rather than URL. In content for a **technical audience**, **don't spell out URL on first mention**. If you have a reason to spell out URL, use **uniform resource locator**.
 
@@ -584,7 +517,7 @@ l  Start a safety instruction with a clear and simple command or condition. Your
 
 l  Give an explanation to show the specific risk or possible result. If possible, always tell your reader what can occur if the safety instruction is not obeyed. If the danger is clearly specified, the person who does the task will understand the risk and be more careful.
 
-## 1.9            Glossary 
+## 1.9  Glossary 
 
 A glossary, where one is included in a document, is included at the end of a document before the index. The glossary contains words, phrases, and terms from the document text that require clarification; these include technical terms, expanded acronyms, and so on. 
 
@@ -616,63 +549,66 @@ l  Add a link for each glossary item. Example: [GUI](#GUI), [ISO](#ISO)
 
  
 
-# 2.              Procedural Writing 
+# 2. Procedural Writing 
 
-## 2.1            General Rules
+## 2.1 General Rules
 
-l  **Action-based Heading.** To describe activities or suggest actions, use **task-oriented headings** that contain a **verb**—either **present tense or in gerund (-ing) form**. Present tense works well for headings that identify steps in a process. Examples:
+- **Action-based Heading.** To describe activities or suggest actions, use **task-oriented headings** that contain a **verb**—either **present tense or in gerund (-ing) form**. Present tense works well for headings that identify steps in a process. Examples:
+  - Adding an account 
 
-Ø  Adding an account 
+  - Add an account
 
-Ø  Add an account
+- 
+  Step rule: general
 
-l  Step rule: general
 
 ## 2.2            GUI-Based Task Topic
 
 ### 2.2.1        Steps Rules
 
-\1.    Write short sentences. Use **a maximum of 20 words** in each sentence.
+1. Write short sentences. Use **a maximum of 20 words** in each sentence.
 
-\2.    Write **only one instruction in each sentence** unless two or more actions occur at the same time. 
+2. Write **only one instruction in each sentence** unless two or more actions occur at the same time. 
 
-\3.    The **operation result** should follow the operation step. The result cannot act as a separate step and cannot be placed at the beginning of next step.
+3. The **operation result** should follow the operation step. The result cannot act as a separate step and cannot be placed at the beginning of next step.
 
-\4.    Write instructions in the **imperative (command) form**.
+4. Write instructions in the **imperative (command) form**.
 
-\5.    If you start an instruction with a descriptive statement (dependent phrase or clause), divide that statement from the command with a comma.
+5. If you start an instruction with a descriptive statement (dependent phrase or clause), divide that statement from the command with a comma.
 
-\6.    Write **notes** only to **give information, not instructions**.
+6. Write **notes** only to **give information, not instructions**.
 
-\7.    **Limit a procedure to seven steps**, and preferably fewer. Try to fit all the steps on the same screen.[[u1\]](#_msocom_1) 
+7. **Limit a procedure to seven steps**, and preferably fewer. Try to fit all the steps on the same screen.
 
-\8.    **Abbreviate simple sequences by using right angle brackets**. Include a space before and after each bracket, and don't make the brackets bold.
+8. **Abbreviate simple sequences by using right angle brackets**. Include a space before and after each bracket, and don't make the brackets bold.
 
    Example: Select **Accounts** > **Other accounts** > **Add an account**.
 
-\9.    When there's an **ellipsis** in UI, **don’t include it in instructions or procedures**.
+9. When there's an **ellipsis** in UI, **don’t include it in instructions or procedures**.
 
 **10.**  If a step is optional, add **(Optional)** at the beginning.
 
-\11.  Most of the time, include actions that finalize a step, such as **OK** or **Apply** buttons.[[u2\]](#_msocom_2) 
+11. Most of the time, include actions that finalize a step, such as **OK** or **Apply** buttons.
 
-\12. For operational steps, it is recommended to use the following patterns:
+12. For operational steps, it is recommended to use the following patterns:
 
-l  Condition + time + place + operational steps + purpose + brief information + result 
+- Condition + time + place + operational steps + purpose + brief information + result 
 
-l  (Optional) Purpose + time + place + operational steps + brief information + result
+- (Optional) Purpose + time + place + operational steps + brief information + result
+
 
 Examples:
 
-l  In the XX area, select xxx. The xxx dialog box is displayed, see Figure x-x.
+- In the XX area, select xxx. The xxx dialog box is displayed, see Figure x-x.
 
-l  In the **Path** text box, enter the path and name of the file from which you want to import the template. You can also click **Browse** to select the file.
+- In the **Path** text box, enter the path and name of the file from which you want to import the template. You can also click **Browse** to select the file.
 
-l  (Optional) To display the current settings of this link, click **Query**.
+- (Optional) To display the current settings of this link, click **Query**.
+
 
 (Note that the position of Purpose is different.)
 
-### 2.2.2        Formatting Text in Instructions  
+### 2.2.2  Formatting Text in Instructions  
 
 Consistent text formatting helps readers locate and interpret information. Follow these conventions for formatting elements that frequently appear in instructions (also referred to as procedures).
 
@@ -717,10 +653,9 @@ Use these conventions in instructions that appear in documentation and technical
 | XML schema elements                                     | Bold. Capitalization varies.                                 | **ElementType** element   **xml:space** attribute            |      |
 |                                                         |                                                              |                                                              |      |
 
-#### 2.2.2.2      In the UI and general content
+#### 2.2.2.2  In the UI and general content
 
-​                           
- Instructions can also appear in the UI itself and in content other than documentation, such as blogs and marketing. **In this content, avoid bold and italic formatting.** The goal is to be readable and friendly but also clearly set off the UI label or other text element from the surrounding text.
+Instructions can also appear in the UI itself and in content other than documentation, such as blogs and marketing. **In this content, avoid bold and italic formatting.** The goal is to be readable and friendly but also clearly set off the UI label or other text element from the surrounding text.
 
 Choose one of the approaches below and use it consistently.
 
@@ -731,11 +666,11 @@ Choose one of the approaches below and use it consistently.
 | Use quotation    marks. Quotation marks can make text cluttered, **so use them sparingly and only when necessary for clarity.**            Assign    services to the “No business data allowed” group. | Assign services to the “No business data  allowed” group.    |
 | Use bold formatting.                                         | Assign services to either the **Business data only** or  **No  business data allowed** group. |
 
-### 2.2.3        Keys and Keyboard Shortcuts (P58)
+### 2.2.3 Keys and Keyboard Shortcuts (P58)
 
 This term collection covers how to refer to keyboard shortcuts and the names of specific keys. For information about describing customers' interactions with UI, see Procedures and instructions.
 
-#### 2.2.3.1      Keyboard Actions and Access
+#### 2.2.3.1 Keyboard Actions and Access
 
 | Term                                                         | Usage                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -845,13 +780,14 @@ Use discretion. This might not be necessary for commonly used characters, such a
 
 To show a key combination that includes punctuation requiring use of the Shift key, such as the question mark, **use** ***Shift\* and the name or symbol of the shifted key.** Using the name of the unshifted key, such as *4* rather than *$,* could be confusing or even wrong. For example, the *?* and */* characters aren't shifted keys on every keyboard. **Always spell out** ***Plus sign, Minus sign, Hyphen, Period,\* and** ***Comma\*.** Examples:
 
-l  Ctrl+Shift+? 
+- Ctrl+Shift+? 
 
-l  Ctrl+Shift+* 
+- Ctrl+Shift+* 
 
-l  Ctrl+Shift+Comma
+- Ctrl+Shift+Comma
 
-### 2.2.4        Prepositions before GUI Elements 
+
+### 2.2.4  Prepositions before GUI Elements 
 
 in the window
 
@@ -885,31 +821,32 @@ from the drop-down list
 
 under IP address (在IP地址设置项下)
 
-### 2.2.5        Figure Related Rules
+### 2.2.5  Figure Related Rules
 
-\1.   All Figures must have a number such as Figure X-X, and a title, such as Figure 1-1 XXX Dialog Box.
+1. All Figures must have a number such as Figure X-X, and a title, such as Figure 1-1 XXX Dialog Box.
 
-\2.   All Figures must have a **reference** to them within the body of the text. Figures are supporting data and will not be reviewed by the user unless they are referenced somewhere within the text body.
+2. All Figures must have a **reference** to them within the body of the text. Figures are supporting data and will not be reviewed by the user unless they are referenced somewhere within the text body.
 
-\3.   When referencing Figures the text should read as follows: “see Figure X-X”. The reference must be a hyperlink to the figure, regardless of how close or far the figure is originally located to the reference. In product or technical description information, “Figure x-x shows…” is also acceptable. 
+3. When referencing Figures the text should read as follows: “see Figure X-X”. The reference must be a hyperlink to the figure, regardless of how close or far the figure is originally located to the reference. In product or technical description information, “Figure x-x shows…” is also acceptable. 
 
-\4.   For a GUI, the figure title format should be the interface title + the element name. For example, Edit Attribute Dialog Box.
+4. For a GUI, the figure title format should be the interface title + the element name. For example, Edit Attribute Dialog Box.
 
-\5.   Complex figure name: For figures with the same interface title but different content, the figure title can be in the format of the figure title + function/tab name. — should be used to separate the two parts. 
+5. Complex figure name: For figures with the same interface title but different content, the figure title can be in the format of the figure title + function/tab name. — should be used to separate the two parts. 
 
 Example
 
-l  Figure 1-2 Edit Attribute Dialog Box—Address Setting
+- Figure 1-2 Edit Attribute Dialog Box—Address Setting
 
-l  Figure 2-1 Query Active Alarms Dialog Box—Location Tab
+- Figure 2-1 Query Active Alarms Dialog Box—Location Tab
 
-l  Figure 2-2 Query Active Alarms Dialog Box—Query Result
+- Figure 2-2 Query Active Alarms Dialog Box—Query Result
 
-l  Figure 2-3 User Management Dialog Box—User Added
+- Figure 2-3 User Management Dialog Box—User Added
+
 
 ### 2.2.6        Table
 
-#### 2.2.6.1      Table Design[[u4\]](#_msocom_4) 
+#### 2.2.6.1      Table Design
 
 1    A table should be on the same page if possible. If it is not possible, the **header line should be repeated**.
 
@@ -919,7 +856,7 @@ l  Figure 2-3 User Management Dialog Box—User Added
 
 4    A table must not be an image.
 
-#### 2.2.6.2      Table Reference[[u5\]](#_msocom_5) 
+#### 2.2.6.2      Table Reference
 
 1    All **formal tables** must have a number such as Table X-X, and a title, such as Table 1-1 Real-time Query Conditions Parameters.
 
@@ -929,7 +866,7 @@ l  Figure 2-3 User Management Dialog Box—User Added
 
 4    The reference must be a **hyperlink** to the table, regardless of how close or far the table is originally located to the reference.
 
-#### 2.2.6.3      Text Requirement for Table[[u6\]](#_msocom_6) 
+#### 2.2.6.3  Text Requirement for Table
 
 1    Use a **hyphen** (-) to indicate an empty cell in a table.
 
@@ -937,13 +874,13 @@ l  Figure 2-3 User Management Dialog Box—User Added
 
 3    For nouns in the **header line**, use their **single-forms.** The header line uses the same capitalization as titles
 
-#### 2.2.6.4      Parameter Description Table
+#### 2.2.6.4  Parameter Description Table
 
 1    Table name: **XX Parameter Descriptions** if the total title is no more than four words and the meaning is clear. For other cases, table titles use “**Parameter Descriptions for** **xxxx**”.
 
 2    Description row: 
 
-Ø  **Option1:** 
+**Option1:** 
 
 *[Meaning, a phrase],* *[required/optional], [parameter type], [range: xxx*–*xxx], [default: xxx], [xxx, a phrase][.]*
 
@@ -951,7 +888,7 @@ l  Figure 2-3 User Management Dialog Box—User Added
 
 *[*How to set*.]*
 
-Ø  **Option2:** 
+**Option2:** 
 
 *[Purpose, a sentence with the subject omitted, for example: [Sets xxx].* *[Required/Optional], [parameter type], [range: xxx-xxx], [default: xxx], [xxx, a phrase].*
 
@@ -973,31 +910,31 @@ f      If some information in a Description cell is duplicate with another cell 
 
 **Range examples:** 
 
-l  String type, range: 5–20 digits
+- l  String type, range: 5–20 digits
 
-l  Range: 1–255 characters (A–Z, a–z, 0–9)
+- l  Range: 1–255 characters (A–Z, a–z, 0–9)
 
-l  Range: any valid IP address
+- l  Range: any valid IP address
 
-l  String type, range: 9–64 hexadecimal digits
+- l  String type, range: 9–64 hexadecimal digits
 
-l  Hexadecimal integer type, range: 0x0000000000–0xFFFFFFFFFF
+- l  Hexadecimal integer type, range: 0x0000000000–0xFFFFFFFFFF
 
- 
 
-l  Range: 0, 1, 128–255
 
-l  Date type, range: 2008-01-01 through 2599-12-31
 
-l  Character type, options:
+- l  Range: 0, 1, 128–255
 
-Ø  F: Female
+- l  Date type, range: 2008-01-01 through 2599-12-31
 
-Ø  M: Male
+- l  Character type, options:
+  - F: Female
+  - M: Male
 
-l  Character type, range: F, M
+- Character type, range: F, M
 
-#### 2.2.6.5      Branch Steps Table
+
+#### 2.2.6.5 Branch Steps Table
 
 Branch steps are used if different operations need to be done in accordance with different purposes or conditions. The following are two examples of branch steps:
 
@@ -1012,7 +949,7 @@ Example 1:
 
 Example 2:
 
-| **If****…**                | **Then****…**                                                |
+| **If**…                    | **Then**…                                                    |
 | -------------------------- | ------------------------------------------------------------ |
 | The BSC  ID does not exist | 1. Select the **BSC ID** check  box.  2. Click **OK**.  3. Click **Next**. |
 | The BSC ID already exists  | Click **Next**.                                              |
@@ -1021,17 +958,17 @@ Example 2:
 
 Abide by the following rules when using branch steps:
 
-\1.   For branch steps to be done in accordance with **purposes** only, **use “To…” and “Do…” in the header line.** Use imperative mood in the cells.
+1. For branch steps to be done in accordance with **purposes** only, **use “To…” and “Do…” in the header line.** Use imperative mood in the cells.
 
-\2.   For branch steps to be done in accordance with conditions only, use “If…” and “Then…” in the header line. Use imperative mood in the “Then…” cells.
+2. For branch steps to be done in accordance with conditions only, use “If…” and “Then…” in the header line. Use imperative mood in the “Then…” cells.
 
-\3.   If there are both conditions and purposes, use “If…” and “Then…” in the header line. For the purposes, use “You want to xxx” in the “If…” cells.
+3. If there are both conditions and purposes, use “If…” and “Then…” in the header line. For the purposes, use “You want to xxx” in the “If…” cells.
 
-\4.   Text in each cell must be initial capital. **Punctuation must not be used at the end of any “If…” or “To…” cell.**
+4. Text in each cell must be initial capital. **Punctuation must not be used at the end of any “If…” or “To…” cell.**
 
-## 2.3            Programming Guide Topic (MML-Based Task Topic) [[u7\]](#_msocom_7) 
+## 2.3  Programming Guide Topic (MML-Based Task Topic) 
 
-### 2.3.1        Programming Guide/Register Control Flow部分(Step+Block)
+### 2.3.1  Programming Guide/Register Control Flow部分(Step+Block)
 
 Example: 
 
@@ -1051,55 +988,55 @@ aud_glb_reg.AUDIF_GLB_EB->{
 
   Sdm_adc4_eb   = adc_sel[4]
 
-### 2.3.2        Q&A/Application Note/Troubleshooting部分
+### 2.3.2  Q&A/Application Note/Troubleshooting部分
 
 结构1：
 
-l  Analysis 
+- Analysis 
 
-l  Solution
+- Solution
 
- 
+
+
 
 结构2：
 
-l  Background：(Optional) 故障可能涉及到的背景知识
+- Background：(Optional) 故障可能涉及到的背景知识
 
-l  Symptom 故障症状：
+- Symptom 故障症状：
+  - 当描述用户在进行某一个操作中会遇到什么错误时，用when或if引出此场景。
+  - **时态用现在时**，表示假定的一个普遍的操作，而不是特定某一个过去的场景。
+  - 描述是一个完整的句子，不省略冠词、虚词和主语。
 
-Ø  当描述用户在进行某一个操作中会遇到什么错误时，**用****when****或if****引出此场景**。
+- Probable Cause：用无序列表列出所有原因
 
-Ø  **时态用现在时**，表示假定的一个普遍的操作，而不是特定某一个过去的场景。
+- Impact：(Optional) 故障对系统的影响
 
-Ø  描述是一个完整的句子，不省略冠词、虚词和主语。
+- Action：用祈使句
 
-l  Probable Cause：用无序列表列出所有原因
 
-l  Impact：(Optional) 故障对系统的影响
 
-l  Action：用祈使句
 
- 
+# 3. Descriptive Writing
 
-# 3.              Descriptive Writing
-
-## 3.1            Content Structure
+## 3.1  Content Structure
 
 Descriptive writing gives information, not instructions. Descriptive writing can be:
 
-l  A description of an item, a product, a system, or a component, its function, how it is made and how it operates
+- A description of an item, a product, a system, or a component, its function, how it is made and how it operates
 
-l  A text that gives general information
+- A text that gives general information
 
-l  A note in a procedure
+- A note in a procedure
 
-### 3.1.1        Give Information Gradually
+
+### 3.1.1 Give Information Gradually
 
 In a descriptive text, **give information gradually and make sure that each sentence contains only one topic**. If you give too much information too quickly, your text will be difficult to understand and it will be necessary for the reader to read it again.
 
-### 3.1.2        Use Key Words and Phrases to Organize Your Text Logically
+### 3.1.2 Use Key Words and Phrases to Organize Your Text Logically
 
-l  Key words and phrases give structure to a text. 
+Key words and phrases give structure to a text. 
 
 Key words are words that often occur in a text to connect different ideas. 
 
@@ -1107,13 +1044,13 @@ Key phrases have the same function.
 
 Such words and phrases **show how information in a text is related** and give the text a logical structure. 
 
-l  You can also use **connecting words and phrases** to help the reader understand the **progression of ideas** in the text. 
+You can also use **connecting words and phrases** to help the reader understand the **progression of ideas** in the text. 
 
 They function as **traffic signs** and tell the reader **if the information is new, or different, or a conclusion based on preceding facts**. 
 
 Examples of such connecting words and phrases are: “and”, “but”, “thus”, “at the same time”, “as a result”, and many others.
 
-## 3.2            Sentences
+## 3.2 Sentences
 
 Write short sentences. Use **a maximum of 25 words** in each sentence.
 
@@ -1121,31 +1058,25 @@ Good technical writing uses short sentences for all types of topics (simple and 
 
 In descriptive writing, the maximum sentence length is 25 words. This is because descriptive text is more complex than procedural text.
 
-## 3.3            Paragraphs
+## 3.3  Paragraphs
 
-l  Use **paragraphs** to show **related information**.
+- Use **paragraphs** to show **related information**.
+  - In procedures, work steps have numbers and letters to show their sequence. In descriptive writing, **paragraphs** keep related information together and organize the text into a logical sequence. 
+  - In STE, a paragraph starts with a **“topic sentence”** which tells the reader what the topic of that paragraph is. Then, the sentences that follow the topic sentence explain it or give additional information to support it.
+  - When a new paragraph starts, the reader knows that there will be new or different information in that paragraph. 
 
-Ø  In procedures, work steps have numbers and letters to show their sequence. In descriptive writing, **paragraphs** keep related information together and organize the text into a logical sequence. ISO
+- Make sure that each paragraph has **only one topic**.
+  - The topic sentence is the first and most important sentence in a paragraph. The topic sentence gives new information and makes a logical connection between it and previous information.
+  - To do this, **the topic sentence usually contains a key word and/or a connecting word or phrase.** From the topic sentences, the reader will understand the contents of your text and will find specific information quickly. **If the reader writes down each of the topic sentences from a text, they should make a good outline of its content.** 
+  - The other sentences in each paragraph give additional information that supports or develops the topic of the paragraph.
 
-Ø  In STE, a paragraph starts with a **“topic sentence”** which tells the reader what the topic of that paragraph is. Then, the sentences that follow the topic sentence explain it or give additional information to support it.
-
-Ø  When a new paragraph starts, the reader knows that there will be new or different information in that paragraph. 
-
-l  Make sure that each paragraph has **only one topic**.
-
-Ø  The topic sentence is the first and most important sentence in a paragraph. The topic sentence gives new information and makes a logical connection between it and previous information.
-
-Ø  To do this, **the topic sentence usually contains a key word and/or a connecting word or phrase.** From the topic sentences, the reader will understand the contents of your text and will find specific information quickly. **If the reader writes down each of the topic sentences from a text, they should make a good outline of its content.** 
-
-Ø  The other sentences in each paragraph give additional information that supports or develops the topic of the paragraph.
-
-l  Make sure that **no paragraph** has more than **six sentences**.
+- Make sure that **no paragraph** has more than **six sentences**.
 
 
 
- 
 
 
 
- 
+
+
 

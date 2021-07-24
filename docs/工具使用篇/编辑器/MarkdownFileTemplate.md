@@ -70,6 +70,13 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 # 图片
 
+1. 图片标题：figcaption标签
+
+   <figure align="center">
+     <img src="https://i.loli.net/2021/07/24/yhc9XmFIZEolRA4.gif" alt="The Pulpit Rock" width="304" height="228">
+     <figcaption>The Pulpit Rock, Norway.</figcaption>
+   </figure>
+
 1. 图片上传：通过PicGo将图片上传至SM.MS图床，使用URL。
 
    <img src="https://i.loli.net/2021/07/24/yhc9XmFIZEolRA4.gif" alt="star" style="zoom:50%;" />

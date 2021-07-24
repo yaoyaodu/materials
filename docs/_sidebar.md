@@ -2,6 +2,7 @@
 * 写作规范篇
 
   * [中文技术文档写作规范](写作规范篇/中文技术文档写作规范.md)
+  * [English Documentation Style Guide](写作规范篇/EnglishDocumentationStyleGuide.md)
   * [翻译活动核查清单](写作规范篇/翻译活动核查清单.md)
 * 工具使用篇
 
@@ -18,7 +19,7 @@
     * [Typora绘图](工具使用篇/绘图/Typora绘图.html)
     * [Typora绘图Markdown](工具使用篇/绘图/Typora绘图Markdown.html)
   * 编辑器
-    * [Markdown Template](工具使用篇\编辑器\MarkdownFileTemplate.md)
+    * [Markdown Template](工具使用篇/编辑器/MarkdownFileTemplate.md)
 * 技术知识篇
 
   * [芯片](技术知识篇/芯片/)
