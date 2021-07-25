@@ -2,9 +2,13 @@
 
 <center><font size=8 color="black"><b>Programming Guide</b></center>
 
+<h1>Programming Guide</h1>
+
 <p align="right"><font size=5 color="black"><b>Programming Guide</b></font></p>
 
 <p align="right"><font size=3 color="black"><b>Release V1.0</b></font></p>
+
+# Programming Guide
 
 ---
 
@@ -42,10 +46,6 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 <div style="page-break-after:always" />
 
-<p align="left"><font size=5 color="black"><b>Content</b></font></p>
-
-[TOC]
-
 <div style="page-break-after:always" />
 
 <p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
@@ -65,8 +65,6 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 <div style="page-break-after:always" />
-
-# 图片
 
 # 图片
 
