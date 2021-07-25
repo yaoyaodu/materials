@@ -11,15 +11,14 @@
   * [Git常用操作指南](工具使用篇/Git常用操作指南.md)
   * [搜索技能总结](工具使用篇/搜索技能总结.md)
   * [LaTeX基本数学公式](工具使用篇/LaTeX基本数学公式.md)
+  * [Typora中设置PicGo图床实现图片自动上传](工具使用篇/Typora中设置PicGo图床实现图片自动上传.md)
   * [常见的构建工具及对比](工具使用篇/常见的构建工具及对比.md)
   * [docsify使用指南](工具使用篇/docsify使用指南.md)
   * [用Sphinx快速制作文档.md](工具使用篇/用Sphinx快速制作文档.md) 
   * [常用轻量级标记语言对照.md](工具使用篇/常用轻量级标记语言对照.md)
   * [reStructuredText(rst)快速入门语法说明](工具使用篇/reStructuredText(rst)快速入门语法说明.md)
-  * 绘图
-    * [Typora绘图](工具使用篇/绘图/Typora绘图.html)
-  * 编辑器
-    * [Markdown Template](工具使用篇/编辑器/MarkdownFileTemplate.md)
+  * [Typora绘图](工具使用篇/Typora绘图.html)
+  * [Markdown Template](工具使用篇/MarkdownFileTemplate.md)
 * 技术知识篇
 
   * [芯片](技术知识篇/芯片/)
@@ -33,7 +32,6 @@
   * 描述类
   * 操作类
 * Test
-  * [plantUML](Test/start.md)
   * [Flow](Test/Flow.html)
   * [Flow Markdown](Test/Flow.md)
   * [PlantUML](Test/PlantUML_Language_Reference_Guide_zh.pdf)
