@@ -487,9 +487,9 @@ Fast-forward
  1 file changed, 1 insertion(+)
 ```
 
-`git merge`命令用于合并指定分支到当前分支。合并后，再查看`readme.txt`的内容，就可以看到，和`dev`分支的最新提交是完全一样的。
+<font color="red">git merge命令用于合并指定分支到当前分支</font>。合并后，再查看`readme.txt`的内容，就可以看到，和`dev`分支的最新提交是完全一样的。
 
-注意到上面的`Fast-forward`信息，Git告诉我们，这次合并是“快进模式”，也就是直接把`master`指向`dev`的当前提交，所以合并速度非常快。
+注意到上面的`Fast-forward`信息，Git告诉我们，<font color="red">这次合并是“快进模式”，也就是直接把`master`指向`dev`的当前提交，所以合并速度非常快</font>。
 
 当然，也不是每次合并都能`Fast-forward`，我们后面会讲其他方式的合并。
 
@@ -507,9 +507,9 @@ $ git branch
 * master
 ```
 
-因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在`master`分支上工作效果是一样的，但过程更安全。
+**因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在`master`分支上工作效果是一样的，但过程更安全。**
 
-### 解决冲突
+### <font color="red">解决冲突</font>
 
 在真正开发过程中，合并分支经常会遇到分支冲突的情况，无法直接合并，我们来模拟一下这个场景。
 
@@ -686,7 +686,7 @@ $ git checkout master
 Switched to branch 'master'
 ```
 
-准备合并`dev`分支，请注意`--no-ff`参数，表示禁用`Fast forward`：
+准备合并`dev`分支，<font color="red">请注意`--no-ff`参数，表示禁用`Fast forward`：git merge --no-ff -m "merge with no-ff" dev</font>
 
 ```powershell
 $ git merge --no-ff -m "merge with no-ff" dev
@@ -717,11 +717,13 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 在实际开发中，我们应该按照几个基本原则进行分支管理：
 
-首先，`master`分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；
+- 首先，`master`分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活。
 
-那在哪干活呢？干活都在`dev`分支上，也就是说，`dev`分支是不稳定的，到某个时候，比如1.0版本发布时，再把`dev`分支合并到`master`上，在`master`分支发布1.0版本；
 
-你和团队同事每个人都在`dev`分支上干活，每个人都有自己的分支，时不时地往`dev`分支上合并就可以了。
+- 干活都在`dev`分支上，也就是说，`dev`分支是不稳定的，到某个时候，比如1.0版本发布时，再把`dev`分支合并到`master`上，在`master`分支发布1.0版本。
+
+
+* 你和团队同事每个人都在`dev`分支上干活，每个人都有自己的分支，时不时地往`dev`分支上合并就可以了。
 
 所以，团队合作的分支看起来就像这样：
 
@@ -741,17 +743,17 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 此时，Git状态如下：
 
-![1563631585919](http://pic.guoyaohua.com/image/git/1563631585919.png)
+<img src="http://pic.guoyaohua.com/image/git/1563631585919.png" alt="1563631585919" style="zoom:67%;" />
 
 我们修改“file1.txt”和“file2.txt”的内容，并将“file1.txt”的改动加入暂存区。
 
-![1563631787056](http://pic.guoyaohua.com/image/git/1563631787056.png)
+<img src="http://pic.guoyaohua.com/image/git/1563631787056.png" alt="1563631787056" style="zoom:67%;" />
 
 此时可看出工作区和暂存区就都有改变，但HEAD指针指向的dev与master为同一个commit节点。
 
 这时我们执行`git checkout master`命令尝试切换分支。
 
-![1563631937563](http://pic.guoyaohua.com/image/git/1563631937563.png)
+<img src="http://pic.guoyaohua.com/image/git/1563631937563.png" alt="1563631937563" style="zoom:67%;" />
 
 可以看出，成功切换到了master分支上，而且工作区和暂存区的状态依旧保留。
 
@@ -759,7 +761,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 ![1563632158366](http://pic.guoyaohua.com/image/git/1563632158366.png)
 
-如果此时我们工作区或暂存区有未提交更改时，就无法进行分支切换操作（如果没有未提交修改的话当然可以进行分支切换操作）。
+<font color="red">如果此时我们工作区或暂存区有未提交更改时，就无法进行分支切换操作</font>（如果没有未提交修改的话当然可以进行分支切换操作）。
 
 ![1563632645976](http://pic.guoyaohua.com/image/git/1563632645976.png)
 
@@ -899,7 +901,7 @@ $ git stash apply stash@{0}
 
 ### 多人协作
 
-当你从远程仓库克隆时，实际上Git自动把本地的`master`分支和远程的`master`分支对应起来了，并且，远程仓库的默认名称是`origin`。
+<font color="red">当你从远程仓库克隆时，实际上Git自动把本地的`master`分支和远程的`master`分支对应起来了</font>，并且，<font color="red">远程仓库的默认名称是`origin`</font>。
 
 用`git remote -v`查看远程库的详细信息：
 
@@ -913,7 +915,9 @@ origin  git@github.com:guoyaohua/learngit.git (push)
 
 #### 推送分支
 
-推送分支，就是把该分支上的所有本地提交推送到远程库。推送时，要指定本地分支，这样，Git就会把该分支推送到远程库对应的远程分支上：
+推送分支，就是把该分支上的所有本地提交推送到远程库。
+
+**推送时，要指定本地分支，**这样，Git就会把该分支推送到远程库对应的远程分支上：
 
 ```powershell
 $ git push origin master
@@ -927,7 +931,7 @@ $ git push origin dev
 
 但是，并不是一定要把本地分支往远程推送，那么，哪些分支需要推送，哪些不需要呢？
 
-- `master`分支是主分支，因此要时刻与远程同步；
+- `master`分支是主分支，因此**要时刻与远程同步**；
 - `dev`分支是开发分支，团队所有成员都需要在上面工作，所以也需要与远程同步；
 - bug分支只用于在本地修复bug，就没必要推到远程了，除非老板要看看你每周到底修复了几个bug；
 - feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
@@ -1056,7 +1060,7 @@ To git@github.com:guoyaohua/learngit.git
 因此，多人协作的工作模式通常是这样：
 
 1. 首先，可以试图用`git push origin <branch-name>`推送自己的修改；
-2. 如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；
+2. **如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；**
 3. 如果合并有冲突，则解决冲突，并在本地提交；
 4. 没有冲突或者解决掉冲突后，再用`git push origin <branch-name>`推送就能成功！
 

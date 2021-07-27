@@ -91,7 +91,7 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 
-3. 设置图片居中：图片默认会在左边，通过div标签align设置图片居中。见图片<a href="#sunshine">Sunshine</a>。
+3. 设置图片居中：图片默认会在左边，通过div标签align设置图片居中。见图片<a href="#sunshine">Sunshine</a>。a标签可放在div标签中。
 
    格式：`<div align="center"><img src="" style="zoom:30%"/></div>` 
 
