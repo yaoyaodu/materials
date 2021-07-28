@@ -77,13 +77,9 @@
     git fetch upstream
     git merge upstream/master
     git push origin master
-
-
+    
     第二条命令可能造成冲突
-
     执行完第二条命令以后，执行一个  git status 发一下结果
-
-    <img src="https://i.loli.net/2021/07/27/ipBgTfQKPS2sRab.png" alt="image-20210727135607614" style="zoom:67%;" />
 
 16. 执行git pull 然后git push origin master
 
