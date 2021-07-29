@@ -40,6 +40,8 @@
     * [从1G到5G的革命性变化](技术知识篇/通信/从1G到5G的革命性变化.md)
 * 参考文档篇
   * [软件手册结构](参考文档篇/软件手册结构.md)
+  * [Vue Style Guide](参考文档篇/VueStyleGuide.md)
+  * [最佳实践结构](参考文档篇/最佳实践结构.md)
 * Test
   * [Flow](Test/Flow.html)
   * [Flow Markdown](Test/Flow.md)
