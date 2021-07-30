@@ -146,12 +146,19 @@ color: red     font-size: larger
 1. 显示缩略语全称：加上abbr标签，将鼠标放在缩略语上方会显示缩略语全称。 
    - <abbr title="World Wide Web">WWW</abbr>    
    - The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+   
 2. ℃   ¥   £℉↔↔↑↑↗↗╫±±××⅞￣⅞   –  嘎嘎嘎—海域＿＿–––︳⑩⑦⑤⑧③⑥㈤㈡㈠㈣⑩㈥㈨⒙ⅰⅱⅲⅳⅴⅵⅷⅷ
+
 3. 注释不会显示出来：<!--no display.-->
+
 4. Shift+Tab 
+
 5. 哈哈哈^基金会^
+
 6. 永远永远~哈哈哈~
+
 7. dfe2e5灰色
+
 8. ⚠⚠💛💚☣☢〽 🈺🔕⚠☣☢⚜❌📛🛑⚠⚠⚠⚠
 
 9. <p>HTML会把多个连续的空格字符裁减（合并）为一个：hello        may name is hjk  <p>    
@@ -173,6 +180,38 @@ color: red     font-size: larger
     `<br />` 是独立标签，使用两个[br换行](http://www.w3cschool.cn/htmltags/tag-br.html) 标签，即可实现换行空一行效果。
 
 16. 空格：
+
+    `&emsp;`全角的空格：此空格也有个相当稳健的特性，就是其占据的宽度正好是1个中文宽度，而且基本上不受字体影响
+
+    `&ensp;`半角的空格：此空格有个相当稳健的特性，就是其占据的宽度正好是1/2个中文宽度，而且基本上不受字体影响。
+
+    `&nbsp;` 半角的空格：这是我们使用最多的空格，也就是按下space键产生的空格。在HTML中，如果你用空格键产生此空格，空格是不会累加的（只算1个）。要使用html实体表示才可累加。该空格占据宽度受字体影响明显而强烈。在inline-block布局中会搞些小破坏，在两端对齐布局中又是不可少的元素。
+
+17. <details>
+        <summary>Google Nexus 6</summary>
+        <details><summary>商品详情1：</summary>
+            <dl>
+            <dt>屏幕</dt>
+            <dd>5.96” 2560x1440 QHD AMOLED display (493 ppi)</dd>
+            <dt>电池</dt>
+            <dd>3220 mAh</dd>
+            <dt>相机</dt>
+            <dd>13MP rear-facing with optical image stabilization 2MP front-facing</dd>
+            <dt>处理器</dt>
+            <dd>Qualcomm® Snapdragon™ 805 processor</dd>
+        </dl></details>
+        <details><summary>商品详情2：</summary>
+            <dl>
+            <dt>屏幕</dt>
+            <dd>5.96” 2560x1440 QHD AMOLED display (493 ppi)</dd>
+            <dt>电池</dt>
+            <dd>3220 mAh</dd>
+            <dt>相机</dt>
+            <dd>13MP rear-facing with optical image stabilization 2MP front-facing</dd>
+            <dt>处理器</dt>
+            <dd>Qualcomm® Snapdragon™ 805 processor</dd>
+        </dl></details>
+    </details>
 
 # HTML嵌套规则
 
@@ -257,11 +296,7 @@ color: red     font-size: larger
 
 11. 缩略语链接到Glossary: The <a  href="#mcu">MCU</a> is short for Micro Control Unit.
 
-## Scannable Content
-
-<u>The volume of content available</u> to **customers** is **overwhelming**. Part of a writer's job is to help readers find <u>what</u> *they need quickly, or recognize just as quickly when they're not where they need to be. Writing to facilitate *
-
-
+12. details标签：首先是details标签，里面接着是标题summary，这里面的内容一般简短，具有总结性，会展示在页面。接着可以跟任意类型的HTML元素作为详情内容，这些内容需要在点击summary才会呈现。你也可以通过给details标签设置open属性让它默认为展开状态。
 
 ## Symbol Conventions
 
@@ -360,23 +395,6 @@ color: red     font-size: larger
 	</tr>
 </table>
 
-
-
-
-
-<p align="center"><font size=3 color="black"><b>© 2021, Wu Qi Micro Limited. All rights reserved.</b></font></p>
-
-<p align="center"><font size=3 color="black"><b>No part of this document may be reproduced in any form without</b></font></p>
-
-<p align="center"><font size=3 color="black"><b>the written permission of the copyright owner.</b></font></p>
-
-
-
-<center style="color:blcak"><b>All rights reserved.</b></center>
-
-
-
-<p align="right"><font size=3 color="black"><b>Doc No.: </b>3100 05 01 11 02</font></p>
 
 
 
@@ -603,26 +621,6 @@ color: red     font-size: larger
 | OA   | An analog output signal                                      |
 | O    | A digital output signal                                      |
 | P    | A power or ground signal                                     |
-
-
-
-HTML去掉前面的符号
-
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>php.cn</title>
-
-    </head>
-    <body>
-        <ul>
-            <li>HTML+CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-            <li>PHP</li>
-        </ul>
-    </body>
 
 
 

@@ -9,6 +9,8 @@
 * 工具使用篇
 
   * [Git常用操作指南](工具使用篇/Git常用操作指南.md)
+  * [详解git pull命令](工具使用篇/详解gitpull命令.md)
+  * [Git中.gitignore文件的用法](工具使用篇/Git中.gitignore文件的用法.md)
   * [搜索技能总结](工具使用篇/搜索技能总结.md)
   * [LaTeX基本数学公式](工具使用篇/LaTeX基本数学公式.md)
   * [Typora中设置PicGo图床实现图片自动上传](工具使用篇/Typora中设置PicGo图床实现图片自动上传.md)
