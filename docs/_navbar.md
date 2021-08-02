@@ -4,6 +4,7 @@
   * [中文技术文档写作规范](写作规范篇/中文技术文档写作规范.md)
   * [English Documentation Style Guide](写作规范篇/EnglishDocumentationStyleGuide.md)
   * [Simplified Technical English (STE)](写作规范篇/SimplifiedTechnicalEnglish(STE).md)
+  * [界面术语](写作规范篇/界面术语.md)
   * [翻译活动核查清单](写作规范篇/翻译活动核查清单.md)
   * [技术英语冠词用法详解](写作规范篇/技术英语冠词用法详解.md)
 * 工具使用篇
@@ -12,6 +13,7 @@
   * [详解git pull命令](工具使用篇/详解gitpull命令.md)
   * [Git中.gitignore文件的用法](工具使用篇/Git中.gitignore文件的用法.md)
   * [搜索技能总结](工具使用篇/搜索技能总结.md)
+  * [CSS叠层样式表](工具使用篇/CSS.md)
   * [LaTeX基本数学公式](工具使用篇/LaTeX基本数学公式.md)
   * [Typora中设置PicGo图床实现图片自动上传](工具使用篇/Typora中设置PicGo图床实现图片自动上传.md)
   * [常见的构建工具及对比](工具使用篇/常见的构建工具及对比.md)
