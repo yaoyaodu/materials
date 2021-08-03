@@ -110,3 +110,10 @@
 
 18. 更多关于git pull的信息，查看[git pull命令 - Git教程™ (yiibai.com)](https://www.yiibai.com/git/git_pull.html)。
 
+
+
+commit的时候，如果不想变 commit message 可以用 git commit --amend 这个命令。这样就跟前面一个commit合并成一个commit了。
+
+GIT中，上箭头可找到各个用过的命令。
+
+warning一般没问题，不用管, warning绝大大部分legacy遗留的，error一定要处理。

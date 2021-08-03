@@ -133,13 +133,16 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 <br />
 
-# 调整某一元素的CSS
+# 调整CSS
 
-偏好设置—通用—开启调试模式。重启。右击—检查元素。
+* 偏好设置—通用—开启调试模式。重启。右击—检查元素。
 
-color: red     font-size: larger
+  color: red     font-size: larger
 
 > 你好   default： border-left     \#dfe2e5
+
+* 修改CSS文件
+  * 偏好设置—外观—主题—打开主题文件夹—修改.css文件
 
 # List
 

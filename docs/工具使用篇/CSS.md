@@ -107,3 +107,10 @@ HTML注释：`<!--HTML注释-->`
   - **HTML标记中的style属性的值，与CSS中样式一模一样。**
   - **行内样式中，CSS代码不能写的过多；行内样式中，多个CSS属性不能换行，也就是一行写完。**
   - **行内样式优先级是最高的，比ID选择器还要高。**
+
+更详细信息参见：
+
+* [CSS 选择器 | 菜鸟教程 (runoob.com)](https://www.runoob.com/cssref/css-selectors.html)
+* [CSS 表格 (w3school.com.cn)](https://www.w3school.com.cn/css/css_table.asp)
+* [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
+
