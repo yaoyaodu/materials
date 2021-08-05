@@ -111,6 +111,10 @@ HTML注释：`<!--HTML注释-->`
 更详细信息参见：
 
 * [CSS 选择器 | 菜鸟教程 (runoob.com)](https://www.runoob.com/cssref/css-selectors.html)
+* [CSS 实例 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-examples.html) （实用，重点看）
+* [CSS 参考手册 | 菜鸟教程 (runoob.com)](https://www.runoob.com/cssref/css-reference.html)
 * [CSS 表格 (w3school.com.cn)](https://www.w3school.com.cn/css/css_table.asp)
 * [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
+
+![padding margin](https://i.loli.net/2021/08/05/42gcGrmNKIbS9Qv.png)
 
