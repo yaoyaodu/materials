@@ -14,6 +14,8 @@ docsify官网：[docsify](https://docsify.js.org/#/)
 
 ### 安装
 
+**docsify是一个node.js插件，所以需要提前安装node.js**。
+
 官方推荐安装 [docsify-cli](https://www.npmjs.com/package/docsify-cli) 工具，可以方便创建及本地预览文档网站。
 
 ```
