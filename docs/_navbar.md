@@ -1,6 +1,6 @@
 * [首页](/)
 * 写作规范篇
-
+  * [技术写作四大黄金法则](写作规范篇/技术写作四大黄金法则.md)
   * [中文技术文档写作规范](写作规范篇/中文技术文档写作规范.md)
   * [English Documentation Style Guide](写作规范篇/EnglishDocumentationStyleGuide.md)
   * [Simplified Technical English (STE)](写作规范篇/SimplifiedTechnicalEnglish(STE).md)
