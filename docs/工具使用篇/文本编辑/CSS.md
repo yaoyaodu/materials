@@ -1,6 +1,8 @@
 # CSS (Cascading Style Sheets) 叠层样式表
 
-前端最核心的三个技术：
+推荐教程：[CSS 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-tutorial.html)
+
+## 前端最核心的三个技术
 
 - HTML: 用于控制网页的结构
 - CSS：用于控制网页的外观（给HTML标记添加的样式）
@@ -74,7 +76,6 @@ HTML注释：`<!--HTML注释-->`
     * 描述：给某个元素的子元素添加样式。
     * 举例：div > h1.title{color:red;}
     * 子元素：子元素就是儿子。后代元素：后代元素是指孙子、曾孙子、曾曾孙子等等。
-    
   
 * CSS伪类选择器：给超链接加的样式(链接的不同状态加样式)
 

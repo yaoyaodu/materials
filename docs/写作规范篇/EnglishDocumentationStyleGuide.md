@@ -50,30 +50,30 @@ Make items in a list parallel. For example, each item should be a noun or a phra
 
 #### 1.1.2.1 Bulleted Lists
 
-l  Keep bulleted lists to **one or two lines** per bullet, **three at most**. 
+- Keep bulleted lists to **one or two lines** per bullet, **three at most**. 
 
-The purpose of bulleted lists is to **isolate key information for easy reading and retrieval.** Rewrite over-long copy as a set of regular prose paragraphs with subheadings or run-in headings. 
+  The purpose of bulleted lists is to **isolate key information for easy reading and retrieval.** Rewrite over-long copy as a set of regular prose paragraphs with subheadings or run-in headings. 
 
-l  The items in a bulleted list should have **parallel construction;** that is, **the form of each item must be the same**. If some items in a bulleted list are complete sentences and some are fragments, rewrite them so that the items are parallel. 
-
-l  **Initial capitalize the first word of each item** in a bulleted list, and **the first word after a** **run-in heading** followed by a period or colon (but not by an en dash). 
-
-l  Rules for **periods** in a bulleted list: 
-
-- Complete sentences: Use periods. 
-
-- Sentence fragments, such as an inventory list format: Do not use periods. 
-
-- List items that complete a sentence begun in the introductory statement: Do not use periods. 
+- The items in a bulleted list should have **parallel construction;** that is, **the form of each item must be the same**. If some items in a bulleted list are complete sentences and some are fragments, rewrite them so that the items are parallel. 
 
 
-l  Use **bold type for run-in headings** in a bulleted list, followed by a period, an en dash with spaces, or a colon. **The period, colon, and dash are bold.** Use sentence case for the run-in heading. 
+- **Initial capitalize the first word of each item** in a bulleted list, and **the first word after a** **run-in heading** followed by a period or colon (but not by an en dash). 
 
-Examples: 
+- Rules for **periods** in a bulleted list: 
+  - Complete sentences: Use periods. 
 
-- **Run-in heading.** Preferred style. End each true heading with a period. Initial capitalize the first word of follow-on text. Each bulleted item can be one to three lines long; present longer bullet text as paragraphs with run-in headings. 
-- **Run-in heading –** Use an en dash when the run-in heading introduces a thought that the rest of the text completes. Lowercase the first word of follow-on text.
-- **Single-word:** When they introduce what follows, end single-word headings—such as Example:, Note:, or Caution:—with a colon. Initial capitalize the first word of follow-on text.
+  - Sentence fragments, such as an inventory list format: Do not use periods. 
+
+  - List items that complete a sentence begun in the introductory statement: Do not use periods. 
+
+- 
+  Use **bold type for run-in headings** in a bulleted list, followed by a period, an en dash with spaces, or a colon. **The period, colon, and dash are bold.** Use sentence case for the run-in heading. 
+
+  Examples: 
+
+  - **Run-in heading.** Preferred style. End each true heading with a period. Initial capitalize the first word of follow-on text. Each bulleted item can be one to three lines long; present longer bullet text as paragraphs with run-in headings. 
+  - **Run-in heading –** Use an en dash when the run-in heading introduces a thought that the rest of the text completes. Lowercase the first word of follow-on text.
+  - **Single-word:** When they introduce what follows, end single-word headings—such as Example:, Note:, or Caution:—with a colon. Initial capitalize the first word of follow-on text.
 
 #### 1.1.2.2      Numbered lists
 
@@ -81,41 +81,37 @@ Use a numbered list for sequential items (like a procedure) or prioritized items
 
 ## 1.2  Wording
 
-l  Do not use different technical names for the same item.
+- Do not use different technical names for the same item.
 
-l  Write noun clusters of no more than four words.
+- Write noun clusters of no more than four words.
 
-l  When a technical name has more than three words, write it in full. Then you can simplify it using either of the following ways:
+- When a technical name has more than four words, write it in full. Then you can simplify it using either of the following ways:
+  - Give a shorter name
 
-Ø  Give a shorter name
+  - Use hyphens between words that are used as a single unit. 
 
-Ø  Use hyphens between words that are used as a single unit. Examples:
+    Examples:
 
-n Make sure that the landing-light cutoff-switch power connection is safe.
+    - Make sure that the landing-light cutoff-switch power connection is safe.
+    - Inspection of the lavatory rapid-decompression device.
+    - Main-gear-door retraction-winch handle.
 
-n Inspection of the lavatory rapid-decompression device.
+- When applicable, use an article (the, a, an) or a demonstrative adjective (this, these) before a noun.
+  - In short sentences, it can be clearer to include all the articles before the nouns. 
 
-n Main-gear-door retraction-winch handle.
+    But sentences that contain a long series of items are clearer when you do not repeat the articles. Example:
 
-l  When applicable, use an article (the, a, an) or a demonstrative adjective (this, these) before a noun.
+    - Install the nuts and the bolts.
+    - Discard the packings, gaskets, seals and washers.
 
-Ø  In short sentences, it can be clearer to include all the articles before the nouns. But sentences that contain a long series of items are clearer when you do not repeat the articles. Example:
+  - **A definite article is incorrect before a noun when an alphanumeric identifier comes after it**. Example:
 
-n Install the nuts and the bolts.
+    - Incorrect: Tag the circuit breaker 36L7.
+    - CORRECT: Tag circuit breaker 36L7.
 
-n Discard the packings, gaskets, seals and washers.
-
-Ø  **A definite article is incorrect before a noun when an alphanumeric identifier comes after it**. Example:
-
-n Incorrect: Tag the circuit breaker 36L7.
-
-n CORRECT: Tag circuit breaker 36L7.
-
-l  American and British English: In general, technical manuals are written in American English. Example: 
-
-Ø  fiber not fibre
-
-Ø  color not colour
+- American and British English: In general, technical manuals are written in American English. Example: 
+  - fiber not fibre
+  - color not colour
 
 ## 1.3            Acronym and Abbreviation
 
@@ -127,7 +123,7 @@ Acronyms are always written using full capitalization and are expanded when they
 
 **Exceptions** to this rule:
 
-l  **acronyms containing prepositions** 
+**acronyms containing prepositions** 
 
 *Example: Prepositions in Acronyms*
 
@@ -144,9 +140,10 @@ Whenever in doubt, check whether your acronym is approved.
 
  
 
-l  **Products with 'virtual' in the name**
+**Products with 'virtual' in the name**
 
-Ø  When writing the **full form** for a virtual product name, use Virtual<product name full form>.
+- When writing the **full form** for a virtual product name, use Virtual<product name full form>.
+
 
 Example: Full Form for a Virtual Product Name
 
@@ -154,7 +151,8 @@ Example: Full Form for a Virtual Product Name
 | ------------------------------- | ------------------------------------------------------------ |
 | Virtual Evolved  Packet Gateway | Virtualized Evolved  Packet Gateway  virtual Evolved Packet Gateway  Evolved Packet Gateway  Virtualization |
 
-Ø  When writing the **acronym** for a virtual product name, use v<product name acronym>.
+- When writing the **acronym** for a virtual product name, use v<product name acronym>.
+
 
 Example: Acronym for a Virtual Product Name
 
@@ -162,13 +160,15 @@ Example: Acronym for a Virtual Product Name
 | ------- | ----------------------------------------------------- |
 | vEPG    | VEPG  virtual EPG  Virtualized EPG  Rules for Writing |
 
-Ø  When writing the full form for a standard term, use Virtual <term name full form>.
+- When writing the full form for a standard term, use Virtual <term name full form>.
+
 
 | Correct                              | Incorrect                                                    |
 | ------------------------------------ | ------------------------------------------------------------ |
 | Virtual Network Interface Controller | virtual Network Interface Controller  Virtualized Network Interface  Controller |
 
-Ø  When writing the acronym for a standard term, use V<term name acronym>.
+- When writing the acronym for a standard term, use V<term name acronym>.
+
 
 | Correct | Incorrect |
 | ------- | --------- |
@@ -206,201 +206,187 @@ Do not use any acronym as a verb.
 
 ### 1.3.2        Abbreviations
 
-l  Use a non-breaking space (Ctrl+Atl+Space) in any abbreviation to avoid having one letter move to the beginning of the next line.
+- Use a non-breaking space (Ctrl+Atl+Space) in any abbreviation to avoid having one letter move to the beginning of the next line.
 
-l  English abbreviation of months and days of the week are as follows: Month: **Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec** Days of the week: **Mon, Tue, Wed, Thu, Fri, Sat, Sun.**
+- English abbreviation of months and days of the week are as follows: Month: **Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec** Days of the week: **Mon, Tue, Wed, Thu, Fri, Sat, Sun.**
 
-l  **Avoid the ampersand (&) in text or headings. Spell it out: and.** To save space, you can use the & symbol in presentations, tables, titles, and in the left navigation on Web pages.
-
-l  **Don’t abbreviate** such words as follows:
-
-Ø  Do not abbreviate **Microsoft** as MS when Microsoft is a part of product names.  
-
-Ø  Do not abbreviate **Internet Explorer** as IE.
-
-Ø  Do not abbreviate **Visual Studio** as VS in product names. 
-
-Ø  Do not abbreviate **operating system names**. Correct examples: 
-
-n **Windows Server 2008**
-
-n **Windows Vista**
-
-n **Windows 7**
+- **Avoid the ampersand (&) in text or headings. Spell it out: and.** To save space, you can use the & symbol in presentations, tables, titles, and in the left navigation on Web pages.
+- **Don’t abbreviate** such words as follows:
+  - Do not abbreviate **Microsoft** as MS when Microsoft is a part of product names.  
+  - Do not abbreviate **Internet Explorer** as IE.
+  - Do not abbreviate **Visual Studio** as VS in product names. 
+  - Do not abbreviate **operating system names**. Correct examples: 
+    - **Windows Server 2008**
+    - **Windows Vista**
+    - **Windows 7**
 
 ### 1.3.3        Exceptions
 
 Use an abbreviation or acronym only with a gxref link in the following situations:
 
-l  Do not spell out an abbreviation or acronym that is commonly known to the target audience.
+- Do not spell out an abbreviation or acronym that is commonly known to the target audience.
 
-l  Where the meaning is clear and it benefits the user by making the information easier to comprehend.
+- Where the meaning is clear and it benefits the user by making the information easier to comprehend.
 
-l  Where it is recognized more easily than its spelled-out form, for example, HTML
+- Where it is recognized more easily than its spelled-out form, for example, HTML
 
-l  Where space is limited, for example, in a column in a table or in a detailed diagram
+- Where space is limited, for example, in a column in a table or in a detailed diagram
 
-l  In text that deals mainly with dimensions and other numeric specifications
+- In text that deals mainly with dimensions and other numeric specifications
 
-l  In tables, where the abbreviation or acronym can be explained in the table note
+- In tables, where the abbreviation or acronym can be explained in the table note
 
-l  In titles, where the abbreviation or acronym can be explained in the text nearby
+- In titles, where the abbreviation or acronym can be explained in the text nearby
 
-l  Where the abbreviation or acronym and numbers or other letters form a proper noun, for example, EIA RS232.
+- Where the abbreviation or acronym and numbers or other letters form a proper noun, for example, EIA RS232.
+
 
 **Note:** All acronyms, even those not expanded in the text, must be listed in the Glossary.
 
 ## 1.4 URL
 
-\1.    In content for a **general audience**, use **address** rather than URL. In content for a **technical audience**, **don't spell out URL on first mention**. If you have a reason to spell out URL, use **uniform resource locator**.
+1. In content for a **general audience**, use **address** rather than URL. In content for a **technical audience**, **don't spell out URL on first mention**. If you have a reason to spell out URL, use **uniform resource locator**.
 
-**2.**    Use **a**, not an, as an article preceding URL. **a URL**
+2. Use **a**, not an, as an article preceding URL. **a URL**
 
-\3.    In text references, **you can leave off the http://** unless the URL begins with something other than www. (Include the protocol only if it's something other than HTTP, such as File Transfer Protocol (FTP)). Example:
+3. In text references, **you can leave off the http://** unless the URL begins with something other than www. (Include the protocol only if it's something other than HTTP, such as File Transfer Protocol (FTP)). Example:
 
-l  www.microsoft.com/business 
+- www.microsoft.com/business 
 
-l  ftp://example.com/downloads/myfile.txt
+- ftp://example.com/downloads/myfile.txt
 
-\4.    The trailing slash at the end of a URL is optional. In most cases, leave it off. **Never use a trailing slash in a URL that ends with a file name.** 
 
-\5.    Most of the time, **use lowercase for URLs, email addresses, and newsgroup addresses**. 
+4. The trailing slash at the end of a URL is optional. In most cases, leave it off. **Never use a trailing slash in a URL that ends with a file name.** 
 
-\6.    **To refer to an entire website or top-level domain**, such as Microsoft.com, **omit** http://www from the URL and **capitalize** only the first letter of the URL, even if the site name is capitalized differently. Examples: 
+5. Most of the time, **use lowercase for URLs, email addresses, and newsgroup addresses**. 
 
-l  [www.microsoft.com](http://www.microsoft.com) 
+6. **To refer to an entire website or top-level domain**, such as Microsoft.com, **omit** http://www from the URL and **capitalize** only the first letter of the URL, even if the site name is capitalized differently. Examples: 
 
-l  Microsoft.com
+- [www.microsoft.com](http://www.microsoft.com) 
+- Microsoft.com
 
-l  Codeplex.com is home to the open source project site hosted by Microsoft.
+- Codeplex.com is home to the open source project site hosted by Microsoft.
 
-\7.    If a sentence ends with a URL, include the period at the end. 
 
-However, when the URL follows a colon, do not include a period at the end. Correct: 
+7. If a sentence ends with a URL, include the period at the end. 
 
-l  For training, visit the Intel® Software College **at** [www.intel.com/software/college](http://www.intel.com/software/college).
+   However, when the URL follows a colon, do not include a period at the end. Correct: 
 
-l  For more information visit: [www.intel.com/software/products](http://www.intel.com/software/products)
+- l  For training, **visit** the Intel® Software College **at** [www.intel.com/software/college](http://www.intel.com/software/college).
 
-\8.    Use of (not for) to describe the relationship of the word URL to a resource. 
+- l  For more information **visit**: [www.intel.com/software/products](http://www.intel.com/software/products)
 
-Use the preposition at with the location of a specific address. 
 
-Examples: 
+8. Use of (not for) to describe the relationship of the word URL to a resource. 
 
-l  Search results include **the URL of the page.** 
+   Use the preposition at with the location of a specific address. 
 
-l  Learn more about Microsoft products and services **at** [www.microsoft.com](http://www.microsoft.com). 
+   Examples: 
 
-\9.    If the reader might think the period at the end of a sentence is part of the URL, rewrite the sentence or set the URL off. Examples: 
+- Search results include **the URL of the page.** 
 
-l  Go to windows.microsoft.com/upgrade to learn how to get your free Windows 10 upgrade.
+- Learn more about Microsoft products and services **at** [www.microsoft.com](http://www.microsoft.com). 
 
-l  To get your free Windows 10 upgrade, go to our website: windows.microsoft.com/upgrade 
 
-\10.  Write brief but meaningful link text, using the title or a description of a page rather than a generic phrase like click here. In alt text for a graphic that links to another location, state clearly that the graphic is a link. Examples:
+9. If the reader might think the period at the end of a sentence is part of the URL, rewrite the sentence or set the URL off. Examples: 
 
-l  Go to the Windows 10 upgrade page to learn how to get your free upgrade.
+- Go to windows.microsoft.com/upgrade to learn how to get your free Windows 10 upgrade.
 
-l  (Alt text) Picture of a woman talking on a phone that opens an online chat session with Microsoft support. 
+- To get your free Windows 10 upgrade, go to our website: windows.microsoft.com/upgrade 
 
-l  (Alt text) Windows 10 logo and link to the Windows 10 upgrade page
+
+10. Write brief but meaningful link text, using the title or a description of a page rather than a generic phrase like click here. In alt text for a graphic that links to another location, state clearly that the graphic is a link. Examples:
+
+- Go to the Windows 10 upgrade page to learn how to get your free upgrade.
+
+- (Alt text) Picture of a woman talking on a phone that opens an online chat session with Microsoft support. 
+
+- (Alt text) Windows 10 logo and link to the Windows 10 upgrade page
+
 
 ## 1.5            Punctuation
 
 Correct punctuation is important because it shows how the different parts of the text are related and prevents ambiguity. 
 
-l  You can use all standard English punctuation marks **except the semicolon (;).**
+- You can use all standard English punctuation marks **except the semicolon (;).**
 
-The semicolon (;) is not approved in STE because it lets you write very long sentences. It is also difficult to use correctly. As an alternative to the semicolon, always write two different sentences.
+  The semicolon (;) is not approved in STE because it lets you write very long sentences. It is also difficult to use correctly. As an alternative to the semicolon, always write two different sentences.
 
-l  For phrases in cells of a table, use no mark at sentence ends.
+- For phrases in cells of a table, use no mark at sentence ends.
 
-For sentences in cells of a table, use periods.
+  For sentences in cells of a table, use periods.
 
-l  In general, you should prefer words to marks (except formulas) in the body.
+- In general, you should prefer words to marks (except formulas) in the body.
 
-l  Use an en dash (–): 
 
-Ø  To indicate a range of numbers such as inclusive values, dates, or pages. For example, © 1993–1994, pages 95–110. Do not mix text and en dash, as in “The voltage is from 42–48 V” (Use “from 42 V to 48 V” instead). For ranges, only add the unit after the second value, for example, 2–5 Mbps.
+- Use an en dash (–): 
+  - To indicate a range of numbers such as inclusive values, dates, or pages. 
 
-Ø  To indicate a minus sign
+    For example, © 1993–1994, pages 95–110. 
 
-Ø  To indicate negative numbers: –79
+    Do not mix text and en dash, as in “The voltage is from 42–48 V” (Use “from 42 V to 48 V” instead). 
 
-Ø  To form a compound modifier for a noun, such as Windows NT–based program, dialog box–type options, MS-DOS–compatible products (MS-DOS still uses a hyphen)
+    For ranges, only add the unit after the second value, for example, 2–5 Mbps.
 
-Ø  Do not use an en dash to indicate an empty cell in a table. Use a hyphen instead.
+  - To indicate a minus sign
 
-Ø  Do not use spaces on either side of an en dash.
+  - To indicate negative numbers: –79
 
-l  em dash (—): 
+  - To form a compound modifier for a noun, such as Windows NT–based program, dialog box–type options, MS-DOS–compatible products (MS-DOS still uses a hyphen)
 
-Ø  Used in a complex figure title. For example, Query Active Alarms Dialog Box—Location Tab
+  - Do not use an en dash to indicate an empty cell in a table. Use a hyphen instead.
+
+  - Do not use spaces on either side of an en dash.
+
+- em dash (—): 
+  - Used in a complex figure title. 
+
+    For example, Query Active Alarms Dialog Box—Location Tab
 
 ## 1.6            Units of Measure Terms
 
 This section covers usage and abbreviations for a variety of terms related to measurement. For other units of measure not covered here, see [*The Chicago Manual of Style*](http://www.chicagomanualofstyle.org/home.html).
 
-l  **Use numerals for measurements of distance, temperature, volume, size, weight, pixels, points**, and so on— even if the number is less than 10. Add a zero before the decimal point for decimal fractions less than one, unless the customer is asked to enter the value. Examples:
+- **Use numerals for measurements of distance, temperature, volume, size, weight, pixels, points**, and so on— even if the number is less than 10. Add a zero before the decimal point for decimal fractions less than one, unless the customer is asked to enter the value. Examples:
+  - 3 ft, 5 in.
+  - 1.76 lb
+  - 80 × 80 pixels 
+  - 0.75 grams 
+  - enter .75" 3 centimeters
+  - 3 cm
 
-Ø  3 ft, 5 in.
+- Insert a space between the unit of measure and the numeral, or **hyphenate if the measurement modifies a noun.** Examples:
+  - 13.5 inches
+  - 13.5-inch display
+  - 8.0 MP
+  - 8.0-MP camera
 
-Ø  1.76 lb
+- Use abbreviations only with numbers in specific measurements, such as 20 MP, and don't follow the abbreviation with a period.
 
-Ø  80 × 80 pixels 
+  **Exception** Follow *in* with a period when used as an abbreviation for *inch.*
 
-Ø  0.75 grams 
+- Use commas in numbers that have four or more digits, regardless of how the numbers appear in the UI: **1,093 MB**.
 
-Ø  enter .75" 3 centimeters
+  **Exceptions**
 
-Ø  3 cm
+  For **pixel measurements and baud**, use commas only when the number has **five or more digits:** *1920 × 1080 pixels, 10,240 × 4320 pixels, 9600 baud, 14,400 baud.*
 
-l  Insert a space between the unit of measure and the numeral, or **hyphenate if the measurement modifies a noun.** Examples:
+  Don’t use commas after the decimal point in decimal fractions.
 
-Ø  13.5 inches
+- When the unit of measure is spelled out, **use the singular form when the number is 1. Use the plural form for all other measurements.** Examples
+  - 0 points
+  - 0.5 points
+  - **1 point**
+  - 12 points
 
-Ø  13.5-inch display
+- **Spell out \*by\* in dimensions, except for tile sizes, screen resolutions, and paper sizes.** For those, use the multiplication sign (×). Use a space before and after the multiplication sign. 
 
-Ø  8.0 MP
-
-Ø  8.0-MP camera
-
-l  Use abbreviations only with numbers in specific measurements, such as 20 MP, and don't follow the abbreviation with a period.
-
-**Exception** Follow *in* with a period when used as an abbreviation for *inch.*
-
-l  Use commas in numbers that have four or more digits, regardless of how the numbers appear in the UI: **1,093 MB**.
-
-**Exceptions**
-
-For **pixel measurements and baud**, use commas only when the number has **five or more digits:** *1920 × 1080 pixels, 10,240 × 4320 pixels, 9600 baud, 14,400 baud.*
-
-Don’t use commas after the decimal point in decimal fractions.
-
-l  When the unit of measure is spelled out, **use the singular form when the number is 1. Use the plural form for all other measurements.** Examples
-
-0 points
-
-0.5 points
-
-**1 point**
-
-12 points
-
-l  **Spell out \*by\* in dimensions, except for tile sizes, screen resolutions, and paper sizes.** For those, use the multiplication sign (×). Use a space before and after the multiplication sign. 
-
-Examples
-
-Ø  **10 by 12 ft room**
-
-Ø  **3" by 5" image**
-
-Ø  4 × 4 tile
-
-Ø  8.5" × 11" paper
-
-Ø  1280 × 1024
+  Examples:
+  - **10 by 12 ft room**
+  - **3" by 5" image**
+  - 4 × 4 tile
+  - 8.5" × 11" paper
+  - 1280 × 1024
 
 | Category                                     | Term            | Abbreviation   And Usage                                     |
 | -------------------------------------------- | --------------- | ------------------------------------------------------------ |
@@ -432,43 +418,33 @@ Examples
 
 In general, spell out *bit* and *byte* terms on the first mention unless:
 
-l  Your audience is familiar with the abbreviation. 
+- Your audience is familiar with the abbreviation. 
 
-l  You’re working on UI text.
+- You’re working on UI text.
+
 
 In those cases, or after you’ve spelled out the term on the first mention, it’s OK to use abbreviations for *-bit* or *byte* terms. Use abbreviations only with numbers in specific measurements, such as 128 TB.
 
-l  Insert a space between the abbreviation and the numeral, or hyphenate if the measurement modifies a noun. Examples:
+- Insert a space between the abbreviation and the numeral, or hyphenate if the measurement modifies a noun. Examples:
+  - 512 gigabytes (GB) of RAM
+  - From 1 GB to a maximum of 2 GB
+  - 23 MB/day
+  - up to 2 terabytes of physical memory with 8 terabytes of address space
+  - 200 MB of available hard-drive space 
+  - a 650-MB limit
 
-Ø  512 gigabytes (GB) of RAM
+- In measurements, when the unit of measure isn't abbreviated, use the singular form of the unit of measure when the number is 1. Use the plural form for all other measurements. **Examples**
+  - 0 megabytes
+  - 0.5 megabytes
+  - **1 megabyte**
+  - 15 megabytes
 
-Ø  From 1 GB to a maximum of 2 GB
+- l  Use *of* to add a modifier to a measurement used as a noun. Example:
 
-Ø  23 MB/day
+  The operation requires 200 MB of available hard-drive space.
 
-Ø  up to 2 terabytes of physical memory with 8 terabytes of address space
-
-Ø  200 MB of available hard-drive space 
-
-Ø  a 650-MB limit
-
-l  In measurements, when the unit of measure isn't abbreviated, use the singular form of the unit of measure when the number is 1. Use the plural form for all other measurements. **Examples**
-
-Ø  0 megabytes
-
-Ø  0.5 megabytes
-
-Ø  **1 megabyte**
-
-Ø  15 megabytes
-
-l  Use *of* to add a modifier to a measurement used as a noun. Example:
-
-The operation requires 200 MB of available hard-drive space.
-
-l  Use commas in numbers that have four or more digits, regardless of how the numbers appear in the UI. Example:
-
-Ø  1,024 MB
+- Use commas in numbers that have four or more digits, regardless of how the numbers appear in the UI. Example:
+  - 1,024 MB
 
 | Term                 | Abbreviation | Usage                                                        |
 | -------------------- | ------------ | ------------------------------------------------------------ |
@@ -525,19 +501,21 @@ A glossary, where one is included in a document, is included at the end of a doc
 
 Use the following rules to produce a glossary: 
 
-l  Arrange the glossary as follows: 
+- Arrange the glossary as follows: 
 
-\1. Numerical entries in order 
 
-\2. Alphabetical entries in order 
+1. Numerical entries in order 
 
-l  All terms in the glossary must appear exactly as they appear in text. 
+2. Alphabetical entries in order 
 
-l  Include an expansion of any acronym added to the glossary. 
+- All terms in the glossary must appear exactly as they appear in text. 
 
-l  Include a definition of any term added to the glossary. 
+- Include an expansion of any acronym added to the glossary. 
 
-l  Add a link for each glossary item. Example: [GUI](#GUI), [ISO](#ISO)
+- Include a definition of any term added to the glossary. 
+
+- Add a link for each glossary item. Example: [GUI](#GUI), [ISO](#ISO)
+
 
  
 
@@ -686,7 +664,8 @@ This term collection covers how to refer to keyboard shortcuts and the names of 
 
 #### 2.2.3.2      Key names
 
-l  In general, use **sentence capitalization** for key names.
+- In general, use **sentence capitalization** for key names.
+
 
 **Examples**
 
@@ -694,19 +673,21 @@ the Shift key
 
 the Page up key
 
-l  Capitalize letter keys in general references.
+- Capitalize letter keys in general references.
+
 
 **Example**
 
 the K key
 
-l  **Lowercase and bold a letter key** when **instructing** customers to **enter the letter** (unless you're instructing them to enter a capital letter).
+- **Lowercase and bold a letter key** when **instructing** customers to **enter the letter** (unless you're instructing them to enter a capital letter).
 
 **Example**
 
 enter **k**
 
-l  On the first mention, you can use the **definite article** ***the\*** and the word ***key\*** with the key name if necessary for clarity. On subsequent mentions, refer to the key by its name only.
+- On the first mention, you can use the **definite article** ***the\*** and the word ***key\*** with the key name if necessary for clarity. On subsequent mentions, refer to the key by its name only.
+
 
 **Example** 
 
