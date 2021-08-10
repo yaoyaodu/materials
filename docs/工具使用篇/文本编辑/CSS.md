@@ -30,10 +30,10 @@ CSS层叠样式表是一种用来表现[HTML](https://baike.baidu.com/item/HTML)
     - type：内容类型
     - **href：引入的CSS文件地址**
 - 行内式(主要用于JS控制元素的样式)
-  - **每一个HTML标记，都有一些公共的属性：class、id、title、style。**
-  - **HTML标记中的style属性的值，与CSS中样式一模一样。**
-  - **行内样式中，CSS代码不能写的过多；行内样式中，多个CSS属性不能换行，也就是一行写完。**
-  - **行内样式优先级是最高的，比ID选择器还要高。**
+  - 每一个HTML标记，都有一些公共的属性：class、id、title、style。
+  - HTML标记中的style属性的值，与CSS中样式一模一样。
+  - 行内样式中，CSS代码不能写的过多；行内样式中，多个CSS属性不能换行，也就是一行写完。
+  - 行内样式优先级是最高的，比ID选择器还要高。
 
 
 
@@ -116,6 +116,13 @@ HTML注释：`<!--HTML注释-->`
     * a:link, a:visited{ color:#444; text-decoration:none; } //将“正常状态”和“访问过的状态”合二为一。
     * a:hover{ color:#990000; text-decoration:underline; } //“鼠标放上”单做一种效果
 
+举例：
+
+- **p{ }**: 为所有 **p** 元素指定一个样式。
+- **.marked{ }**: 为所有 **class="marked"** 的元素指定一个样式。
+- **.marked p{ }**: 为所有 **class="marked"** 元素内的 **p** 元素指定一个样式。
+- **p.marked{ }**: 为所有 **class="marked"** 的 **p** 元素指定一个样式。
+
 ### CSS属性
 
 详细信息参见[CSS属性](CSS属性.md)。
@@ -123,6 +130,13 @@ HTML注释：`<!--HTML注释-->`
 #### CSS边框、内边距、外边距属性
 
 ![padding margin](https://i.loli.net/2021/08/05/42gcGrmNKIbS9Qv.png)
+
+
+
+- **Margin(外边距)** ：**清除边框外的区域，外边距是透明的**。
+- **Border(边框)** ：围绕在内边距和内容外的边框。
+- **Padding(内边距)** ：**清除内容周围的区域，内边距是透明的**。
+- **Content(内容)** ：盒子的内容，显示文本和图像。
 
 ##### CSS边框属性：每个元素都可以加边框线
 
@@ -297,3 +311,4 @@ background-position：背景定位。格式：background-position:水平方向�
 * [CSS 实例 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-examples.html) （实用，重点看）
 * [CSS 参考手册 | 菜鸟教程 (runoob.com)](https://www.runoob.com/cssref/css-reference.html)
 * [CSS 表格 (w3school.com.cn)](https://www.w3school.com.cn/css/css_table.asp)
+* [:nth Tester (css-tricks.com)](https://css-tricks.com/examples/nth-child-tester/)
