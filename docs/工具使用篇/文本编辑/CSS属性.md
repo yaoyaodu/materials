@@ -1,4 +1,4 @@
-## CSS 属性
+## CSS属性
 
 <!--"CSS" 列指示属性是在哪个 CSS 版本中定义的 (CSS1, CSS2, 或者 CSS3).-->
 
@@ -27,7 +27,7 @@
 | [background-position](https://www.runoob.com/cssref/pr-background-position.html) | 设置或检索对象的背景图像位置。必须先指定background-image属性。 | 1    |
 | [background-repeat](https://www.runoob.com/cssref/pr-background-repeat.html) | 设置或检索对象的背景图像如何铺排填充。必须先指定background-image属性。 | 1    |
 | [background-clip](https://www.runoob.com/cssref/css3-pr-background-clip.html) | 指定对象的背景图像向外裁剪的区域。                           | 3    |
-| [background-origin](https://www.runoob.com/cssref/css3-pr-background-origin.html) | S设置或检索对象的背景图像计算background-position时的参考原点(位置)。 | 3    |
+| [background-origin](https://www.runoob.com/cssref/css3-pr-background-origin.html) | 设置或检索对象的背景图像计算background-position时的参考原点(位置)。 | 3    |
 | [background-size](https://www.runoob.com/cssref/css3-pr-background-size.html) | 检索或设置对象的背景图像的尺寸大小。                         | 3    |
 
 ## 边框(Border) 和 轮廓(Outline) 属性
@@ -39,7 +39,7 @@
 | [border-bottom-color](https://www.runoob.com/cssref/pr-border-bottom-color.html) | 设置或检索对象的底部边框颜色。                               | 1    |
 | [border-bottom-style](https://www.runoob.com/cssref/pr-border-bottom-style.html) | 设置或检索对象的底部边框样式。                               | 1    |
 | [border-bottom-width](https://www.runoob.com/cssref/pr-border-bottom-width.html) | 设置或检索对象的底部边框宽度。                               | 1    |
-| [border-color](https://www.runoob.com/cssref/pr-border-color.html) | 置或检索对象的边框颜色。                                     | 1    |
+| [border-color](https://www.runoob.com/cssref/pr-border-color.html) | 设置或检索对象的边框颜色。                                   | 1    |
 | [border-left](https://www.runoob.com/cssref/pr-border-left.html) | 复合属性。设置对象左边边框的特性。                           | 1    |
 | [border-left-color](https://www.runoob.com/cssref/pr-border-left-color.html) | 设置或检索对象的左边边框颜色。                               | 1    |
 | [border-left-style](https://www.runoob.com/cssref/pr-border-left-style.html) | 设置或检索对象的左边边框样式。                               | 1    |
@@ -159,7 +159,7 @@
 | [box-orient](https://www.runoob.com/cssref/css3-pr-box-orient.html) | 指定一个框的子元素是否在水平或垂直方向应铺设         | 3    |
 | [box-pack](https://www.runoob.com/cssref/css3-pr-box-pack.html) | 指定横向盒在垂直框的水平位置和垂直位置               | 3    |
 
-## 字体（Font） 属性
+## 字体（Font）属性
 
 | 属性                                                         | 说明                                                      | CSS  |
 | :----------------------------------------------------------- | :-------------------------------------------------------- | :--- |
