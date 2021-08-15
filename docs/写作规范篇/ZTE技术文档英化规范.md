@@ -57,15 +57,17 @@ Clear information is information that users can understand the first time. They 
 
 To make information clear, follow these guidelines:
 
--   Write precisely.
+- Write precisely.
 
--   Use familiar words
+- Use familiar words
 
--   Use active voice preferably.
+- Use active voice preferably.
 
--   Put action in verbs.
+- Put action in verbs.
 
--   Use an attributive clause preferably.
+- Use an attributive clause preferably.
+
+  
 
 -   **使用简洁的语言（Write concisely）**
 
@@ -2215,8 +2217,7 @@ The MPA has the following functions:
 
 角度的度数和机架的高度单位U除外。如：90°，1U。
 
-2.
-正文描述中，个位数（1到9）的数字要用英文单词拼写出来，10以及10以上的数字用阿拉伯数字表示（Write
+2.正文描述中，个位数（1到9）的数字要用英文单词拼写出来，10以及10以上的数字用阿拉伯数字表示（Write
 out numbers one through nine.） 。
 
 3\. 地址
