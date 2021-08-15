@@ -13,7 +13,7 @@ Task topic包含以下标签内容，本章是以下内容的写作指导。
 - 举例（Example）
 - 相关任务（Related tasks），需要手动添加。
 
-说明：标题、摘要和步骤为Task Topic的必写内容。
+说明：**标题、摘要和步骤为Task Topic的必写内容。**
 
 ## 1.1         标题（Title）
 
@@ -35,13 +35,13 @@ Task topic包含以下标签内容，本章是以下内容的写作指导。
 
 ## 1.2         摘要（Abstract）
 
-摘要主要包括task topic的目的、应用场景和简要的背景知识。摘要中的目的或应用场景是task topic必写内容。在描述应用场景时，可以使用图示。
+摘要主要包括task topic的**目的、应用场景和简要的背景知识**。**摘要中的目的或应用场景是task topic必写内容。**在描述应用场景时，可以使用图示。
 
 “修改用户常规属性”Topic的摘要内容如下图所示。
 
-图 6-1 摘要实例
-
 ![img](https://i.loli.net/2021/08/15/qJktEcfKNL3uQVG.jpg)
+
+<center>图 6-1 摘要实例</center>
 
 ## 1.3         前提（Prereq）
 
