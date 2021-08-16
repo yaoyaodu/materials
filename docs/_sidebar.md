@@ -26,8 +26,10 @@
     * [常用轻量级标记语言对照](工具使用篇/文本编辑/常用轻量级标记语言对照.md)
     * [reStructuredText(rst)快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
     * [Markdown Template](工具使用篇/文本编辑/MarkdownFileTemplate.md)
-  * 绘图
-    * [Typora绘图](工具使用篇/绘图/Typora绘图.html)
+  * 绘图截图
+    * [Typora绘图](工具使用篇/绘图截图/Typora绘图.html)
+    * [Visio绘图](工具使用篇/绘图截图/Visio绘图.md)
+    * [截图](工具使用篇/绘图截图/截图.md)
   * 搜索技能
     * [搜索技能总结](工具使用篇/搜索技能/搜索技能总结.md)
     * [实用网址](工具使用篇/搜索技能/实用网址.md)
