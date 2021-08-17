@@ -1,14 +1,16 @@
+# Markdown Template
+
 <p align="center"><font size=8 color="black"><b>Programming Guide</b></font></p>
 
 <center><font size=8 color="black"><b>Programming Guide</b></center>
 
-<h1>Programming Guide</h1>
+
 
 <p align="right"><font size=5 color="black"><b>Programming Guide</b></font></p>
 
 <p align="right"><font size=3 color="black"><b>Release V1.0</b></font></p>
 
-# Programming Guide
+
 
 ---
 
@@ -26,42 +28,18 @@
 
 
 
-<p align="center"><font size=3 color="black"><b>Confidental and Proprietary – Wu Qi Micro Limited</b></font></p>
+<p align="center"><font size=3 color="black"><b>Confidental and Proprietary – XXX Limited</b></font></p>
 
 <div style="page-break-after:always" />
 
 <p align="left"><font size=6.5 color="black"><b>Copyright</b></font></p>
 
-© 2021, Wu Qi Micro Limited. All rights reserved. 
 
-**Disclaimer**
-
-The contents of this document are to revision without notice due to continued progress in methodology, design and manufacturing. 
-
-Wu Qi Micro Limited shall have no liability for any error or damage of any kind resulting from the use of this document.
-
-**Trademark List**
-
-All trademarks mentioned herein are the property of their respective owners. These are shown in the document Trademark Information. 
 
 <div style="page-break-after:always" />
 
 <div style="page-break-after:always" />
 
-<p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
-
-<table>
-         <tr align="center" bgColor="a1a4a3">
-             <th>Publication Date</th> 
-             <th>Version</th>
-             <th>Edition</th>
-         </tr>
-         <tr align="center">
-             <td height="50">May 2019</td>
-             <td>V1.0</td>
-             <td>First Edition</td>
-         </tr>
-</table>
 
 
 <div style="page-break-after:always" />
@@ -325,83 +303,28 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 
-<table border="1" bordercolor="black" cellspacing="0" cellpadding="0" rules="all">
-    <caption><b>表1-2 我是表格标题</b></caption>
-	<tr bgColor="dfe2e5">
-	    <th align="center">属性</th>
-	    <th>属性值</th>
-	    <th>描述</th>  
-	</tr >
-	<tr >
-	    <td rowspan="10">type</td>
-	    <td>text</td>
-	    <td>单行文本输入框</td>
-	</tr>
-	<tr>
-	    <td>password</td>
-	    <td>密码输入框</td>
-	</tr>
-	<tr>
-	    <td>radio</td>
-	    <td>单选按钮</td>
-	</tr>
-	<tr>
-	    <td>CheckBox</td>
-	    <td>复选按钮</td>
-	</tr>
-	<tr><td>button</td>
-	    <td>普通按钮</td>
-	</tr>
-	<tr>
-	    <td>submit</td>
-	    <td>提交按钮</td>
-	</tr>
-	<tr>
-	    <td>reset</td>
-	    <td>重置按钮</td>
-	</tr>
-	<tr>
-	    <td>image</td>
-	    <td>图像形式的提交按钮</td>
-	</tr>
-	<tr>
-	    <td >file</td>
-	    <td>文件域</td>
-	</tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-	<tr>
-	    <td >name</td>
-	    <td rowspan="2">用户自定义</td>
-	    <td>控件名称</td>
-	</tr>
-	<tr>
-	    <td >value</td>
-	    <td >默认文本值</td>
-	</tr>
-	<tr>
-	    <td >size</td>
-	    <td >正整数</td>
-	    <td >控件在页面中的显示宽度</td>
-	</tr>
-	<tr>
-	    <td >checked</td>
-	    <td >checked</td>
-	    <td >定义选择控件默认被选中项</td>
-	</tr>
-	<tr>
-	    <td >maxlength</td>
-	    <td >正整数</td>
-	    <td >控件允许输入的最多字符</td>
-	</tr>
+
+
+# 表格
+
+<p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
+
+<table cellspacing="0" cellpadding="0" rules="all">
+         <tr align="center" bgColor="a1a4a3">
+             <th>Publication Date</th> 
+             <th>Version</th>
+             <th>Edition</th>
+         </tr>
+         <tr align="center">
+             <td height="50">May 2019</td>
+             <td>V1.0</td>
+             <td>First Edition</td>
+         </tr>
 </table>
 
 
 
 
-# 表格
 
 **Contact Us**
 
@@ -412,9 +335,9 @@ All trademarks mentioned herein are the property of their respective owners. The
         <td><b>Business Consultation:</b></td>
     </tr> 
     <tr>
-        <td><a href="http://www.wuqi-tech.com" >www.wuqi-tech.com</a></td>
-        <td><a href="mailto:support@wuqi-tech.com">support@wuqi-tech.com</td>
-        <td><a href="mailto:sales@wuqi-tech.com">sales@wuqi-tech.com</td>
+        <td><a href="http://www.baidu.com" >www.baidu.com</a></td>
+        <td><a href="mailto:support@baidu.com">support@baidu.com</td>
+        <td><a href="mailto:sales@baidu.com">sales@baidu.com</td>
     </tr> 
     <tr>
         <td><b>Chongqing     Address:</b></td>
@@ -422,11 +345,12 @@ All trademarks mentioned herein are the property of their respective owners. The
         <td><b>Shenzhen     Address:</b></td>
     </tr>    
     <tr valign="top">
-	    <td>14/F, 107 Middle Road, Xiantao Big Data Valley, Yubei District, Chongqing,  PRC.<br>Tel/Fax:  023-67682717 </td>
-        <td>8/F, Building 29, No.368, Zhangjiang Road, Pudong New District, Shanghai,  PRC.  <br>Tel/Fax:  021-50806308</td>
-	    <td>Room 1105, Building 2, Fangdacheng, Longzhu 4th Road, Taoyuan Street, Nanshan  District, ShenZhen, PRC.  <br>Tel/Fax:  0755-86967944</td>
+	    <td>14/F, 107 Yanan Road, Tiantao Valley, Yubei District, Beijing,  PRC.<br>Tel/Fax:  023-67682717 </td>
+        <td>8/F, Building 29, No.368, Qinghua Road, Pudong New District, Shanghai,  PRC.  <br>Tel/Fax:  021-50226666</td>
+	    <td>Room 1105, Building 2, Fangdacheng, Longzhu 4th Road, Beida Street, Nanshan  District, ShenZhen, PRC.  <br>Tel/Fax:  0755-86967966</td>
 	</tr>
 </table>
+
 
 
 
@@ -592,38 +516,36 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 
-|    模块 | 功能简介                                                     |
-| ------: | :----------------------------------------------------------- |
-|      BT | 负责蓝牙模块的系统状态维护，功能实现和相应的消息处理         |
-|    CONN | 蓝牙连接管理                                                 |
-|     WWS | TWS状态管理                                                  |
-|     EVT | 用户事件的处理，是大部分用户触发的事件的处理入口。通过调用其他模块提供的API，将事件转化成实际的动作，比如接听/挂断电话等 |
-|   AUDIO | 负责音频相关的控制和处理                                     |
-|    TONE | 根据不同的事件和状态，播放预定的提示音                       |
+| 模块    | 功能简介                                                     |
+| :------ | :----------------------------------------------------------- |
+| BT      | 负责蓝牙模块的系统状态维护，功能实现和相应的消息处理         |
+| CONN    | 蓝牙连接管理                                                 |
+| WWS     | TWS状态管理                                                  |
+| EVT     | 用户事件的处理，是大部分用户触发的事件的处理入口。通过调用其他模块提供的API，将事件转化成实际的动作，比如接听/挂断电话等 |
+| AUDIO   | 负责音频相关的控制和处理                                     |
+| TONE    | 根据不同的事件和状态，播放预定的提示音                       |
 | CHARGER | 充电/充电盒相关的功能处理。包括充电，出入盒，充电仓通信等    |
-|     BAT | 电池电量检测，低电报警，低电关机等                           |
-|     BTN | 负责按键模块的功能实现。对用户的按键输入转化为相应的用户事件 |
-|     LED | 根据不同的事件和状态，使能LED按照预期的模式进行闪灯          |
-|      PM | 各种开关机流程的实现                                         |
-|   INEAR | 实现出/入耳检测                                              |
-|  RO_CFG | 只读配置设置                                                 |
+| BAT     | 电池电量检测，低电报警，低电关机等                           |
+| BTN     | 负责按键模块的功能实现。对用户的按键输入转化为相应的用户事件 |
+| LED     | 根据不同的事件和状态，使能LED按照预期的模式进行闪灯          |
+| PM      | 各种开关机流程的实现                                         |
+| INEAR   | 实现出/入耳检测                                              |
+| RO_CFG  | 只读配置设置                                                 |
 | USR_CFG | 可读写配置                                                   |
-|   ECONN | 互联互通管理，比如手机弹窗，手机app交互                      |
-|     CLI | 调试接口，测试接口                                           |
+| ECONN   | 互联互通管理，比如手机弹窗，手机app交互                      |
+| CLI     | 调试接口，测试接口                                           |
 
 
 
 
-| GND  | A Ground Signal                                              |
-| ---- | ------------------------------------------------------------ |
-| IA   | Analog input signal                                          |
-| I    | Digital input signal                                         |
-| IH   | Input signals with weak internal pull-up, to  prevent signals from floating when left open |
-| IL   | Input signals with weak internal pull-down, to  prevent signals from floating when left open |
-| I/O  | A digital bi-directional signal                              |
-| OA   | An analog output signal                                      |
-| O    | A digital output signal                                      |
-| P    | A power or ground signal                                     |
+| GND  | A Ground Signal                 |
+| ---- | ------------------------------- |
+| IA   | Analog input signal             |
+| I    | Digital input signal            |
+| I/O  | A digital bi-directional signal |
+| OA   | An analog output signal         |
+| O    | A digital output signal         |
+| P    | A power or ground signal        |
 
 
 
@@ -633,9 +555,144 @@ All trademarks mentioned herein are the property of their respective owners. The
 
 
 
+© 2021, XXX Limited. All rights reserved. 
+
+**Disclaimer**
+
+The contents of this document are to revision without notice due to continued progress in methodology, design and manufacturing. 
+
+XXX Limited shall have no liability for any error or damage of any kind resulting from the use of this document.
+
+**Trademark List**
+
+All trademarks mentioned herein are the property of their respective owners. These are shown in the document Trademark Information. 
 
 
 
+<head>
+
+<style>
+
+table
+{
+	width:100%;   /*指定表格宽度*/
+	border-collapse: collapse;     
+}
+
+table, tr, td, th {
+    border: 5px solid blue;   /*solid: 定义实线边框*/
+}
+
+
+
+tr{
+
+​	width:160px
+
+}
+
+
+
+th
+{
+	height:50px;     /*指定标题行高度*/
+
+
+
+</style>
+</head>
+
+<table>
+<caption>Table 1.1 Customers</caption>
+<tr>
+  <th>Company</th>
+  <th>Contact</th>
+  <th>Country</th>
+</tr>
+<tr>
+<td>Alfreds Futterkiste</td>
+<td>Maria Anders</td>
+<td>Germany</td>
+</tr>
+<tr>
+<td>Berglunds snabbköp</td>
+<td>Christina Berglund</td>
+<td>Sweden</td>
+</tr>
+</table>
+
+<table border="1" bordercolor="black" cellspacing="0" cellpadding="0" rules="all">
+    <caption><b>表1-2 我是表格标题</b></caption>
+	<tr bgColor="dfe2e5">
+	    <th align="center">属性</th>
+	    <th>属性值</th>
+	    <th>描述</th>  
+	</tr >
+	<tr >
+	    <td rowspan="10">type</td>
+	    <td>text</td>
+	    <td>单行文本输入框</td>
+	</tr>
+	<tr>
+	    <td>password</td>
+	    <td>密码输入框</td>
+	</tr>
+	<tr>
+	    <td>radio</td>
+	    <td>单选按钮</td>
+	</tr>
+	<tr>
+	    <td>CheckBox</td>
+	    <td>复选按钮</td>
+	</tr>
+	<tr><td>button</td>
+	    <td>普通按钮</td>
+	</tr>
+	<tr>
+	    <td>submit</td>
+	    <td>提交按钮</td>
+	</tr>
+	<tr>
+	    <td>reset</td>
+	    <td>重置按钮</td>
+	</tr>
+	<tr>
+	    <td>image</td>
+	    <td>图像形式的提交按钮</td>
+	</tr>
+	<tr>
+	    <td>file</td>
+	    <td>文件域</td>
+	</tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+	<tr>
+	    <td>name</td>
+	    <td rowspan="2">用户自定义</td>
+	    <td>控件名称</td>
+	</tr>
+	<tr>
+	    <td>value</td>
+	    <td>默认文本值</td>
+	</tr>
+	<tr>
+	    <td >size</td>
+	    <td >正整数</td>
+	    <td >控件在页面中的显示宽度</td>
+	</tr>
+	<tr>
+	    <td >checked</td>
+	    <td >checked</td>
+	    <td >定义选择控件默认被选中项</td>
+	</tr>
+	<tr>
+	    <td >maxlength</td>
+	    <td >正整数</td>
+	    <td >控件允许输入的最多字符</td>
+	</tr>
+</table>
 
 
 
