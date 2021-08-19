@@ -5,6 +5,7 @@
   * [中文技术文档写作规范](写作规范篇/中文技术文档写作规范.md)
   * [English Documentation Style Guide](写作规范篇/EnglishDocumentationStyleGuide.md)
   * [Simplified Technical English (STE)](写作规范篇/SimplifiedTechnicalEnglish(STE).md)
+  * [图形处理规范](写作规范篇/图形处理规范.md)
   * [界面术语](写作规范篇/界面术语.md)
   * [翻译活动核查清单](写作规范篇/翻译活动核查清单.md)
   * [技术英语冠词用法详解](写作规范篇/技术英语冠词用法详解.md)
