@@ -37,10 +37,19 @@
 
 
 
-将visio中图导入到word中: 
+将Visio中图导入到Word中: 
 
 1. Ctrl+A，全部选中当前图。
-
 2. Ctrl+C。
 3. 粘贴到Word中。依旧是可编辑的visio图。
+
+
+
+将Visio中图导入到Markdown编辑器Typora中: 
+
+1. Ctrl+A，全部选中当前图。
+2. Ctrl+C。
+3. Ctrl+V。图片会自动以png格式保存在Typora中。
+
+
 
