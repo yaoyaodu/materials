@@ -26,10 +26,6 @@
 
 
 
-## PCB
-
-
-
 <img src="https://i.loli.net/2021/08/09/qZbfQn14TEXo9y8.png" alt="2. How-to-Make-a-Custom-PCB-Single-Layer-PCB-vs-Double-Layer-PCB" style="zoom:50%;" />
 
 
