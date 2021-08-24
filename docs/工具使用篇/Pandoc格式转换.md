@@ -8,6 +8,8 @@
 
 [Pandoc - About pandoc](https://pandoc.org/)
 
+[Python将md批量转为docx - 简书 (jianshu.com)](https://www.jianshu.com/p/019b49cd4efb)
+
 ==[使用pandoc批量转换文件格式_Tobato-CSDN博客](https://blog.csdn.net/tobato/article/details/84912915?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.control&spm=1001.2101.3001.4242)==
 
 ==[Python将md批量转为docx_zhaoolee的CSDN博客-CSDN博客](https://blog.csdn.net/zhuoyuedelan/article/details/104153312)==
@@ -17,6 +19,8 @@
 [Pandoc实现批量将md文件转换为其它文件 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/145787589)
 
 [Windows下利用批处理批量调用pandoc转换文件](https://wngamebox.cn/669.html)
+
+[(4条消息) markdown批量转换为pdf python脚本_u011158435的博客-CSDN博客](https://blog.csdn.net/u011158435/article/details/108728230)
 
 ![image-20210818145906607](https://i.loli.net/2021/08/18/qQOtS1VEFnkryGe.png)
 
@@ -38,9 +42,7 @@ pandoc手册：https://www.pandoc.org/MANUAL.html
 
 
 
-
-
-### ==合并多个markdown文件，自动生成目录==
+看到==合并多个markdown文件，自动生成目录==
 
 参见：[利用pandoc将markdown转换为word文档 - kofyou - 博客园 (cnblogs.com)](https://www.cnblogs.com/kofyou/p/14932700.html)
 
@@ -50,7 +52,7 @@ pandoc手册：https://www.pandoc.org/MANUAL.html
 
 ## 安装Pandoc
 
-通过 Pandoc 提供的安装包，下载链接见[github](https://github.com/jgm/pandoc/releases)。
+通过Pandoc 提供的安装包，下载链接见[github](https://github.com/jgm/pandoc/releases)。
 
 ## 命令行运行基本参数
 

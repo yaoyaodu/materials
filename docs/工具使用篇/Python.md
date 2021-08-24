@@ -2,6 +2,8 @@
 
 更多信息参见：
 
+* [Python中文网-Python爱好者学习网站。 (python-china.com)](https://www.python-china.com/)
+
 - [Python2.7.14 中文手册](https://www.runoob.com/manual/pythontutorial/docs/html/)
 - [Python IDE(集成开发环境)介绍](https://www.runoob.com/python/python-ide.html)
 - [Python 编码规范(Google)](https://www.runoob.com/w3cnote/google-python-styleguide.html)
@@ -10,9 +12,9 @@
 Python自动化办公：
 
 * [Python处理excel自动化办公](https://www.bilibili.com/video/BV1Hy4y1S78a/)
-
 * [Python自动化办公（B站内容最全的！有源代码 适合小白）](https://www.bilibili.com/video/BV1y54y1i78U/)
 * [Python办公自动化全套代码](https://blog.csdn.net/xo3ylAF9kGs/article/details/109281438)
+* [python实现批量图片格式转换_python_脚本之家 (jb51.net)](https://www.jb51.net/article/141625.htm)（有具体代码）
 
 ## 交互式命令行（>>>）
 
@@ -95,15 +97,11 @@ python中数字有四种类型：整数、布尔型、浮点数和复数。
 
 ## 空行
 
-Python内置标准模块，标准库
-
-一个模块就是一个文件
-
-互相调用：
 
 
+## Python函数
 
-## 定义功能def函数
+### 定义功能def函数
 
 #### 无参定义函数
 
@@ -120,11 +118,57 @@ Python 使用`def` 开始**函数定义**，紧接着是**函数名**，**括号
 
 ##### 2. 实例
 
-## 导入模块
+
+
+
+
+## Python包
+
+包是一个分层次的文件目录结构，它定义了一个由模块及子包，和子包下的子包等组成的 Python 的应用环境。
+
+简单来说，<font color="red">**包就是文件夹，但该文件夹下必须存在 init.py 文件, 该文件的内容可以为空。init.py 用于标识当前文件夹是一个包。**</font>
+
+考虑一个在 **package_runoob** 目录下的 **runoob1.py、runoob2.py、__init__.py** 文件，test.py 为测试调用包的代码，目录结构如下：
+
+```
+test.py
+package_runoob
+|-- __init__.py
+|-- runoob1.py
+|-- runoob2.py
+```
+
+
+
+## Python模块 (Module)
+
+Python内置标准模块，标准库
+
+<font color="red"><b>Python 模块，是一个 Python文件，以 .py 结尾，</b></font>包含了 Python 对象定义和Python语句。
+
+<font color="red"><b>一个模块就是一个文件</b></font>
+
+互相调用：
+
+
+
+### 导入模块
+
+模块定义好后，我们可以使用 import 语句来引入模块。
+
+
+
+
+
+
+
+
 
 ![image-20210819113209794](https://i.loli.net/2021/08/19/gWal4MBhFXIDocC.png)
 
-## Excel处理—openpyxl模块
+### Excel处理—openpyxl模块
+
+pip install openpyxl
 
 ![image-20210819150525214](https://i.loli.net/2021/08/19/SNB2dkugG98wpKr.png)
 
@@ -140,9 +184,44 @@ print(wb.get_sheet_names)
 
 
 
+### Python实现markdown文件批量转换为word
+
+[Python实现markdown文件批量转换为word - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/99683952)
+
+通过python将批量将后缀名为.md格式的文件通过pandoc转换成docx的文件。
+
+```python3
+# -*- coding:utf-8 *-
+#导入os模块
+import os
+
+dir = r'e:\md测试'
+
+#调用os.walk读取文件名，os.path.splitext筛选后缀名为.md格式的文件，使用os.system在命令行中输入
+def path(dir):
+    for x, y, z in os.walk(dir):
+        for name in z:
+            a = os.path.splitext(name)[1]
+            if a == '.md':
+                file_path = x + '\\' + name
+                print('pandoc ' + '"' + file_path + '"' + ' -o ' + x + '\\' + os.path.splitext(name)[0] + '.docx')
+                os.system('pandoc ' + '"' + file_path + '"' + ' -o ' + '"' + x + '\\' + os.path.splitext(name)[
+                    0] + '.docx' + '"')
+
+
+if __name__ == '__main__':
+    path(dir)
+```
+
+需要注意是的，在os.system中，涉及到目录中含有特殊字符（包括空格）在内的部分，需要将目录部分用双引号包裹起来，这样才能正常识别目录地址。
 
 
 
+- 一个python的文件有两种使用的方法，第一是直接作为脚本执行，第二是import到其他的python脚本中被调用执行。
+- <font color="red">每一个文件都有一个内置的`__name__`变量，用来指示当前文件的名字，当这个文件直接被执行时，`__name__`值为`__main__`，当被调用执行（即以模块形式）时，`__name__`值为模块名。</font>
+- `if __name__ == '__main__' :` 的作用就是控制这两种情况执行代码的过程，此代码块只有在第一种情况下（即文件作为脚本直接执行）才会被执行，而import到其他脚本中是不会被执行的，如上所示
+
+详细信息参见[Python3：if __name__ == '__main__' 详解 - 技术颜良 - 博客园 (cnblogs.com)](https://www.cnblogs.com/cheyunhua/p/9527816.html)。
 
 
 

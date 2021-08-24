@@ -307,13 +307,50 @@
 
 # 表格
 
-<p align="left"><font size=6 color="black"><b>Revision History</b></font></p>
+## 无边框表格
 
-<table cellspacing="0" cellpadding="0" rules="all">
+<table frame=void>
+    <tr style="border-style:none;">
+        <td style="border-style:none;"><b>Website:</b></td>
+        <td style="border-style:none;"><b>Technical Support:</b></td>
+        <td style="border-style:none;"><b>Business Consultation:</b></td>
+    </tr> 
+    <tr style="border-style:none;">
+        <td style="border-style:none;"><a href="http://www.wuqi-tech.com" >www.wuqi-tech.com</a></td>
+        <td style="border-style:none;"><a href="mailto:support@wuqi-tech.com">support@wuqi-tech.com</td>
+        <td style="border-style:none;"><a href="mailto:sales@wuqi-tech.com">sales@wuqi-tech.com</td>
+    </tr> 
+    <tr style="border-style:none;">
+        <td style="border-style:none;"></td>
+    	<td style="border-style:none;"></td>
+    	<td style="border-style:none;"></td>
+    </tr>
+    <tr style="border-style:none;">
+        <td style="border-style:none;"><b>Chongqing     </b></td>
+        <td style="border-style:none;"><b>Shanghai     </b></td>
+        <td style="border-style:none;"><b>Shenzhen    </b></td>
+    </tr>    
+    <tr valign="top" style="border-style:none;">
+	    <td style="border-style:none;"><b>Address:</b> 14/F, 107 Middle Road, Xiantao Big Data Valley, Yubei District, Chongqing, PRC.</td>
+        <td style="border-style:none;"><b>Address:</b> 8/F, Building 29, No.368, Zhangjiang Road, Pudong New District, Shanghai, PRC.</td>
+	    <td style="border-style:none;"><b>Address:</b> Room 1105,<br>Building 2, Fangdacheng, Longzhu 4th Road, Taoyuan Street, Nanshan District, ShenZhen, PRC.</td>
+	</tr>
+    <tr valign="top" style="border-style:none;">
+     <td style="border-style:none;"><b>Tel/Fax:</b>  023-67682717 </td>
+     <td style="border-style:none;"><b>Tel/Fax:</b>  021-50806308</td>
+     <td style="border-style:none;"><b>Tel/Fax:</b> 0755-86967944</td>
+    </tr>
+</table>
+
+
+
+<p align="left"><font size=4 color="black"><b>Revision History</b></font></p>
+
+<table cellspacing="0" cellpadding="0" rules="all" width="100%">
          <tr align="center" bgColor="a1a4a3">
-             <th>Publication Date</th> 
-             <th>Version</th>
-             <th>Edition</th>
+             <th width="43%">Publication Date</th> 
+             <th width="43%">Version</th>
+             <th width="53%">Edition</th>
          </tr>
          <tr align="center">
              <td height="50">May 2019</td>
@@ -321,6 +358,8 @@
              <td>First Edition</td>
          </tr>
 </table>
+
+
 
 
 
@@ -354,76 +393,14 @@
 
 
 
-<table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
-    <caption><b>2016.10日历</b></caption>
-         <tr bgColor="red" align="center">
-             <th>星期日</th> 
-             <th>星期一</th>
-             <th>星期二</th>
-             <th>星期三</th>
-             <th>星期四</th>
-             <th>星期五</th>
-             <th>星期六</th>
-         </tr>
-         <tr bgColor="grey" align="center">
-             <td height="50">25</td>
-             <td>26</td>
-             <td>27</td>
-             <td>28</td>
-             <td>29</td>
-             <td>30</td>
-             <td>1</td>
-         </tr>
-         <tr align="center">
-             <td  height="50">2</td>
-             <td>3</td>
-             <td>4</td>
-             <td colspan="4">5</td>
-         </tr>
-     </table> 
 
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    </head>
-    <body>
-     <table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
-         <caption>2016.10日历</caption>
-         <tr bgColor="red" align="center">
-             <th>星期日</th> 
-             <th>星期一</th>
-             <th>星期二</th>
-             <th>星期三</th>
-             <th>星期四</th>
-             <th>星期五</th>
-             <th>星期六</th>
-         </tr>
-         <tr bgColor="yellow" align="center">
-             <td height="50">25</td>
-             <td>26</td>
-             <td>27</td>
-             <td>28</td>
-             <td>29</td>
-             <td>30</td>
-             <td>1</td>
-         </tr>
-         <tr align="center">
-             <td  height="50">2</td>
-             <td>3</td>
-             <td>4</td>
-             <td>5</td>
-             <td>6</td>
-             <td>7</td>
-             <td>8</td>
-         </tr>
-     </table> 
-    </body>
-</html>
 
+
+
+指定表格高度：
 
 <table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
-         <caption>2016.10日历</caption>
+         <caption>2016.11日历</caption>
          <tr align="center">
              <th>星期日</th> 
              <th>星期一</th>
@@ -452,9 +429,13 @@
              <td>8</td>
          </tr>
      </table> 
-<table border="1" width="400" height="100" bordercolor="blue" cellspacing="0" cellpadding="0" rules="all"summary="日历信息">
-    <caption><b>2016.10日历</b></caption>
-         <tr align="center" bgColor="dfe2e5">
+
+
+设置标题行居中：
+
+<table width="400" cellspacing="0" cellpadding="0" rules="all"summary="日历信息">
+    <caption><b>2016.12日历</b></caption>
+         <tr align="center" bgColor="blue">
              <th>星期日</th> 
              <th>星期一</th>
              <th>星期二</th>
@@ -484,36 +465,8 @@
      </table> 
 
 
-<table cellspacing="0" cellpadding="0" rules="all"summary="日历信息">
-         <tr align="left">
-             <th>星期日</th> 
-             <th>星期一</th>
-             <th>星期二</th>
-             <th>星期三</th>
-             <th>星期四</th>
-             <th>星期五</th>
-             <th>星期六</th>
-         </tr>
-         <tr align="left">
-             <td height="50">25</td>
-             <td>26</td>
-             <td>27</td>
-             <td>28</td>
-             <td>29</td>
-             <td>30</td>
-             <td>1</td>
-         </tr>
-         <tr align="left">
-             <td  height="50">2</td>
-             <td>3</td>
-             <td>4</td>
-             <td>5</td>
-             <td>6</td>
-             <td>7</td>
-             <td>8</td>
-         </tr>
-     </table>
 
+Markdown语法：
 
 
 | 模块    | 功能简介                                                     |
@@ -538,69 +491,26 @@
 
 
 
-| GND  | A Ground Signal                 |
-| ---- | ------------------------------- |
-| IA   | Analog input signal             |
-| I    | Digital input signal            |
-| I/O  | A digital bi-directional signal |
-| OA   | An analog output signal         |
-| O    | A digital output signal         |
-| P    | A power or ground signal        |
-
-
-
-# Glossary
-
-<a name="mcu">MCU</a>			Micro Control Unit
-
-
-
-© 2021, XXX Limited. All rights reserved. 
-
-**Disclaimer**
-
-The contents of this document are to revision without notice due to continued progress in methodology, design and manufacturing. 
-
-XXX Limited shall have no liability for any error or damage of any kind resulting from the use of this document.
-
-**Trademark List**
-
-All trademarks mentioned herein are the property of their respective owners. These are shown in the document Trademark Information. 
-
-
 
 <head>
-
 <style>
-
 table
 {
 	width:100%;   /*指定表格宽度*/
 	border-collapse: collapse;     
 }
-
-table, tr, td, th {
-    border: 5px solid blue;   /*solid: 定义实线边框*/
+tr, td, th {
+    border: 1px solid blue;   /*solid: 定义实线边框*/
 }
-
-
-
-tr{
-
-​	width:160px
-
+tr {
+width:160px
 }
-
-
-
 th
-{
-	height:50px;     /*指定标题行高度*/
-
-
-
+{height:50px;     /*指定标题行高度*/}
 </style>
 </head>
+
+
 
 <table>
 <caption>Table 1.1 Customers</caption>
@@ -620,8 +530,12 @@ th
 <td>Sweden</td>
 </tr>
 </table>
+合并单元格：
 
-<table border="1" bordercolor="black" cellspacing="0" cellpadding="0" rules="all">
+* `<td rowspan="2">type</td>`
+* `<td colspan="4">5</td>`
+
+<table cellspacing="0" cellpadding="0" rules="all">
     <caption><b>表1-2 我是表格标题</b></caption>
 	<tr bgColor="dfe2e5">
 	    <th align="center">属性</th>
@@ -694,4 +608,51 @@ th
 	</tr>
 </table>
 
+<table border="2" width="400" bgColor="orange" cellspacing="0" cellpadding="2" rules="all"summary="日历信息">
+    <caption><b>2016.10日历</b></caption>
+         <tr width="400" bgColor="yellow" align="center">
+             <th>星期日</th> 
+             <th>星期一</th>
+             <th>星期二</th>
+             <th>星期三</th>
+             <th>星期四</th>
+             <th>星期五</th>
+             <th>星期六</th>
+         </tr>
+         <tr width="400" bgColor="blue" align="center">
+             <td height="50">25</td>
+             <td>26</td>
+             <td>27</td>
+             <td>28</td>
+             <td>29</td>
+             <td>30</td>
+             <td>1</td>
+         </tr>
+         <tr width="400" bgColor="blue" align="center">
+             <td  height="50">2</td>
+             <td>3</td>
+             <td>4</td>
+             <td colspan="4">5</td>
+         </tr>
+     </table> 
+
+
+
+# Glossary
+
+<a name="mcu">MCU</a>			Micro Control Unit
+
+
+
+© 2021, XXX Limited. All rights reserved. 
+
+**Disclaimer**
+
+The contents of this document are to revision without notice due to continued progress in methodology, design and manufacturing. 
+
+XXX Limited shall have no liability for any error or damage of any kind resulting from the use of this document.
+
+**Trademark List**
+
+All trademarks mentioned herein are the property of their respective owners. These are shown in the document Trademark Information. 
 
