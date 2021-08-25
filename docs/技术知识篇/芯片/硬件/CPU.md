@@ -21,7 +21,9 @@
 
 对于中央处理器来说，可将其看作一个规模较大的集成电路，其主要任务是加工和处理各种数据。中央处理器中的核心部分就是控制器、运算器，其对提高计算机的整体功能起着重要作用，能够实现寄存控制、逻辑运算、信号收发等多项功能的扩散，为提升计算机的性能奠定良好基础。 
 
+<img src="https://pic2.zhimg.com/v2-d65f155a80f7a1d6e6227d01c7f414a1_r.jpg" alt="preview" style="zoom:80%;" />
 
+<img src="https://i.loli.net/2021/08/25/MiC7gJOvsKFRN49.jpg" alt="preview" style="zoom:73%;" />
 
 ## CPU与指令集的关系
 
