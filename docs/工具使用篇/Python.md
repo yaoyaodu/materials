@@ -124,7 +124,7 @@ Python 使用`def` 开始**函数定义**，紧接着是**函数名**，**括号
 
 ## Python包
 
-包是一个分层次的文件目录结构，它定义了一个由模块及子包，和子包下的子包等组成的 Python 的应用环境。
+包是一个分层次的文件目录结构，它定义了一个由模块及子包，和子包下的子包等组成的Python 的应用环境。
 
 简单来说，<font color="red">**包就是文件夹，但该文件夹下必须存在 init.py 文件, 该文件的内容可以为空。init.py 用于标识当前文件夹是一个包。**</font>
 
@@ -156,14 +156,6 @@ Python内置标准模块，标准库
 
 模块定义好后，我们可以使用 import 语句来引入模块。
 
-
-
-
-
-
-
-
-
 ![image-20210819113209794](https://i.loli.net/2021/08/19/gWal4MBhFXIDocC.png)
 
 ### Excel处理—openpyxl模块
@@ -182,13 +174,27 @@ print(wb.sheetnames)
 
 print(wb.get_sheet_names)
 
+<img src="https://i.loli.net/2021/08/27/2NcagjDKkUmrAB1.png" alt="image-20210827141652381" style="zoom: 67%;" />
 
+<img src="https://i.loli.net/2021/08/27/xGzHmjEsDLwuMfO.png" alt="image-20210827142232729" style="zoom:67%;" />
+
+<img src="https://i.loli.net/2021/08/27/wA4ymgWIXhxZDiH.png" alt="image-20210827142721895" style="zoom:67%;" />
+
+<img src="https://i.loli.net/2021/08/27/b4GklaK5mt6oZnv.png" alt="image-20210827143419373" style="zoom:67%;" />
+
+
+
+<img src="https://i.loli.net/2021/08/27/w5ZxaF9ryDtmSeY.png" alt="image-20210827143755337" style="zoom:67%;" />
+
+<img src="https://i.loli.net/2021/08/27/vKqt5pYgzEJmMwH.png" alt="image-20210827144606706" style="zoom:67%;" />
+
+<img src="https://i.loli.net/2021/08/27/HfhznVcl1vNeARD.png" alt="image-20210827150322826" style="zoom:67%;" />
 
 ### Python实现markdown文件批量转换为word
 
 [Python实现markdown文件批量转换为word - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/99683952)
 
-通过python将批量将后缀名为.md格式的文件通过pandoc转换成docx的文件。
+通过python批量将后缀名为.md格式的文件通过pandoc转换成docx的文件。
 
 ```python3
 # -*- coding:utf-8 *-
@@ -222,6 +228,8 @@ if __name__ == '__main__':
 - `if __name__ == '__main__' :` 的作用就是控制这两种情况执行代码的过程，此代码块只有在第一种情况下（即文件作为脚本直接执行）才会被执行，而import到其他脚本中是不会被执行的，如上所示
 
 详细信息参见[Python3：if __name__ == '__main__' 详解 - 技术颜良 - 博客园 (cnblogs.com)](https://www.cnblogs.com/cheyunhua/p/9527816.html)。
+
+
 
 
 

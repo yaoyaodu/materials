@@ -212,26 +212,6 @@ graph
     C{Decision}
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 3 时序图 Sequence Diagram
 
 ->>带箭头

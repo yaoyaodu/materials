@@ -50,6 +50,7 @@
       * [封装、SMT、PCB](技术知识篇/芯片/硬件/封装SMTPCB.md)
       * [IP核](技术知识篇/芯片/硬件/IP核.md)
       * [CPU/GPU/TPU/NPU](技术知识篇/芯片/硬件/CPUGPUTPUNPU.md)
+      * [传感器](技术知识篇/芯片/硬件/传感器.md)
       * [硬件相关概念](技术知识篇/芯片/硬件/硬件相关概念.md)
     * 软件
       * [嵌入式系统](技术知识篇/芯片/软件/嵌入式系统.md)
@@ -71,10 +72,4 @@
   * [Vue Style Guide](参考文档篇/VueStyleGuide.md)
   * [最佳实践结构](参考文档篇/最佳实践结构.md)
   * [前言模板](参考文档篇/前言模板.md)
-* Test
-  * [Flow](Test/Flow.html)
-  * [Flow Markdown](Test/Flow.md)
-  * [PlantUML](Test/PlantUML_Language_Reference_Guide_zh.pdf)
-  * [Style Guide](Test/WuqiStyleGuide7.19.docx)
-  * [OKR](Test/HowCanWePlaywithOKR.pptx)
 
