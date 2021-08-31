@@ -1,5 +1,7 @@
 [toc]
 
+[SDL Trados Studio 2017 进阶应用01-单文件翻译 - 简书 (jianshu.com)](https://www.jianshu.com/p/9c5e4fae9bca)
+
 [SDL Trados Studio 使用技巧 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/345210165)
 
 [Trados 中文网](https://www.trados.com.cn/portal.php)
