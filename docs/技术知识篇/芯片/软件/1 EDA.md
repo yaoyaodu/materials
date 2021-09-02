@@ -90,8 +90,6 @@ EDA 工具层出不穷，目前进入我国并具有广泛影响的 EDA 软件�
 
 **电子电路设计与仿真工具**包括 [SPI](https://www.eefocus.com/baike/496252)CE/PSPICE；EWB；Matlab；SystemView；MMICAD 等。下面简单介绍前三个软件。
 
- 
-
 **（1）SPICE（Simulation Program with Integrated Circuit Emphasis）**
 
 是由美国加州大学推出的**电路分析仿真软件**，是 20 世纪 80 年代世界上应用最广的电路设计软件，1998 年被定为美国国家标准。
