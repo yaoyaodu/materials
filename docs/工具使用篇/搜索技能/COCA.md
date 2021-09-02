@@ -1,10 +1,13 @@
 # COCA语料库实用搜索功能
 
+网址：[Corpus of Contemporary American English (COCA)](https://www.english-corpora.org/coca/)
+
 更详细信息参见：
 
 - [COCA语料库高级语法搜索--part1 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/112515640)
 - [COCA语料库高级语法搜索--part2 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/126998670)
 - [美国当代英语语料库(COCA)使用介绍 - 百度文库 (baidu.com)](https://wenku.baidu.com/view/31556259f11dc281e53a580216fc700abb6852c5.html)（详细）
+- [COCA美国当代英语语料库学习教程](https://www.bilibili.com/video/av62549246/)
 
 #### 1 查动词的各种形式： [fight]    
 

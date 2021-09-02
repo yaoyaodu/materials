@@ -26,3 +26,12 @@
   - 智能标点：智能破折号
   - 代码块：显示行号，代码块自动换行，代码缩进
   - 公式：自动添加序号
+
+[Trados 中文网](https://www.trados.com.cn/portal.php)（翻译软件Trados）
+
+[Typora 标题自动编号 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/110257979)
+
+[Auto Numbering for Headings (typora.io)](https://support.typora.io/Auto-Numbering/)
+
+[(4条消息) Typora自动编号功能——最强版_幻心矢的博客-CSDN博客_typora自动编号](https://blog.csdn.net/qq_33159059/article/details/87910522)
+
