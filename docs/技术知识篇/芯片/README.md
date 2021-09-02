@@ -14,4 +14,8 @@
 * [爱集微：专业的ICT产业咨询服务机构](https://laoyaoba.com/)
 * [半导体行业相关的比较常用的网站或论坛推荐](https://www.zhihu.com/question/21125910)
 
-公众号：TechSugar
+公众号：
+
+* TechSugar
+* EETOP
+
