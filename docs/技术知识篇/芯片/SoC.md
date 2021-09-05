@@ -163,6 +163,8 @@ SoC芯片设计是以IP核为基础，以分层次的硬件描述语言为系统
 
 10. 形式验证（Formal Verification）
 
+    
+
 11. 可测性电路插入（DFT, Design for Test）
 
 12. 时钟树综合
@@ -177,7 +179,10 @@ SoC芯片设计是以IP核为基础，以分层次的硬件描述语言为系统
 
 17. 物理验证（Physical Verification）
 
+    物理验证是对版图的设计规则（DRC, Design Rule Check）及逻辑图网表和版图网表比较（LVS, Layout VS Schematic）。
 
+    * DRC用以保证制造良品率
+    * LSV用于确认电路版图网表结构是否与其原始电路原理图（网表）一致。
 
 
 
