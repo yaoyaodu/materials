@@ -1,5 +1,7 @@
 # Pandoc格式转换
 
+未看：[一键将 Word 转换为 Markdown - 简书 (jianshu.com)](https://www.jianshu.com/p/df6a136d06d8)
+
 [利用pandoc将markdown转换为word文档 - kofyou - 博客园 (cnblogs.com)](https://www.cnblogs.com/kofyou/p/14932700.html)（详细、实用）
 
 [Pandoc 实用教程](https://blog.csdn.net/fenghuizhidao/article/details/107202497)
