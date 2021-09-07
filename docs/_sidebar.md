@@ -52,6 +52,7 @@
       * [封装、SMT、PCB](技术知识篇/芯片/硬件/封装SMTPCB.md)
       * [IP核_Part 1](技术知识篇/芯片/硬件/IP核_Part1.md)
       * [IP核_Part 2](技术知识篇/芯片/硬件/IP核_Part2.md)
+      * [SoC的互联机制](技术知识篇/芯片/硬件/SoC的互联机制.md)
       * [CPU/GPU/TPU/NPU](技术知识篇/芯片/硬件/CPUGPUTPUNPU.md)
       * [MCU](技术知识篇/芯片/硬件/MCU.md)
       * [传感器](技术知识篇/芯片/硬件/传感器.md)
