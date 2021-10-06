@@ -4,6 +4,10 @@
 
 # 1. General Rules
 
+<!--技术文档要客观准确，绝不能出现we, our company之类的词语。-->
+
+文学性语言要避免，虚拟语气不要用。It is recommended that建议改为You are recommended to do。
+
 ## 1.1 Scannable Content
 
 The volume of content available to customers is overwhelming. Part of a writer's job is to help readers find what they need quickly, or recognize just as quickly when they're not where they need to be. Writing to facilitate scanning will help.
@@ -517,7 +521,7 @@ Use the following rules to produce a glossary:
 - Add a link for each glossary item. Example: [GUI](#GUI), [ISO](#ISO)
 
 
- 
+
 
 **Glossary Examples** 
 
