@@ -1,18 +1,19 @@
 # PPT
 
-学习资源推荐：公众号
+<!--腾讯发布会PPT-->
 
-* 秋叶PPT
-* 锐普
-* ISlide
+学习资源推荐：
 
-==腾讯发布会PPT==
+* 公众号：
+  * 秋叶PPT
+  * 锐普
+  * ISlide
 
-免费PPT素材平台：优品PPT [PPT模板免费下载 优品PPT (ypppt.com)](https://www.ypppt.com/)
+* 免费PPT素材平台：优品PPT [PPT模板免费下载 优品PPT (ypppt.com)](https://www.ypppt.com/)
 
-Canva可画 https://www.canva.cn/：功能全面强大的在线设计网站，就算不会PS、做不好PPT、不懂设计，也能做的好看又专业。
+* Canva可画 https://www.canva.cn/：功能全面强大的在线设计网站，就算不会PS、做不好PPT、不懂设计，也能做的好看又专业。
 
-iFonts字体助手 https://51ifonts.com/：用PS一定不要错过的免费插件，含近500款免费商用的中文外文字体，你想要的风格形状全都有。操作简单，无需下载字体文件，PS里的字体一秒切换。
+* iFonts字体助手 https://51ifonts.com/：用PS一定不要错过的免费插件，含近500款免费商用的中文外文字体，你想要的风格形状全都有。操作简单，无需下载字体文件，PS里的字体一秒切换。
 
 <img src="https://i.loli.net/2021/09/14/ZTPphEamSBjlok3.png" alt="image-20210914154406464" style="zoom:50%;" />
 
