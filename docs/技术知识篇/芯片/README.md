@@ -18,4 +18,9 @@
 
 * TechSugar
 * EETOP
+* 芯榜
+
+APP:
+
+* ICspec：芯片规格书搜索工具
 
