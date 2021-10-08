@@ -2,7 +2,11 @@
 
 # ZTE English Documentation Style Guide
 
+[http://support.zte.com.cn](http://support.zte.com.cn/)
 
+[ZTE Corporation](https://support.zte.com.cn/support/h5index.aspx)
+
+[技术支持 (zte.com.cn)](https://www.zte.com.cn/china/support)
 
 序言（Preface）
 ===============
