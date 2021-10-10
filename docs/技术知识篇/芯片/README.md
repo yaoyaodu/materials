@@ -5,6 +5,7 @@
 * [电子元件查询网](https://pdf.elecfans.com/)（热门芯片、热门厂商）
 * [alldatasheet.com](https://www.alldatasheet.com/)
 * [EasyDatasheet](https://easydatasheet.cn/)
+* [Datasheet翻译家 | EasyDatasheet](https://easydatasheet.cn/translate)（PDF全文英译中，一分钟AI实时翻译）
 * [集成电路查询网](https://www.datasheet5.com/)
 * [半导体术语中英文对照表](https://zhuanlan.zhihu.com/p/115831075)
 * [SMT常用术语中英文对照](http://www.fanyijia.com/news_view.asp?id=679)
