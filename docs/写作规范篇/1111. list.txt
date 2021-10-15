@@ -1,0 +1,196 @@
+Python爬虫抓取数据，自动化工作，减少重复劳动
+
+
+做个Visio模板模板模板
+宏 
+markdown表格宽度表格表格
+
+
+在浏览器首页添加常用网址
+
+
+LaTex 美[ˈleˌtɛks]
+
+collacate 英[ˈkɒləkeɪt] 搭配词
+
+个人文档网址如何使title固定
+
+docsify生成的在线文档能直接导出为PDF格式吗？通过其他工具。
+
+找javascript实例
+
+DITA Trados视频
+
+API和SDK文档模板
+
+
+block diagram
+timing diagram
+flow chart
+
+
+docsify 添加mermaid脚本后出错（忘了加逗号）
+
+
+手册命名和资料版本编码规则  （WQ7003 蓝牙音频 SoC 芯片   数据手册     版本：V1.3.2）
+
+文档编号生成
+
+
+https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+
+
+
+
+
+找SDK API文档
+
+组织和呈现信息：文不如图，图不如表。表格，列表。举例举例举例。
+
+
+
+离职原因：
+1. 工作环境比前两家公司有差距，不重视文档质量。明明有很多可改进的地方，却不去改进。不利于职业发展，不打算长待。当一个公司给与的不是support,而是处处限制，气急败坏。阿谀奉承，巴结，正向影响。2. 薪酬和其他公司相比没有竞争力。
+
+职业规划：架构师。1. 芯片知识。 2. 文档质量。3. 精通工具使用，高级技能。  4. 培训。
+
+婚姻：一加一大于二。互相尊重，。性格，一个人。工作比婚姻更让人有安全感。
+选择该公司：清晰的岗位定位和规划。愿意更多地去了解，看看可能性。
+兴趣爱好：
+最骄傲的事：
+从依赖到独立，依赖公司，依赖同事，自己去定义问题，解决问题。
+不是所有的事情都做过，但遇到问题能清晰地定义问题，找到方法去解决问题。
+对公司期望：高手坐镇，指点一二。经历经验更多，看问题看到本质。更能锻炼人。
+
+如何开展工作：
+1. 查看公司现有文档，实际操作软件，参与研发产品开发会议，熟悉了解学习公司现有文档和产品，
+2. 针对文档中容易出现的问题制定相关规范，共大家参考，保证公司文档的统一性。文档质量评估的标准，文档质量评估体系。（checklist 写作规范，模板手册，描述类，操作类topic，案例分册（一些经常出问题的点）编辑工具操作指南，产品知识培训）
+3. 根据文档主要内容制定模板，审核。根据产品定位设计产品信息模型，组织内容开发，保持内容跟产品的强一致性和准确性。
+4. 文档体系建设，参考中兴。核心网/无线网产品，产品描述，操作指南。
+
+需要的support: 更多的更深入地了解产品，研发会议，工程师沟通，实际操作使用。
+查公司的主要产品。框图越复杂能实现的功能越多，越高端？
+沟通
+
+
+组织活动？缺乏经验，尝试去做。
+
+准备用什么样的客户文档管理工具  （先整理出文档，通过文档管理工具建立体系）  怎么审核文档 领导去推动 人微言轻
+
+
+直系领导  经历    和谁在一起工作很重要，高手坐镇，不可避免会受周围人的影响。
+薪酬，每年涨薪幅度
+公司发展
+
+Intel文档  经典表达法
+
+
+外设编程指南：原则，架构，特性，工作模式，编程指南
+数据手册：特性，子系统描述，MCU子系统，蓝牙，音频，电源管理，振荡器，封装。
+
+
+Adobe Creative Suite（一译Adobe创意套件）是Adobe系统公司出品的一个图形设计、影像编辑与网络开发的软件产品套装。该套装包括电子文档制作软件Adobe Acrobat、矢量动画处理软件Adobe Flash、网页制作软件Adobe Dreamweaver、矢量图形绘图软件Adobe Illustrator、图像处理软件Adobe Photoshop和排版软件Adobe InDesign等产品。
+
+
+
+Typora 自定义样式样式
+https://blog.csdn.net/dd15923021755/article/details/105159454?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-5.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-5.control
+
+
+
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector
+
+document.querySelector()
+
+
+
+CSS content 属性
+Javascript 
+JavaScript中常用的函数
+
+文具 文件夹
+
+微信公众号文章
+
+标记语言 轻量级标记语言（英语：Lightweight Markup Language，简称LML）
+
+用的什么语言？C+  Python  Java
+
+加水印 github.css
+嵌套列表
+插入页码
+图片自动加标号
+
+word模板显示名字？word只读别人不能修改
+
+
+https://www.php.cn/    php中文网
+
+Firefox	
+
+https://blog.csdn.net/lanchunhui/article/details/79647087
+
+
+使用script标签来做html页面的模板
+https://blog.csdn.net/u010394015/article/details/52584589
+
+详谈HTML中script标签（附代码）
+https://www.php.cn/div-tutorial-409453.html
+
+
+html标签用法
+HTML常用标签及其用法总结 https://blog.csdn.net/sun9979/article/details/85217699
+
+
+https://www.jianshu.com/p/0676fe569396
+HTML标签大全
+
+
+原来 markdown 还能这样转换成 docx (支持目录和封面)
+https://www.trickyedecay.me/2020/08/04/use-pandoc-to-convert-markdown-to-docx/
+
+https://blog.csdn.net/maxchou/article/details/103967131
+AMAZING! 原来可以这样给你的 Markdown 文档添加封面、封底
+
+https://support.typora.io/media/export/Markdown-Reference.pdf
+
+https://jekyllrb.com/docs/front-matter/
+
+
+https://zhuanlan.zhihu.com/p/328184225
+css常用代码大全,html+css代码
+
+
+
+华为文档模板 淘宝 微盘
+
+
+全国标准信息公共服务平台
+National public service platform for standards information
+http://std.samr.gov.cn/ 
+国际标准化组织机构- 全国标准信息公共服务平台 (samr.gov.cn) http://std.samr.gov.cn/gj/org?op=ISO
+
+
+
+check list
+字体一致
+更新域
+中文字符检查
+
+短语的种类很多,但本书只用下列几个短语名称:
+a)不定式短语(infinitive phrase)
+b)动名词短语(gerundial phrase)
+:c)分词短语(participial phrase)如:d)介词短语(prepositional phrase)
+
+
+缩写
+
+
+
+
+
+
+
+
+
