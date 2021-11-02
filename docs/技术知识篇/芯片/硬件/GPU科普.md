@@ -70,7 +70,7 @@ GPU的**流处理器（承担简单计算任务）和显存控制器占据了绝
 
 图6：Fermi 架构示意图
 
-![image-20211101105548965](C:\Users\dongdong li\AppData\Roaming\Typora\typora-user-images\image-20211101105548965.png)
+![image-20211101105548965](C:\Users\dongdong li\materials\docs\技术知识篇\芯片\硬件\GPU科普\image-20211101105548965.png)
 
 
 
@@ -78,7 +78,7 @@ GPU 中包含多个GPC。GPC 可以被认为是一个独立的GPU。整个GPU �
 
 图7：Fermi 架构图
 
-![image-20211101110413037](C:\Users\dongdong li\AppData\Roaming\Typora\typora-user-images\image-20211101110413037.png)
+![image-20211101110413037](C:\Users\dongdong li\materials\docs\技术知识篇\芯片\硬件\GPU科普\image-20211101110413037.png)
 
 GPC 的主要组成部分SM（Streaming Multiprocessors）。单个GPC 包含1 个光栅引擎(Raster Engine)，4 个SM。GPU 硬件的并行性就是由SM 决定的。**每个SM 具有32 个CUDA 内核（绿色方块），每个CUDA 内核都有一个完全流水线化的整数算术逻辑单元(ALU)和浮点单元(FPU)，其负责计算。**
 
@@ -86,13 +86,13 @@ GPC 的主要组成部分SM（Streaming Multiprocessors）。单个GPC 包含1 �
 
 图8：SM 内部结构
 
-![image-20211101110601759](C:\Users\dongdong li\AppData\Roaming\Typora\typora-user-images\image-20211101110601759.png)
+![image-20211101110601759](C:\Users\dongdong li\materials\docs\技术知识篇\芯片\硬件\GPU科普\image-20211101110601759.png)
 
 
 
 图9：CUDA Core 内部组成
 
-![image-20211101110631581](C:\Users\dongdong li\AppData\Roaming\Typora\typora-user-images\image-20211101110631581.png)
+![image-20211101110631581](C:\Users\dongdong li\materials\docs\技术知识篇\芯片\硬件\GPU科普\image-20211101110631581.png)
 
 
 
