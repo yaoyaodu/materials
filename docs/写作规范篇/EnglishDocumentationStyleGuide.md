@@ -6,7 +6,7 @@
 
 <!--技术文档要客观准确，绝不能出现we, our company之类的词语。-->
 
-文学性语言要避免，虚拟语气不要用。It is recommended that建议改为You are recommended to do。
+<!--文学性语言要避免，虚拟语气不要用。It is recommended that建议改为You are recommended to do。-->
 
 ## 1.1 Scannable Content
 

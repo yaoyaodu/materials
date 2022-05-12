@@ -27,6 +27,7 @@
     * [常用轻量级标记语言对照](工具使用篇/文本编辑/常用轻量级标记语言对照.md)
     * [reStructuredText(rst)快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
     * [Markdown Template](工具使用篇/文本编辑/MarkdownFileTemplate.md)
+    * [Pandoc格式转换](工具使用篇/文本编辑/Pandoc格式转换.md)
   * 绘图截图
     * [Typora绘图](工具使用篇/绘图截图/Typora绘图.html)
     * [Visio绘图](工具使用篇/绘图截图/Visio绘图.md)
@@ -56,6 +57,8 @@
       * [IP核_Part 2](技术知识篇/芯片/硬件/IP核_Part2.md)
       * [SoC的互联机制](技术知识篇/芯片/硬件/SoC的互联机制.md)
       * [CPU/GPU/TPU/NPU](技术知识篇/芯片/硬件/CPUGPUTPUNPU.md)
+      * [GPU科普](技术知识篇/芯片/硬件/GPU科普.md)
+      * [显卡的基本结构](技术知识篇/芯片/硬件/显卡的基本结构.md)
       * [MCU](技术知识篇/芯片/硬件/MCU.md)
       * [传感器](技术知识篇/芯片/硬件/传感器.md)
       * [硬件相关概念](技术知识篇/芯片/硬件/硬件相关概念.md)
