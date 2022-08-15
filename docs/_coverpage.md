@@ -2,7 +2,7 @@
 
 # **Hello Document**
 
-Hello Document是一个技术文档写作相关的文档网站。
+Hello Document是一个技术写作相关的文档网站。
 
 主要包含写作规范、技术知识、工具使用以及参考文档方面的资料。
 
