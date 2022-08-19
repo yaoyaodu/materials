@@ -55,8 +55,6 @@ CPU和GPU的主要区别：
 
 * CPU只能**按照顺序进行串行计算**，同样运行3000次的简单运算，CPU需要3000个时钟周期，而配有3000个**CUDA核心**的GPU运行只需要1个时钟周期。
 
-
-
 说明：
 
 CUDA核心：**CUDA核心数量决定了GPU并行处理的能力**，在深度学习、机器学习等并行计算类业务下，CUDA核心多意味着性能好一些。
@@ -71,10 +69,6 @@ GPU的流处理器（承担简单计算任务）和显存控制器占据了绝�
 
 通用图形处理器（GPGPU (general purpose graphic processing unit)）：可执行通用计算任务的图形处理器。即**利用图形处理器内部的大量并行运算部件，辅助CPU进行密集的数据并行计算**。
 
-
-
-
-
 ## TPU 
 
 针对谷歌的深度学习框架TensorFlow专门定制的芯片诞生了，英文全称就叫**Tensor Processing Unit**，中文是**张量处理单元**。
@@ -83,11 +77,45 @@ GPU的流处理器（承担简单计算任务）和显存控制器占据了绝�
 
 ## **NPU**
 
-NPU英文全称是Neural network Processing Unit， 中文叫神经网络处理器。
+NPU英文全称是**Neural network** Processing Unit， 中文叫神经网络处理器。
 
-神经网络就是你大脑里面的神经元连接成的网络，错综复杂，据说越复杂越聪明。
+神经网络就是你**大脑里面的神经元连接成的网络**，错综复杂，据说**越复杂越聪明**。
 
-NPU，即神经网络处理器，就是要**模仿人的大脑神经网络，使之具备智能。**
+NPU就是要**模仿人的大脑神经网络，使之具备智能。**
 
-NPU工作原理是**在电路层模拟人类神经元和突触，并且用深度学习指令集直接处理大规模的神经元和突触，一条指令完成一组神经元的处理。**相比于CPU和GPU，NPU通过突触权重实现存储和计算一体化，从而提高运行效率。
+NPU工作原理是**在电路层模拟人类神经元和突触，并且用深度学习指令集直接处理大规模的神经元和突触，一条指令完成一组神经元的处理。**
+
+相比于CPU和GPU，NPU通过**突触权重**实现**存储和计算一体化**，从而**提高运行效率**。
+
+## 各种PU（进行**专门运算**的芯片）
+
+**这些处理器都是研发来进行专门的计算的芯片，同样也需要CPU调用。**
+
+IPU (Intelligence Processing Unit)，Deep Mind投资的Graphcore公司出品的AI处理器产品。
+
+MPU/MCU (Microprocessor/Micro controller Unit)， 微处理器/微控制器，一般用于**低计算应用**的**RISC计算机体系架构产品**，如ARM-M系列处理器。
+
+NPU (Neural Network Processing Unit)，神经网络处理器，是基于神经网络算法与加速的新型处理器总称，如中科院计算所/寒武纪公司出品的diannao系列。
+
+RPU (Radio Processing Unit), 无线电处理器， Imagination Technologies 公司推出的集合集Wifi/蓝牙/FM/处理器为单片的处理器。
+
+TPU (Tensor Processing Unit), 张量处理器， Google 公司推出的加速人工智能算法的专用处理器。目前**一代TPU面向推理Inference，二代面向训练**。
+
+VPU (Vector Processing Unit), 矢量处理器，Intel收购的Movidius公司推出的图像处理与人工智能的专用芯片的加速计算核心。
+
+WPU (Wearable Processing Unit)， 可穿戴处理器，Ineda Systems公司推出的可穿戴片上系统产品，包含GPU/MIPS CPU等IP。
+
+XPU: 百度与Xilinx公司在2017年Hotchips大会上发布的FPGA智能云加速，含256核。
+
+ZPU (Zylin Processing Unit), 由挪威Zylin 公司推出的一款32位开源处理器。
+
+TPU（Tensor Processing Unit）是谷歌公司专门为加速深层神经网络运算能力研发的芯片。
+
+NPU（Neural Processing Unit）叫神经网络处理器，是用电路来模仿人类的神经元和突触结构，目前主要是国内的寒武纪芯片和IBM的TrueNorth芯片。
+
+除此之外，常见的还有BPU（Brain Processing Unit）大脑处理器和DPU（Deep Learning Processing Unit）深度学习处理器。**这些处理器都是研发来进行专门的计算的芯片，同样也需要CPU调用。**
+
+还没有完，除了上述的这些芯片，我们还有APU、FPU、HPU、IPU、MPU、RPU、VPU、WPU、XPU、ZPU……无一例外，这些处理器也都是来进行**专门运算**的芯片。
+
+
 

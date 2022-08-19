@@ -4,7 +4,7 @@
 
 **处理器运算能力单位**。
 
-## 每秒钟能处理的次数
+### 每秒钟能处理的次数
 
 - **TOPS** (Tera Operations Per Second): 1 TOPS代表**处理器每秒钟可进行一万亿次**（**10^12**）操作。
 - **GOPS**（Giga Operations Per Second）：1 GOPS代表处理器每秒钟可进行十亿次（**10^9**）操作。
@@ -16,9 +16,7 @@ TOPS同GOPS与MOPS可以换算，都代表**每秒钟能处理的次数**，单�
 
 **TOPS/W** ：用于度量**在1W功耗的情况下，处理器能进行多少万亿次操作**。
 
-
-
-### 浮点运算次数
+### 每秒所执行的浮点运算次数
 
 每秒所执行的浮点运算次数：**FL**OPS (Floating-point operations per second) 
 
@@ -44,9 +42,9 @@ Int64：有符号 64 位**整数数据类型**。
 
 - Int8, 等于**Byte**, 占1个字节。
 
-- **Int16, 等于short**, 占2个字节. -32768 32767
-- **Int32, 等于int,** 占4个字节. -2147483648 2147483647
-- **Int64, 等于long,** 占8个字节. -9223372036854775808 9223372036854775807
+- **Int16, 等于short**, 占2个字节。 -32768 32767
+- **Int32, 等于int,** 占4个字节。 -2147483648 2147483647
+- **Int64, 等于long,** 占8个字节。 -9223372036854775808 9223372036854775807
 
 这样, 看起来比short,int,long更加直观些! 另外, 还有一个Byte, 它等于byte, 0 - 255.
 
@@ -68,13 +66,13 @@ Int64：有符号 64 位**整数数据类型**。
 
 **FP64**是满足科学计算中需要的**更高精度的需求**，而**FP16**的结构，更多是服务了**图形渲染**的需求。
 
+说明：
+
+**吞吐量（throughput）**：**单位时间内成功地传送数据的数量**(以比特、字节、分组等测量)。
 
 
-说明：**吞吐量（throughput）**：**单位时间内成功地传送数据的数量**(以比特、字节、分组等测量)。
 
-
-
-## TF32（加速推理）
+### TF32（加速推理）
 
 2020年NVIDIA发布的Ampere架构GPU，带来了新的第三代TensorCore，支持专为**加速Inference**引入的TF32格式。用户升级TensorRT到7.1以后版本，**可以直接在TF32模型上面使用TF32的优化**，**带来了除了FP16, INT8以外的一个新的选择。**
 
@@ -98,7 +96,7 @@ BF16的指数位比FP16多，跟FP32一样，不过小数位比较少。这样�
 
 ## 分辨率
 
-SD (Standard Definition) video specifies the video and audio codecs and file format that allows users to watch video on several electronic devices built to SD standards. SD video supports different formats, including VC-1, H.264, MPEG-4 and MPEG-2. Standard definition has always been a 4:3 aspect ratio with a resolution of 640 × 480 pixels.
+SD (Standard Definition) video specifies the video and audio codecs and file format that allows users to watch video on several electronic devices built to SD standards. SD video supports different formats, including VC-1, H.264, MPEG-4 and MPEG-2. Standard definition has always been a 4:3 aspect ratio with a **resolution** of 640 × 480 pixels.
 
 - 标清是480p，720p是高清，1080p是全高清(超清)
 
@@ -114,7 +112,9 @@ SD (Standard Definition) video specifies the video and audio codecs and file for
 
 
 
-## 每秒传输帧数 FPS（Frames Per Second）
+## 每秒传输帧数 FPS
+
+FPS（Frames Per Second）
 
 FPS是图像领域中的定义，是指**画面每秒传输帧数**，通俗来讲就是指**动画或视频的画面数**。FPS是测量用于保存、显示动态视频的信息数量。
 
@@ -151,3 +151,4 @@ FPS也可以理解为我们常说的**“刷新率（单位为Hz）**”，例�
 零拷贝指的是，从一个存储区域到另一个存储区域的copy任务**没有CPU参与**。
 
 零拷贝通常用于**网络文件传输，以减少CPU消耗和内存带宽占用**，减少用户空间（用户可以操作的内存缓存区域）与CPU内核空间（CPU可以操作的内存缓存区域及寄存器）的拷贝过程，减少用户上下文（用户状态环境）与CPU内核上下文（CPU内核状态环境）间的切换，提高系统效率。
+
