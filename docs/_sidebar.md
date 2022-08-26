@@ -25,7 +25,8 @@
     * [Word富文本编辑器](工具使用篇/文本编辑/Word富文本编辑器.md)
     * [LaTeX基本数学公式](工具使用篇/文本编辑/LaTeX基本数学公式.md)
     * [常用轻量级标记语言对照](工具使用篇/文本编辑/常用轻量级标记语言对照.md)
-    * [reStructuredText(rst)快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
+    * [reStructuredText快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
+    * [reST语法整理](工具使用篇/文本编辑/reST语法整理.md)
     * [Markdown Template](工具使用篇/文本编辑/MarkdownFileTemplate.md)
     * [Pandoc格式转换](工具使用篇/文本编辑/Pandoc格式转换.md)
   * 绘图截图
@@ -100,5 +101,4 @@
   * [Vue Style Guide](参考文档篇/VueStyleGuide.md)
   * [最佳实践结构](参考文档篇/最佳实践结构.md)
   * [前言模板](参考文档篇/前言模板.md)
-  * [BLAS库](参考文档篇/BLAS库.rst)
 

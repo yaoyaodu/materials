@@ -8,6 +8,10 @@ pandoc官网：https://www.pandoc.org/
 
 pandoc手册：https://www.pandoc.org/MANUAL.html
 
+https://github.com/jgm/pandoc
+
+https://www.pandoc.org/installing.html
+
 
 
 Pandoc是用于**将文件从一种标记语言转换为另一种标记语言的命令行工具**。 标记语言使用标签来注释文档的各个部分。 常用的标记语言包括Markdown，ReStructuredText，HTML，LaTex，ePub和Microsoft Word docx。
