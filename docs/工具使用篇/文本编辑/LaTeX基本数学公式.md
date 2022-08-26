@@ -2,6 +2,8 @@
 
 来源：[使用LaTeX基本数学公式_nankeyimeng的博客-CSDN博客](https://blog.csdn.net/qq_32126633/article/details/78725235)
 
+LaTeX公式篇：https://zhuanlan.zhihu.com/p/110756681
+
 # 使用LaTeX写公式的基本语法
 
 正文中的公式用 `$...$` 来定义，单独显示的用 `$$...$$` 来定义。docsify需要将公式用···tex···进行包围。
