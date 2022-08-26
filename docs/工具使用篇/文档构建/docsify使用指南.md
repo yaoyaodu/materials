@@ -2,7 +2,10 @@
 
 来源：[docsify 全接触 | ９９３５ (hooray.github.io)](https://hooray.github.io/posts/ed9dc49e/)
 
-docsify官网：[docsify](https://docsify.js.org/#/)
+资料：
+
+* docsify官网：[docsify](https://docsify.js.org/#/)
+* [使用Docsify做文档网站详细教程解决方案](https://blog.csdn.net/gradfly/article/details/122739628)
 
 ## 什么是 docsify
 
