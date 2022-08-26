@@ -100,4 +100,5 @@
   * [Vue Style Guide](参考文档篇/VueStyleGuide.md)
   * [最佳实践结构](参考文档篇/最佳实践结构.md)
   * [前言模板](参考文档篇/前言模板.md)
+  * [BLAS库](参考文档篇/BLAS库.rst)
 
