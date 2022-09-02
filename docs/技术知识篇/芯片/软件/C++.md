@@ -728,7 +728,7 @@ Element        Value
 | [传递数组给函数](https://www.runoob.com/cplusplus/cpp-passing-arrays-to-functions.html) | 您可以通过指定不带索引的数组名称来给函数传递一个指向数组的指针。 |
 | [从函数返回数组](https://www.runoob.com/cplusplus/cpp-return-arrays-from-function.html) | C++ 允许从函数返回数组。                                     |
 
-## C++ 指针（变量）
+## C++ 指针（变量，其值为另一个变量的地址，即内存位置的直接地址）
 
 通过指针，可以**简化一些 C++ 编程任务的执行**，还有一些任务，如**动态内存分配，没有指针是无法执行的**。
 
