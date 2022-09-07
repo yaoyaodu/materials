@@ -27,9 +27,22 @@ APP:
 
 文档中心：
 
-* AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/) 
-* AMD (documentation prior to ROCm v4.5)：[ROCm v4.5 and Above](https://rocmdocs.amd.com/en/latest/index.html)
-* AMD Graphics Card Specifications: [Graphics Card Specifications | AMD Partner Hub](https://www.amd.com/en/partner/graphics)
-* NVIDIA HPC SDK: [NVIDIA HPC SDK Version 22.7 Documentation](https://docs.nvidia.com/hpc-sdk/index.html)
-* GPU Deployment and Management: [GPU Deployment and Management Documentation](https://docs.nvidia.com/deploy/index.html)
+- AMD：
+
+  * AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/) 
+
+  * AMD (documentation prior to ROCm v4.5)：[ROCm v4.5 and Above](https://rocmdocs.amd.com/en/latest/index.html)
+
+  * AMD Graphics Card Specifications: [Graphics Card Specifications | AMD Partner Hub](https://www.amd.com/en/partner/graphics)
+
+- 英伟达：
+
+  - 英伟达文档中心：[NVIDIA Documentation Center | NVIDIA Developer](https://docs.nvidia.com/)
+  - NVIDIA CUDA Toolkit Documentation: [CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/index.html)
+  - NVIDIA HPC SDK: [NVIDIA HPC SDK Version 22.7 Documentation](https://docs.nvidia.com/hpc-sdk/index.html)
+
+  * GPU Deployment and Management: [GPU Deployment and Management Documentation](https://docs.nvidia.com/deploy/index.html)
+  * AI推理：[NVIDIA Deep Learning TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/index.html)
+  * AI训练：NVIDIA cuDNN Documentation [NVIDIA Deep Learning cuDNN Documentation](https://docs.nvidia.com/deeplearning/cudnn/index.html)
+  * NVIDIA Virtual GPU (vGPU): [NVIDIA Virtual GPU (vGPU) Software Documentation](https://docs.nvidia.com/grid/index.html)
 
