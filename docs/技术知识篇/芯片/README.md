@@ -25,3 +25,11 @@ APP:
 
 * ICspec：芯片规格书搜索工具
 
+文档中心：
+
+* AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/) 
+* AMD (documentation prior to ROCm v4.5)：[ROCm v4.5 and Above](https://rocmdocs.amd.com/en/latest/index.html)
+* AMD Graphics Card Specifications: [Graphics Card Specifications | AMD Partner Hub](https://www.amd.com/en/partner/graphics)
+* NVIDIA HPC SDK: [NVIDIA HPC SDK Version 22.7 Documentation](https://docs.nvidia.com/hpc-sdk/index.html)
+* GPU Deployment and Management: [GPU Deployment and Management Documentation](https://docs.nvidia.com/deploy/index.html)
+
