@@ -2,7 +2,11 @@
 
 来源：[使用LaTeX基本数学公式_nankeyimeng的博客-CSDN博客](https://blog.csdn.net/qq_32126633/article/details/78725235)
 
-LaTeX公式篇：https://zhuanlan.zhihu.com/p/110756681
+资料：
+
+* LaTeX公式篇：https://zhuanlan.zhihu.com/p/110756681
+
+* LaTeX公式手册（全网最全）：https://www.cnblogs.com/1024th/p/11623258.html
 
 # 使用LaTeX写公式的基本语法
 
