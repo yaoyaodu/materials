@@ -6,10 +6,36 @@ linux系统 常用命令(全面总结)：https://blog.csdn.net/IT_Holmes/article
 
 初窥Linux 之 我最常用的20条命令：https://blog.csdn.net/qq_52358151/article/details/110218610?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-110218610-blog-97272672.t5_download_comparev1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-110218610-blog-97272672.t5_download_comparev1&utm_relevant_index=15
 
+Linux命令大全： https://www.yiibai.com/linux/ls.html 
 
+
+
+## 常用命令
+
+1. `ls`：列出所有文件
+2. `mkdir workspace`: 创建新的文件夹workspace
+3. `cd workspace/`: 进入到workspace 
+4. `git clone`: 
+5. 执行命令`wget -O .....`
+6. 执行命令`source ~/.bashrc`
+7. `cd DOC/`
+8. ls
+9. cd C500
+10. ls
+11. `cd 02\Documents/` (说明：空格前加`\`)
+12. ls
+13. `cd ../../`
+14. git pull -rebase
+15. gedit （说明：打开编辑器）
+16. ls
+17. cd 02\ Documents/ (说明：按Tab键可以自动补全)
+18. ls
+19. gedit MACA_Programming_Guide.rst
+20. 可以更改默认的copy按键。修改后就是我们习惯的ctrl+V。选中即复制，选中后直接按ctrl+v进行复制。
 
 当前目录、上一层目录、根目录
 -----------------------------------
+
 "./"：代表目前所在的目录。
 
 " . ./"代表上一层目录。
@@ -18,17 +44,43 @@ linux系统 常用命令(全面总结)：https://blog.csdn.net/IT_Holmes/article
 
 
 
-## md5sum 文件一致性校验
+## 解压缩文件
 
-用法：md5sum + 文件名
+unrar x test3.rar（文件名，按tab自动显示文档名称）
 
-md5sum计算检验MD5效验码。MD5算法常常被用来验证网络文件传输的完整性，防止文件被人篡改。
-MD5全称是报文摘要算法（Message-Digest Algorithm 5），此算法对任意长度的信息逐位进行计算， 产生一个二进制长度为128位（十六进制长度就是32位）
-的“指纹”（或称“报文摘要”），不同的文件产生相同的报文摘要的可能性非常小。
+## 显示隐藏文件
+
+- 找不到.ssh文件（.开头的文件默认隐藏），列出所有文件：ls -al
+- 点击右上角（类似等号的符号）：选中Show Hidden Files
+
+
+
+## wc命令：word count
+
+统计指定的文件中的字节数、字数、行数，并将统计结果输出。
+
+* -c 统计字节数
+
+* -l 统计行数
+
+* -m 统计字符数
+
+* -w 统计词数
+
+
+
+## 文件一致性校验：md5sum 
+
+用法：``md5sum + 文件名``。文件名中有空格的话空格前要加``\``。
+
+示例：``md5sum MACAMACA\ C++编程指南_V1.0.pdf``
 
 一般来说，安装了Linux后，就会有md5sum这个工具，直接在命令行终端直接运行。
 
-其他两个工具sha256sum和sha512sum的工作方式与md5sum相同。
+md5sum计算检验MD5效验码。MD5算法常常被用来验证网络文件传输的完整性，防止文件被人篡改。
+MD5全称是报文摘要算法（Message-Digest Algorithm 5），此算法对任意长度的信息逐位进行计算， 产生一个二进制长度为128位（十六进制长度就是32位）的“指纹”（或称“报文摘要”），不同的文件产生相同的报文摘要的可能性非常小。
+
+其他两个工具**sha256sum和sha512sum**的工作方式与md5sum相同。
 
 资料来源：https://www.jianshu.com/p/ad2f36cf5ee9
 
@@ -142,8 +194,32 @@ unzip file1.zip 解压一个zip格式压缩包
 
 
 
+## 配置输入法
+
+1. 点击左上角Activities，能显示出所有窗口。
+2. 点击最上方Type to search，输入fc，双击第一个图标fcitx configuration。
+3. 点击Global config，配置快捷键。
+
+(更新输入法后，开个terminal，执行两条命令``killall fcitx``和``fcitx``)
+
+
+
+## 登陆Linux环境：远程桌面连接
+
+1. 计算机：172.16.80.17
+2. 用户名：METAC-TECH\ydu
+
+MobaXterm：用于把本地的文档等传送到Linux环境中。
+
+libreoffice: Linux版office
+
 GIT命常用令
 ===================
+
+git pull 
+
+git pull -rebase
+
 git add -A
 
 git commit -m "mcDNN files" -s
@@ -163,5 +239,4 @@ git diff 有两个主要的应用场景。
 - 查看已缓存的与未缓存的所有改动：git diff HEAD
 - 显示摘要而非整个 diff：git diff --stat
 
-
-
+Git中文件名中最好不要有空格。
