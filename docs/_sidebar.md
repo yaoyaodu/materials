@@ -14,7 +14,7 @@
     * [Git常用操作指南](工具使用篇/版本控制/Git常用操作指南.md)
     * [详解git pull命令](工具使用篇/版本控制/详解gitpull命令.md)
     * [Git中.gitignore文件的用法](工具使用篇/版本控制/Git中.gitignore文件的用法.md)
-    * [Linux常用命令](工具使用篇/版本控制/Linux常用命令.md)
+    * [Linux常用操作](工具使用篇/版本控制/Linux常用操作.md)
   * 文档构建
     * [docsify使用指南](工具使用篇/文档构建/docsify使用指南.md)
     * [Typora中设置PicGo图床实现图片自动上传](工具使用篇/文档构建/Typora中设置PicGo图床实现图片自动上传.md)

@@ -1,4 +1,4 @@
-# Linux常用命令
+# Linux常用操作
 资料：
 
 linux系统 常用命令(全面总结)：https://blog.csdn.net/IT_Holmes/article/details/125486291?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-125486291-blog-97272672.t5_download_comparev1&spm=1001.2101.3001.4242.1&utm_relevant_index=3
@@ -6,7 +6,36 @@ linux系统 常用命令(全面总结)：https://blog.csdn.net/IT_Holmes/article
 
 初窥Linux 之 我最常用的20条命令：https://blog.csdn.net/qq_52358151/article/details/110218610?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-110218610-blog-97272672.t5_download_comparev1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-110218610-blog-97272672.t5_download_comparev1&utm_relevant_index=15
 
+
+
+当前目录、上一层目录、根目录
+-----------------------------------
+"./"：代表目前所在的目录。
+
+" . ./"代表上一层目录。
+
+"/"：代表根目录。
+
+
+
+## md5sum 文件一致性校验
+
+用法：md5sum + 文件名
+
+md5sum计算检验MD5效验码。MD5算法常常被用来验证网络文件传输的完整性，防止文件被人篡改。
+MD5全称是报文摘要算法（Message-Digest Algorithm 5），此算法对任意长度的信息逐位进行计算， 产生一个二进制长度为128位（十六进制长度就是32位）
+的“指纹”（或称“报文摘要”），不同的文件产生相同的报文摘要的可能性非常小。
+
+一般来说，安装了Linux后，就会有md5sum这个工具，直接在命令行终端直接运行。
+
+其他两个工具sha256sum和sha512sum的工作方式与md5sum相同。
+
+资料来源：https://www.jianshu.com/p/ad2f36cf5ee9
+
+
+
 ## 文件和目录 
+
 cd /home 进入 '/ home' 目录' 
 cd .. 返回上一级目录 
 cd ../.. 返回上两级目录 
@@ -110,6 +139,29 @@ tar -zxvf archive.tar.gz 解压一个gzip格式的压缩包
 zip file1.zip file1 创建一个zip格式的压缩包 
 zip -r file1.zip file1 file2 dir1 将几个文件和目录同时压缩成一个zip格式的压缩包 
 unzip file1.zip 解压一个zip格式压缩包 
+
+
+
+GIT命常用令
+===================
+git add -A
+
+git commit -m "mcDNN files" -s
+
+git push origin HEAD:refs/for/master
+
+git log （查看 change-ID和signed-off-by）
+
+push后在Gerrit上Reviewer部分添加reviewer。
+
+git diff 比较文件的不同，即比较文件在暂存区和工作区的差异。显示已写入暂存区和已经被修改但尚未写入暂存区文件的区别。
+
+git diff 有两个主要的应用场景。
+
+- 尚未缓存的改动：git diff
+- 查看已缓存的改动： git diff --cached
+- 查看已缓存的与未缓存的所有改动：git diff HEAD
+- 显示摘要而非整个 diff：git diff --stat
 
 
 
