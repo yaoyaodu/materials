@@ -18,7 +18,7 @@ print(message)
 
 ## 字符串（一种数据类型）
 
-字符串就是一系列字符。在Python中，用引号括起来的都是字符串。引号可以是单引号，也可以是双引号。
+字符串就是一系列字符。在Python中，**用引号括起来的都是字符串**。引号可以是单引号，也可以是双引号。
 
 ### 使用方法修改字符串（单词）的大小写
 
@@ -41,11 +41,109 @@ print(name.title())
 * 全部小写：`name.lower()`
 * 首字母大写：`name.title()`
 
-### 合并（拼接）字符串
+### 合并（拼接）字符串（+）
+
+Python使用+来合并字符串。这种合并字符串的方法称为拼接。
+
+```python
+first_name = "ada"
+last_name = "lovelace"
+full_name = first_name + " " + last_name
+
+print(full_name)
+print("Hello, " + full_name.title() + "!")
+```
+
+显示：Hello, Ada Lovelace!
 
 
 
+### 使用制表符或换行符来添加空白
 
+要在字符串中添加制表符（缩进），前面加`\t`。
+
+要在字符串中添加换行符，前面加`\n`。
+
+同时添加制表符和换行符，前面加`\n\t`。让Python换到下一行，并在下一行开头添加一个制表符。
+
+```
+print("\tPython")
+print("Languages:\nPython\nC\nJavaScript")
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
+```
+
+### 删除空白
+
+在Python中，删除用户输入的数据中的多余的空白易容反掌。
+
+在实际程序中，这些剥除函数最常用于在存储用户输入前对齐进行清理。
+
+Python能够找出字符串开头和末尾多余的空白。
+
+- 方法`rstrip()`：要确保字符串**末尾**没有空白，可使用方法`rstrip()`。这种删除只是暂时的。
+
+```
+favorite_language = 'Python '
+favorite_language.rstrip()
+```
+
+- 要永久删除这个字符串中的空白，必须将删除操作的结果存回到变量中：
+
+```
+favorite_language = 'Python '
+favorite_language = favorite_language.rstrip()
+```
+
+- 方法`lstrip()`：删除字符串开头的空白
+- 方法`strip()`：删除字符串两端的空白
+
+### 语法错误：单引号和双引号
+
+```
+message = "One of Python's strength is its diverse community."
+print(message)
+```
+
+编写程序时，编辑器的**语法突出功能**可帮助你快速找出某些语法错误。
+
+看到Python代码以普通句子的颜色显示，或者普通句子以Python代码的颜色显示时，就可能意味着文件中存在引号不匹配的情况。
+
+### Python 2中的print语句
+
+在Python 2中，无需将打印的内容放在括号内。
+
+
+
+## 数字
+
+### 整数
+
+加：+
+
+减：-
+
+乘：*
+
+除：/
+
+乘方运算：**
+
+### 浮点数
+
+Python将带小数点的数字都称为浮点数。
+
+### 函数str()：将非字符串值表示为字符串
+
+```
+age = 23
+message = "Happy " + str(age) + "rd Birthday!"
+
+print(message)
+```
+
+## 注释
+
+在Python中，注释用井号（#）标识。
 
 
 
