@@ -29,7 +29,7 @@ APP:
 
 - AMD：
 
-  * AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/) 
+  * AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/)
 
   * AMD (documentation prior to ROCm v4.5)：[ROCm v4.5 and Above](https://rocmdocs.amd.com/en/latest/index.html)
 

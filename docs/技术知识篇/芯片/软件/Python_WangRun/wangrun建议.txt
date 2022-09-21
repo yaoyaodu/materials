@@ -1,0 +1,6 @@
+基本的学会了可以试着做django的网站
+
+https://realpython.com/tutorials/all/   这儿有个，之前偶然翻到的，内容很不错
+
+建议多练手，不要只是看
+找个project试试写写，比如搞个购物网站啊，写写算法
