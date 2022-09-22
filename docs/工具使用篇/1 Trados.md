@@ -61,3 +61,27 @@ Trados作为计算机辅助翻译软件，强调的还是“辅助”功能，�
 
 
 **Trados最重要的就是记忆库。学会构建、加载翻译记忆库才是攻克软件的关键。**这过程就好似先建立起一个大仓库（空语料库），在仓库里尽可能多的摆满琳琅满目的优质商品（语料），在有顾客（待翻译文档）光顾的时候，只需从仓库中调取商品匹配即可。
+
+
+
+## Trados FAQ
+
+1. Any geographical limitation of the network license (e.g.,can it be used worldwide outside of mainland China)? 
+   我们是英国的公司，许可证没有地域限制，全世界范围都可以使用
+
+2. Language support(is there a list of supported languages/locales?)
+   以下是支持的语言列表
+   https://docs.rws.com/813470/338184/trados-studio-2021-sr2/supported-languages
+
+3. Lifetime license includes lifetime support?Or there will be extra cost for future support needs?
+   许可证与Trados软件均可永久使用。
+   技术支持属于额外服务，如果有需要，可以按年购买。这个软件比较好上手，应该不太需要专门买技术支持。
+
+4. Import function of translated documents for future usage
+   Trados的“对齐”功能，可以把以前翻译过的文档导入到Trados的翻译记忆库使用。一般外包公司返回译文的时候也会提供相应的中英对照的记忆库，可以进行审校和编辑。
+   Export/migration function in case we need to move away from Trados in future to another platform/system?
+   全部的翻译内容都是保存在翻译记忆库里，翻译记忆库文件都可以导出为tmx或者Excel文件格式，以便导入到其他平台。
+
+5. Payment terms-if we decide to purchase,when's payment due?
+   合同签订后一周内完成软件产品的交付，软件交付后30日内甲方支付合同全部金额。
+
