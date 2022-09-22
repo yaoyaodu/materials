@@ -45,4 +45,5 @@ APP:
   * AI推理：[NVIDIA Deep Learning TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/index.html)
   * AI训练：NVIDIA cuDNN Documentation [NVIDIA Deep Learning cuDNN Documentation](https://docs.nvidia.com/deeplearning/cudnn/index.html)
   * NVIDIA Virtual GPU (vGPU): [NVIDIA Virtual GPU (vGPU) Software Documentation](https://docs.nvidia.com/grid/index.html)
+  * 英伟达开发者社区：https://developer.nvidia.com/zh-cn
 
