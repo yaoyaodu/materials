@@ -5,8 +5,9 @@
 资料：
 
 * LaTeX公式篇：https://zhuanlan.zhihu.com/p/110756681
-
 * LaTeX公式手册（全网最全）：https://www.cnblogs.com/1024th/p/11623258.html
+* [color - How can I make a coloured footrule using fancyhdr? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/461675/how-can-i-make-a-coloured-footrule-using-fancyhdr)
+* [Latex 定制 — Sphinx documentation (osgeo.cn)](https://www.osgeo.cn/sphinx/latex.html)
 
 # 使用LaTeX写公式的基本语法
 
