@@ -1,4 +1,6 @@
-# reST
+# reST语法整理
+
+资料：[reStructuredText入门 — Sphinx 1.2 documentation (pythondoc.com)](http://www.pythondoc.com/sphinx/rest.html)
 
 ## 数学公式
 
