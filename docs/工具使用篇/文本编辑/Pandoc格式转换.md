@@ -8,7 +8,7 @@ pandoc官网：https://www.pandoc.org/
 
 pandoc手册：https://www.pandoc.org/MANUAL.html
 
-https://github.com/jgm/pandoc
+https://github.com/jgm/pandoc （git clone https://github.com/jgm/pandoc.git）
 
 https://www.pandoc.org/installing.html
 
@@ -25,6 +25,12 @@ Pandoc是一个软件，是一个能把千奇百怪的文档格式互相转换�
 Pandoc载链接见[github](https://github.com/jgm/pandoc/releases)。
 
 pandoc安装：双击安装，打开命令行输入 pandoc -v 看是否安装成功。
+
+## Linux环境中安装Pandoc
+
+sudo apt-get install pandoc (这样就够用了)
+
+不够用的话参考：[Linux环境下安装pandoc](https://blog.csdn.net/weixin_44375591/article/details/104005570)
 
 ## 命令行运行基本参数
 
