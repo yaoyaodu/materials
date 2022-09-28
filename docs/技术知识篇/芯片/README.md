@@ -46,4 +46,9 @@ APP:
   * AI训练：NVIDIA cuDNN Documentation [NVIDIA Deep Learning cuDNN Documentation](https://docs.nvidia.com/deeplearning/cudnn/index.html)
   * NVIDIA Virtual GPU (vGPU): [NVIDIA Virtual GPU (vGPU) Software Documentation](https://docs.nvidia.com/grid/index.html)
   * 英伟达开发者社区：https://developer.nvidia.com/zh-cn
+  
+- 寒武纪：
+
+  - [文档中心 – 寒武纪开发者社区 (cambricon.com)](https://developer.cambricon.com/index/document/index/classid/3.html)
+    - 寒武纪硬件监测器工具：寒武纪CNMon用户手册 — 寒武纪CNMon用户手册 4.20.12 文档 (cambricon.com)](https://www.cambricon.com/docs/sdk_1.6.0/driver_4.20.12/cnmon_4.20.12/index.html#)
 
