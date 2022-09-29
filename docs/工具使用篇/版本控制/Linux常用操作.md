@@ -8,7 +8,15 @@ linux系统 常用命令(全面总结)：https://blog.csdn.net/IT_Holmes/article
 
 Linux命令大全： https://www.yiibai.com/linux/ls.html 
 
+## 语法
 
+Linux命名是严格区分大小写的。
+
+语法：`ls [选项] [文件名]`
+
+示例：`ls -s frpc.ini`
+
+在实际使用命令时，不能带上中括号，同时中括号里面的内容为可选项。
 
 ## 常用命令
 
