@@ -12,8 +12,6 @@ https://github.com/jgm/pandoc （git clone https://github.com/jgm/pandoc.git）
 
 https://www.pandoc.org/installing.html
 
-
-
 Pandoc是用于**将文件从一种标记语言转换为另一种标记语言的命令行工具**。 标记语言使用标签来注释文档的各个部分。 常用的标记语言包括Markdown，ReStructuredText，HTML，LaTex，ePub和Microsoft Word docx。
 
 用简单的英语， Pandoc允许您将一堆文件从一种标记语言转换成另一种标记语言。 典型示例包括将Markdown文件转换为Word, PPT，LaTeX，PDF甚至是ePub。
@@ -38,6 +36,20 @@ sudo apt-get install pandoc (这样就够用了)
 - 使用参数`-o` `FILE`指定输出文件。
 
 命令示例：pandoc filename.md -o filename.docx
+
+## HTML转RST
+
+命令：`pandoc D:\pandoc\DNN.html -o D:\pandoc\DNN.rst`
+
+进行转换前，可先对HTML文件进行处理。
+
+1. 用Chrome打开网页，右击页面选择“检查”。
+2. 找到`<body></body>`标签。双击此标签展开此标签。
+3. 找到`<div id="site-content">...</div>`标签。击此标签展开此标签。
+4. 找到`<div id="contents-container">...</div>`标签。
+5. 找到`<article id="contents">...</article>`标签。向上拖动该标签至`<head></head>`标签之上。
+6. 删除`<head></head>`和`<body></body>`标签。
+7. 右击网页选择“另存为”。这样整理之后，导航栏等无用的内容都清除了，只剩下正文内容。
 
 ## Markdown转Word
 
