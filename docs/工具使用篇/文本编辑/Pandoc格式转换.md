@@ -51,6 +51,24 @@ sudo apt-get install pandoc (这样就够用了)
 6. 删除`<head></head>`和`<body></body>`标签。
 7. 右击网页选择“另存为”。这样整理之后，导航栏等无用的内容都清除了，只剩下正文内容。
 
+## RST转Word
+
+命令：`pandoc D:\pandoc\mcfft.rst -o D:\pandoc\mcfft.docx`
+
+## Word转RST
+
+命令：`pandoc D:\pandoc\mcfft.docx -o D:\pandoc\mcfft.rst`
+
+## RST转PDF（有点麻烦）
+
+需安装pdflatex
+
+命令：`pandoc D:\pandoc\mcfft.rst -o D:\pandoc\mcfft.pdf`
+
+```
+pandoc -t latex --pdf-engine=pdflatex -s -o index.pdf index.rst
+```
+
 ## Markdown转Word
 
 1. 打开**命令提示符**工具。
