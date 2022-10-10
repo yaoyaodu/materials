@@ -44,12 +44,22 @@ sudo apt-get install pandoc (这样就够用了)
 进行转换前，可先对HTML文件进行处理。
 
 1. 用Chrome打开网页，右击页面选择“检查”。
+
+   **说明：点击最左边的小箭头（在页面中选择一个元素以进行检查），然后点击网页中想要查看的内容，右侧就会跳转到相应的HTML标签。**
+
 2. 找到`<body></body>`标签。双击此标签展开此标签。
+
 3. 找到`<div id="site-content">...</div>`标签。击此标签展开此标签。
+
 4. 找到`<div id="contents-container">...</div>`标签。
+
 5. 找到`<article id="contents">...</article>`标签。向上拖动该标签至`<head></head>`标签之上。
+
 6. 删除`<head></head>`和`<body></body>`标签。
+
 7. 右击网页选择“另存为”。这样整理之后，导航栏等无用的内容都清除了，只剩下正文内容。
+
+
 
 ## RST转Word
 
