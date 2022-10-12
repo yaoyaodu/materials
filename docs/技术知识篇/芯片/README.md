@@ -31,7 +31,7 @@ APP:
 
   * AMD ROCm Platform (New AMD ROCm™ Information Portal): [AMD Documentation - Portal](https://docs.amd.com/)
 
-  * AMD (documentation prior to ROCm v4.5)：[ROCm v4.5 and Above](https://rocmdocs.amd.com/en/latest/index.html)
+  * AMD (documentation prior to ROCm v4.5)：https://rocmdocs.amd.com/en/latest/index.html
 
   * AMD Graphics Card Specifications: [Graphics Card Specifications | AMD Partner Hub](https://www.amd.com/en/partner/graphics)
 
