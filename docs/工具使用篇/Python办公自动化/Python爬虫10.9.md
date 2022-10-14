@@ -1,5 +1,11 @@
 # Python爬虫
 
+* 有道翻译API: http://fanyi.youdao.com/openapi?path=data-mode
+
+* 现在这些数据服务都是要钱的（WangRun）：概述-Web服务 API | 高德地图API：https://lbs.amap.com/api/webservice/summary/
+* ipython interactive python
+* 建议你试下， jupyter notebook,非常好用
+
 ## 安装库和模块
 
 1. 找到pip3.exe所在的文件夹，复制路径。

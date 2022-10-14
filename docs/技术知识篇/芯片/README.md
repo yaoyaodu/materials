@@ -52,5 +52,28 @@ APP:
   - [文档中心 – 寒武纪开发者社区 (cambricon.com)](https://developer.cambricon.com/index/document/index/classid/3.html)
     - 寒武纪硬件监测器工具：寒武纪CNMon用户手册 — 寒武纪CNMon用户手册 4.20.12 文档 (cambricon.com)](https://www.cambricon.com/docs/sdk_1.6.0/driver_4.20.12/cnmon_4.20.12/index.html#)
 
-* 燧原科技：
+* 燧原科技：WordPress and Colibri: WordPress page builder that gives you design superpowers
   * [客户支持 - 燧原科技 (enflame-tech.com)](https://www.enflame-tech.com/support#support3)
+    * 连接线产品手册
+    * 桥接卡产品手册
+* 天数智芯
+* 摩尔线程
+* 航锦科技
+* 瀚博
+* 壁仞
+* 昆仑芯
+* 兆芯
+* 登临
+* 华为海思
+* 芯瞳半导体
+* 龙芯中科
+* 中微电科技
+* 中船重工716研究所
+* 芯动科技
+* 景嘉微
+* 格兰菲
+* 兆芯
+* 龙芯
+* 飞腾
+* 凌久微电子
+* 翔腾
