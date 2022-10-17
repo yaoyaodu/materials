@@ -14,13 +14,122 @@ from docx.shared import Length #设置宽度
 
 
 
+```python
+from docx import Document
+
+文件 = Document('D:\Python_Test\zh1.docx')
+# print(文件.paragraphs)
+print(文件.paragraphs[0:2])
+for i in 文件.paragraphs[0:2]:
+    print(i)
+```
+
+
+
+搜索XXX出现的次数
+
+```python
+from docx import Document
+文件 = Document('D:\Python_Test\zh1.docx')
+计数 = 0
+for 段落 in 文件.paragraphs:
+	if '芯片' in 段落.text:
+		计数 += 1
+print(计数)
+
+
+##统计出来的数字和Word统计出来的数字不一样呢？？？
+```
+
+## 读取
+
+### 1 读取Word所有内容
+
+```python
+from docx import Document
+文件 = Document('D:\Python_Test\zh1.docx')
+for 段落 in 文件.paragraphs:
+	print(段落.text)
+```
+
+### 2 读取一级标题、二级标题或正文
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+for 段落 in 文件.paragraphs:
+	if 段落.style.name == 'Heading 1':   #读取二级标题，则改为Heading 2；读取正文，则改成Normal
+		print(段落.text)    
+        
+# D:\Python_Test\NDA.docx 用\会报错，改成D:/Python_Test/NDA.docx就没问题
+```
+
+### 3 读取所有标题（使用正则表达式）
+
+```python
+from docx import Document
+import re
+文件 = Document('D:/Python_Test/NDA.docx')
+for 段落 in 文件.paragraphs:
+	if re.match("^Heading \d+$",段落.style.name):
+		print(段落.text)
+```
+
+### 4 读取文档中用到的样式名称
+
+```python
+from docx.enum.style import WD_STYLE_TYPE
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+样式 = 文件.styles
+for i in 样式:
+	if i.type==WD_STYLE_TYPE.PARAGRAPH:
+		print(i.name)
+```
+
+## 写入
+
+### 1 添加标题
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+文件.add_heading("我是新增的一级标题",level=1)
+文件.save('D:/Python_Test/NDA.docx')
+
+#标题默认是加到了版权页的后面，怎么解决呢？
+#标题的样式是对的。
+```
+
+### 2 添加正文
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+文件.add_paragraph("我是正文1234567")
+文件.save('D:/Python_Test/NDA.docx')
+```
+
+### 3 添加分页符
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+文件.add_page_break()
+文件.save('D:/Python_Test/NDA.docx')
+```
 
 
 
 
-From书
+
+
+
+
 
 ## 读写Word文档
+
+From书(《Python办公自动化》)
 
 安装：pip3 install python-docx
 
@@ -96,7 +205,7 @@ for p in doc.paragraphs:
 
 ```
 
-### 将文字写入Word文档
+### 写入
 
 ### (doc.add_paragraph、p2.insert_paragraph_before)
 
@@ -161,6 +270,8 @@ for row in table.rows
 | Ruby         | Web开发                           |
 | R            | 统计计算                          |
 | Objective  C | 通用                              |
+
+
 
 ### 使用Word模板文件
 
