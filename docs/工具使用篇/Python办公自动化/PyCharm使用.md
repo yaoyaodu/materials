@@ -6,7 +6,17 @@
 - https://blog.csdn.net/cnds123/article/details/107656496
 - PyCharm下载地址：[Download PyCharm: Python IDE for Professional Developers by JetBrains](https://www.jetbrains.com/pycharm/download/#section=windows)
 - 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
-- JetBrains Toolbox
+- **JetBrains Toolbox**
+
+## 问题：
+
+Q1：利用PyCharm打开rst文档，rst文档中的中文字符显示为乱码。
+
+A1：[解决用pycharm书写README.rst汉字乱码问题_pycharm rst文件](https://blog.csdn.net/chianti_cv/article/details/125219356)
+
+1. 在设置中，把所有的文件编码都改成**UTF-8**。
+2. 如果问题没有解决，点击**Help**菜单栏选择“**Edit Custom VM Options**”。
+3. 在打开的文件最后增加一行`-Dfile.encoding=UTF-8`。
 
 ## Win10中PyCharm2020.1.4安装使用入门（修订版）
 

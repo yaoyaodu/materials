@@ -43,7 +43,7 @@ print(计数)
 
 ## 读取
 
-### 1 读取Word所有内容
+### 1 读取Word所有内容（段落.text）
 
 ```python
 from docx import Document
@@ -52,7 +52,7 @@ for 段落 in 文件.paragraphs:
 	print(段落.text)
 ```
 
-### 2 读取一级标题、二级标题或正文
+### 2 读取一级标题、二级标题或正文（if 段落.style.name == 'Heading 1/Normal'）
 
 ```python
 from docx import Document
@@ -64,7 +64,7 @@ for 段落 in 文件.paragraphs:
 # D:\Python_Test\NDA.docx 用\会报错，改成D:/Python_Test/NDA.docx就没问题
 ```
 
-### 3 读取所有标题（使用正则表达式）
+### 3 读取所有标题（使用正则表达式）(if re.match("^Heading \d+$",段落.style.name))
 
 ```python
 from docx import Document
@@ -75,7 +75,7 @@ for 段落 in 文件.paragraphs:
 		print(段落.text)
 ```
 
-### 4 读取文档中用到的样式名称
+### 4 读取文档中用到的样式名称(if i.type==WD_STYLE_TYPE.PARAGRAPH)
 
 ```python
 from docx.enum.style import WD_STYLE_TYPE
@@ -89,7 +89,7 @@ for i in 样式:
 
 ## 写入
 
-### 1 添加标题
+### 1 添加标题(文件.add_heading)
 
 ```python
 from docx import Document
@@ -101,29 +101,112 @@ from docx import Document
 #标题的样式是对的。
 ```
 
-### 2 添加正文
+### 2 添加正文(文件.add_paragraph)
 
 ```python
 from docx import Document
 文件 = Document('D:/Python_Test/NDA.docx')
 文件.add_paragraph("我是正文1234567")
 文件.save('D:/Python_Test/NDA.docx')
+
+#默认是加在文档最后。前面有空白页，也不会加到空白页中。加到文档最后一页。
 ```
 
-### 3 添加分页符
+### 3 添加分页符(文件.add_page_break)
 
 ```python
 from docx import Document
 文件 = Document('D:/Python_Test/NDA.docx')
 文件.add_page_break()
 文件.save('D:/Python_Test/NDA.docx')
+
+#默认是加在文档最后
 ```
 
+### 4 添加文字块
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/NDA.docx')
+a = 文件.add_paragraph('我是正文在我后面添加的文字会被设置格式：')      #''里面可以为空字符串
+a.add_run('加粗').bold = True
+a.add_run('普通')
+a.add_run('斜体').italic = True
+文件.save('D:/Python_Test/NDA.docx')
+
+#默认是加在文档最后
+```
+
+## 段落的定位
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/zh1.docx')
+print(len(文件.paragraphs))
+# 段落很多的话，怎么快速找到段落的index呢？？？？
+段落 = 文件.paragraphs[19]
+# print(段落.text)
+# 将段落.text赋新值，达到修改段落的目的
+段落.text = "直到20世纪70年代，硅谷都是这场革命的中心，因为它们结合了科学知识、制造技术和有远见的商业思维。后面的删除"
+文件.save('D:/Python_Test/zh1.docx')
+
+# 问题：段落很多的话，怎么快速找到段落的index呢？？？？
+```
+
+## 指定段落处添加段落
+
+通过选择段落，获取段落的对象，可以使用insert_paragraph_before()函数进行设置，其参数同add_paragraph()。
+
+```python
+from docx import Document
+文件 = Document('D:/Python_Test/zh1.docx')
+第二个段落 = 文件.paragraphs[1] # 获取第二个段落
+第二个段落.insert_paragraph_before('这是添加的新的第二个段落')# 在第二个段落处插入
+文件.save('D:/Python_Test/zh1.docx')
+
+#添加新段落后，段落默认居中。这个问题怎么解决呢？
+```
+
+## 文字样式调整
+
+对文字字体样式进行修改：run.font.样式= xxx
+
+```python
+from docx import Document
+from docx.shared import Pt, RGBColor              # 字号，颜色
+from docx.oxml.ns import qn                       # 中文字体
+
+文件 = Document('D:/Python_Test/zh1.docx')
+for 段落 in 文件.paragraphs:
+	for 块 in 段落.runs:
+		块.font.bold = True # 加粗
+		块.font.italic = True # 斜体
+		块.font.underline = True # 下划线
+		块.font.strike = True # 删除线
+		块.font.shadow = True # 阴影
+		块.font.size = Pt(12)
+		块.font.color.rgb = RGBColor(255,0,0)# 颜色
+		块.font.name = 'Arial' # 英文字体设置
+		块._element.rPr.rFonts.set(qn('w:eastAsia'),'思源黑体 CN Normal')   # 设置中文字体：微软雅黑
+文件.save('D:/Python_Test/zh1.docx')
+#只要文本设置了格式，直接打印段落.text就会显示为空是吗
+```
+
+## 修改正文字体
+
+文件.styles['Normal'] ：文件样式中的正文。
+
+```python
+from docx import Document
+from docx.oxml.ns import qn # 中文字体
+文件 = Document('D:/Python_Test/zh1.docx')
+文件.styles['Normal'].font.name = 'Arial'# 设置英文字体
+文件.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')  #设置中文字体
+文件.save('D:/Python_Test/zh1.docx')
 
 
-
-
-
+有格式的话不管用？要用run?
+```
 
 
 
@@ -219,7 +302,7 @@ p2 = doc.add_paragraph('第二个段落')
 #将新段落添加到已有段落之前
 p1 = p2.insert_paragraph_before('第一个段落')
 
-p3 = doc.add_paragraph('新段落')
+p3 = doc.add_paragraph('新段落')    #''里面可以为空字符串
 
 #追加内容
 p3.add_run('加粗').bold = True
