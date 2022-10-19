@@ -199,13 +199,59 @@ for 段落 in 文件.paragraphs:
 ```python
 from docx import Document
 from docx.oxml.ns import qn # 中文字体
-文件 = Document('D:/Python_Test/zh1.docx')
+文件 = Document('D:/Python_Test/zh2.docx')
 文件.styles['Normal'].font.name = 'Arial'# 设置英文字体
-文件.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')  #设置中文字体
+文件.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), '思源黑体 CN Normal')  #设置中文字体
+文件.save('D:/Python_Test/zh2.docx')
+
+
+#有格式的话不管用？要用run?
+```
+
+有格式的正文：不生效！！！！
+
+```python
+from docx import Document
+from docx.shared import Pt, RGBColor              # 字号，颜色
+from docx.oxml.ns import qn                       # 中文字体
+
+文件 = Document('D:/Python_Test/zh1.docx')
+for 段落 in 文件.paragraphs:
+	for 块 in 段落.runs:
+        if 块.style.name == 'Normal': 
+			块.font.name = 'Arial' # 英文字体设置
+			块._element.rPr.rFonts.set(qn('w:eastAsia'),'思源黑体 CN Normal')   # 设置中文字体：微软雅黑
 文件.save('D:/Python_Test/zh1.docx')
+```
+
+## 修改标题字体
+
+```python
+from docx import Document
+from docx.oxml.ns import qn # 中文字体
+文件 = Document('D:/Python_Test/zh2.docx')
+文件.styles['Heading 1'].font.name = 'Arial'# 设置英文字体
+文件.styles['Heading 1']._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')  #设置中文字体
+文件.save('D:/Python_Test/zh2.docx')
+
+#问题：一级标题能修改成功，二级标题修改不成功？三级标题也能修改成功。
+#解决方案：默认标题2是“宋体（中文标题）”，这个字体的话修改不成功。改成“宋体”就能修改成功。
+```
 
 
-有格式的话不管用？要用run?
+
+## 段落样式修改
+
+paragraph.alignment = 对齐方式
+
+```python
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx import Document
+文件 = Document('D:/Python_Test/zh2.docx')
+for 段落 in 文件.paragraphs:
+	if 段落.style.name=='Normal':
+		段落.alignment = WD_ALIGN_PARAGRAPH.CENTER
+文件.save('D:/Python_Test/zh2.docx')
 ```
 
 
