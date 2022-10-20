@@ -167,7 +167,9 @@ from docx import Document
 #添加新段落后，段落默认居中。这个问题怎么解决呢？
 ```
 
-## 文字样式调整
+## 样式调整
+
+### 文字样式调整
 
 对文字字体样式进行修改：run.font.样式= xxx
 
@@ -192,7 +194,7 @@ for 段落 in 文件.paragraphs:
 #只要文本设置了格式，直接打印段落.text就会显示为空是吗
 ```
 
-## 修改正文字体
+### 修改正文字体
 
 文件.styles['Normal'] ：文件样式中的正文。
 
@@ -224,7 +226,7 @@ for 段落 in 文件.paragraphs:
 文件.save('D:/Python_Test/zh1.docx')
 ```
 
-## 修改标题字体
+### 修改标题字体
 
 ```python
 from docx import Document
@@ -240,7 +242,7 @@ from docx.oxml.ns import qn # 中文字体
 
 
 
-## 段落样式修改
+### 段落对齐方式
 
 paragraph.alignment = 对齐方式
 
@@ -250,13 +252,30 @@ from docx import Document
 文件 = Document('D:/Python_Test/zh2.docx')
 for 段落 in 文件.paragraphs:
 	if 段落.style.name=='Normal':
-		段落.alignment = WD_ALIGN_PARAGRAPH.CENTER
+		段落.alignment = WD_ALIGN_PARAGRAPH.CENTER  #LEFT, RIGHT, JUSTIFY(两端对齐), DISTRIBUTE(分散对齐)
 文件.save('D:/Python_Test/zh2.docx')
 ```
 
+### 行间距
 
+行间距的设置可以使用2个属性**line_spacing**和**line_spacing_rule**。这两个属性不用同时设置。
 
+**line_spacing_rule**的值是docx.enum.text. WD_LINE_SPACING中的枚举类型的常量，值的列表如下：
 
+* 1.5倍行距：ONE_POINT_FIVE
+* 最小行距：AT_LEAST
+* 单倍行距：SINGLE
+* 双倍行距：DOUBLE
+* 固定值：**EXACTLY**
+* 多倍行距：**MULTIPLE**
+
+说明：当**line_spacing_rule**的值设置为**EXACTLY**和**MULTIPLE**时，需要line_spacing属性进行设置具体的数值。
+
+#### 普通的行间距调整
+
+##### 正文之间的行间距
+
+##### 全部段落之间的行间距
 
 
 
