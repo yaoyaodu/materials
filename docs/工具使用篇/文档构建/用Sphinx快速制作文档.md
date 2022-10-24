@@ -7,8 +7,8 @@
 * https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
 * https://www.overleaf.com/learn/latex/Understanding_packages_and_class_files
 * https://www.overleaf.com/learn/latex/Writing_your_own_class
-
-
+* [Installing Sphinx — Sphinx documentation (sphinx-doc.org)](https://www.sphinx-doc.org/en/master/usage/installation.html#windows-other-method) Installing Sphinx for Linux (Debian/Ubuntu): `apt-get install python3-sphinx`
+* Sphinx官网：[Welcome — Sphinx documentation (sphinx-doc.org)](https://www.sphinx-doc.org/en/master/index.html)
 
 ## 简介
 
@@ -243,8 +243,8 @@ make html
 
 ## 参考文章
 
-\1. [Sphinx 使用手册](https://link.zhihu.com/?target=http%3A//zh-sphinx-doc.readthedocs.io/en/latest/index.html)[使用](https://link.zhihu.com/?target=https%3A//www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation)
+1. [Sphinx 使用手册](https://link.zhihu.com/?target=http%3A//zh-sphinx-doc.readthedocs.io/en/latest/index.html)[使用](https://link.zhihu.com/?target=https%3A//www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation)
 
-\2. [sphinx 制作简洁而又美观的文档](https://link.zhihu.com/?target=https%3A//www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation)
+2. [sphinx 制作简洁而又美观的文档](https://link.zhihu.com/?target=https%3A//www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation)
 
-\3. [使用Sphinx制作说明文档](https://link.zhihu.com/?target=https%3A//www.biaodianfu.com/sphinx-documentation.html)
+3. [使用Sphinx制作说明文档](https://link.zhihu.com/?target=https%3A//www.biaodianfu.com/sphinx-documentation.html)
