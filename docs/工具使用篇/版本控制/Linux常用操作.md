@@ -74,7 +74,7 @@ zip:
 
 统计指定的文件中的字节数、字数、行数，并将统计结果输出。
 
-用法：`wc [选项]文件 `
+用法：`wc [选项] [文件名] `
 
 示例：`wc -w index.rst`
 
@@ -90,14 +90,14 @@ zip:
 
 ## 文件一致性校验：md5sum 
 
-用法：``md5sum + 文件名``。文件名中有空格的话空格前要加``\``。
+用法：``md5sum 文件名``。文件名中有空格的话空格前要加``\``。
 
 示例：``md5sum MACAMACA\ C++编程指南_V1.0.pdf``
 
 一般来说，安装了Linux后，就会有md5sum这个工具，直接在命令行终端直接运行。
 
-md5sum计算检验MD5效验码。MD5算法常常被用来验证网络文件传输的完整性，防止文件被人篡改。
-MD5全称是报文摘要算法（Message-Digest Algorithm 5），此算法对任意长度的信息逐位进行计算， 产生一个二进制长度为128位（十六进制长度就是32位）的“指纹”（或称“报文摘要”），不同的文件产生相同的报文摘要的可能性非常小。
+md5sum计算检验MD5效验码。**MD5算法常常被用来验证网络文件传输的完整性，防止文件被人篡改**。
+MD5全称是**报文摘要算法（Message-Digest Algorithm 5）**，此算法对任意长度的信息逐位进行计算， 产生一个二进制长度为128位（十六进制长度就是32位）的**“指纹”（或称“报文摘要”）**，不同的文件产生相同的报文摘要的可能性非常小。
 
 其他两个工具**sha256sum和sha512sum**的工作方式与md5sum相同。
 
@@ -147,13 +147,13 @@ mkdir dir1 dir2 同时创建两个目录
 
 mkdir -p /tmp/dir1/dir2 创建一个目录树 
 
-#### rm
+#### rm -rf
 
 rm -f file1 删除一个叫做 'file1' 的文件' 
 
-rmdir dir1 删除一个叫做 'dir1' 的目录' 
+rmdir dir1 删除一个叫做 'dir1' 的**目录**' 
 
-rm -rf dir1 删除一个叫做 'dir1' 的目录并同时删除其内容 
+rm -rf dir1 删除一个叫做 'dir1' 的目录并**同时删除其内容** 
 
 rm -rf dir1 dir2 同时删除两个目录及它们的内容 
 
@@ -165,7 +165,7 @@ mv dir1 new_dir 重命名/移动 一个目录
 
 cp file1 file2 复制一个文件 
 
-cp dir/* . 复制一个目录下的所有文件到当前工作目录 
+cp dir/* . **复制一个目录下的所有文件到当前工作目录** 
 
 cp -a /tmp/dir1 . 复制一个目录到当前工作目录 
 
@@ -223,16 +223,16 @@ find / -name \*.rpm -exec chmod 755 '{}' \; 搜索以 '.rpm' 结尾的文件并�
 
 find / -xdev -name \*.rpm 搜索以 '.rpm' 结尾的文件，忽略光驱、捷盘等可移动设备 
 
-locate \*.ps 寻找以 '.ps' 结尾的文件 - 先运行 'updatedb' 命令 
+**locate \*.ps 寻找以 '.ps' 结尾的文件** - 先运行 'updatedb' 命令 
 
 whereis halt 显示一个二进制文件、源码或man的位置 
 
 which halt 显示一个二进制文件或可执行文件的完整路径 
 
 ## 用户和群组 
-groupadd group_name 创建一个新用户组 
+**groupadd** group_name 创建一个新用户组 
 
-groupdel group_name 删除一个用户组 
+**groupdel** group_name 删除一个用户组 
 
 groupmod -n new_group_name old_group_name 重命名一个用户组 
 
@@ -317,7 +317,7 @@ unzip file1.zip 解压一个zip格式压缩包
 1. 计算机：172.16.80.17
 2. 用户名：METAC-TECH\ydu
 
-MobaXterm：用于把本地的文档等传送到Linux环境中。
+**MobaXterm**：用于把本地的文档等传送到Linux环境中。
 
 libreoffice: Linux版office
 
