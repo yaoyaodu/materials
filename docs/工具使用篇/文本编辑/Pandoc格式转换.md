@@ -55,6 +55,7 @@ sudo apt-get install pandoc (这样就够用了)
 
 1. 打开**命令提示符**工具。
 2. 输入`pandoc C:\Users\user\Desktop\文件名.md -o C:\Users\user\Desktop\输出文件名.docx`。
+pandoc C:\Users\user\Desktop\ChipWar.pdf -o C:\Users\user\Desktop\ChipWar.txt
 
 <img src="https://i.loli.net/2021/08/18/z1EyuFIkKTNsZOG.png" alt="image-20210818095750059" style="zoom: 50%;" />
 
