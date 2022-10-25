@@ -56,6 +56,7 @@ APP:
   * [客户支持 - 燧原科技 (enflame-tech.com)](https://www.enflame-tech.com/support#support3)
     * 连接线产品手册
     * 桥接卡产品手册
+* 沐曦官网：[沐曦MetaX | 致力于成为全球一流的高性能GPU企业 (metax-tech.com)](http://www.metax-tech.com/index.html)
 * 天数智芯
 * 摩尔线程
 * 航锦科技
