@@ -2,6 +2,8 @@
 
 资料：[reStructuredText入门 — Sphinx 1.2 documentation (pythondoc.com)](http://www.pythondoc.com/sphinx/rest.html)
 
+rst转PDF：工具rst2pdf [rst2pdf | Use a text editor. Make a PDF](https://rst2pdf.org/)
+
 ## 数学公式
 
 ### 表格
