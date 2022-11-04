@@ -54,7 +54,7 @@ docsify init ./
 docsify serve ./
 ```
 
-实例：在Node.js command prompt工具中执行`docsify serve D:\materials\docs`命令。
+实例：在Node.js command prompt工具中执行`docsify serve D:\materials\docs`命令。说明：不要关掉该窗口。
 
 ## 基本操作
 

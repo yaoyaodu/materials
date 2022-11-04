@@ -10,13 +10,24 @@
 
 ## 问题：
 
-Q1：利用PyCharm打开rst文档，rst文档中的中文字符显示为乱码。
+Q1：提示Error:Python interpreter is not selected. Please setup Python interpreter first.
+表示Python interpreter解释器 未选择。请先设置Python解释器。
 
-A1：[解决用pycharm书写README.rst汉字乱码问题_pycharm rst文件](https://blog.csdn.net/chianti_cv/article/details/125219356)
+A：https://blog.csdn.net/qq_35882568/article/details/117623025。
 
-1. 在设置中，把所有的文件编码都改成**UTF-8**。
+1. File-Settings-相应的Project-Project Interpreter。点击最右上侧的图标点击Add。
+2. 点击System Interpreter，选择本地安装的Python解释器python.exe。
+3. 点击OK。重启pycharm后，错误提示就不再出现，这时就可以RUN程序了。
+
+
+Q2：利用PyCharm打开rst文档，rst文档中的中文字符显示为乱码。
+
+A：[解决用pycharm书写README.rst汉字乱码问题_pycharm rst文件](https://blog.csdn.net/chianti_cv/article/details/125219356)
+
+1. 在设置中（File-Settings-File Encodings），把所有的文件编码都改成**UTF-8**。
 2. 如果问题没有解决，点击**Help**菜单栏选择“**Edit Custom VM Options**”。
 3. 在打开的文件最后增加一行`-Dfile.encoding=UTF-8`。
+4. 重启PyCharm。
 
 ## Win10中PyCharm2020.1.4安装使用入门（修订版）
 
