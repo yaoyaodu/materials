@@ -25,10 +25,14 @@ Sphinx 使用 reStructuredText 作为标记语言, 可以享有 Docutils 为reSt
 
 ## 安装Sphinx
 
-Sphinx为Python语言的一个第三方库。我们需要在终端中输入下列命令进行安装：
+Sphinx为Python语言的一个第三方库。
+
+找到pip3.exe所在的文件夹：C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts。
+点击上方文件路径所在方框，输入cmd。
+在终端中输入下列命令进行安装：
 
 ```text
-pip install sphinx
+pip3 install sphinx
 ```
 
 ## 创建Sphinx项目
