@@ -18,9 +18,9 @@
 ### 安装
 
 **docsify是一个node.js插件，所以需要提前安装node.js**。
-下载地址：http://nodejs.cn/download/。
+下载地址：http://nodejs.cn/download/。下载后双击node-v16.18.0-x64.msi程序，直接安装默认设置安装即可。
 
-安装node.js之后会有Node.js command prompt工具，打开执行npm i docsify-cli -g命令。
+安装node.js之后会有Node.js command prompt工具，打开执行npm i docsify-cli -g命令安装docsify-cli工具。说明：可能会持续一段时间，请耐心等待。可能是网络问题，一次没安装好，执行了好几次该命令才安装好。
 
 官方推荐安装 [docsify-cli](https://www.npmjs.com/package/docsify-cli) 工具，可以方便创建及本地预览文档网站。
 
@@ -36,6 +36,10 @@ npm i docsify-cli -g
 docsify init ./docs
 ```
 
+实例：在Node.js command prompt工具中执行`docsify init D:\materials\docs`命令。
+Are you sure you want to rewrite it? (y/N) false
+
+
 这里我也可以直接创建一个纯文档项目：
 
 ```
@@ -49,6 +53,8 @@ docsify init ./
 ```
 docsify serve ./
 ```
+
+实例：在Node.js command prompt工具中执行`docsify serve D:\materials\docs`命令。
 
 ## 基本操作
 
