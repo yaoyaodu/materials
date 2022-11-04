@@ -24,6 +24,7 @@ Sphinx 是一种文档工具，它可以令人轻松的撰写出清晰且优美�
 Sphinx 使用 reStructuredText 作为标记语言, 可以享有 Docutils 为reStructuredText提供的分析，转换等多种工具。
 
 ## 安装Sphinx
+Sphinx官网：https://www.sphinx-doc.org/en/master/usage/installation.html#install-pypi。
 
 Sphinx为Python语言的一个第三方库。
 
