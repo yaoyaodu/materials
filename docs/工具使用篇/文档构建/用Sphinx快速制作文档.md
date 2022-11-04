@@ -35,6 +35,14 @@ Sphinx为Python语言的一个第三方库。
 pip3 install sphinx
 ```
 
+安装后如果不进行任何设置，则只能在C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts路径下生成HTML。
+如果在其他目录下生成HTML则会报错：
+
+需要设置环境变量，在桌面右击计算机->属性->高级系统设置（页面右侧）->环境变量，选择“系统变量”的path，然后点击编辑-新建，将以下文件路径复制过去即可：
+C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts。
+
+设置环境变量后，则可在任何目录下生成HTML。
+
 ## 创建Sphinx项目
 
 创建一个用于存放文档的文件夹，然后在该文件夹路径下运行下列命令快速生成Sphinx项目：
