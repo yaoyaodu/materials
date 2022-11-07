@@ -26,7 +26,7 @@
 
 3. 通过`git init`命令把这个目录变成Git可以管理的仓库。
 
-4. 创建SSH Key
+4. 创建SSH Key：SSH key存储在：C:\Users\yydu/.ssh/id_rsa
 
    打开Git Bash，执行如下命令，一路回车即可。
 
@@ -38,10 +38,13 @@
    git remote add origin upstream git@192.168.100.62:doc/sw.git
    git push -u origin master
 
-6. clone账号中的项目至本地:       
+6. clone账号中的项目至本地: 
 
+   示例：`git clone git@github.com:yaoyaodu/materials.git` （相应项目下Code-SSH-复制）     
+``` 
    git clone git@192.168.100.62:<user name>/sw.git 
    cd sw
+```
    添加远端主仓以便于同步主仓中其他人的修改     
 
    git remote add upstream git@192.168.100.62:doc/sw.git 

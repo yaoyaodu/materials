@@ -12,6 +12,7 @@
 * 工具使用篇
   * 版本控制
     * [Git常用操作指南](工具使用篇/版本控制/Git常用操作指南.md)
+    * [Git常用命令](工具使用篇/版本控制/Git常用命令.md)
     * [详解git pull命令](工具使用篇/版本控制/详解gitpull命令.md)
     * [Git中.gitignore文件的用法](工具使用篇/版本控制/Git中.gitignore文件的用法.md)
     * [Linux常用操作](工具使用篇/版本控制/Linux常用操作.md)
