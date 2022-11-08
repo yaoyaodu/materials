@@ -93,9 +93,24 @@ html_static_path = ['_static']
 #latex_engine = 'lualatex'
 latex_engine = 'xelatex'
 latex_logo = 'METAXcolor.PNG'
-# latex_logo = 'METAX.PNG'
+#latex_logo = 'METAX.PNG'
+
+#设置图片标题（图注）的格式
+numfig=True
+numfig_secnum_depth=1
+numfig_format={'figure': 'Figure %S'}
+
 
 latex_elements = {
+    'fontpkg': r'''
+\setmainfont{Source Han Sans CN}
+\setsansfont{Source Han Sans CN}
+\setmonofont{Source Han Sans CN}    
+\setCJKmainfont{Source Han Sans CN}
+\setCJKsansfont{Source Han Sans CN}
+\setCJKmonofont{Source Han Sans CN}    
+''',
+    
     'preamble': r'''
 \usepackage{titlesec}
 \titleformat{\chapter}{\raggedright\Huge\bfseries\color{purple}}{\thechapter}{1em}{}
@@ -150,11 +165,10 @@ latex_elements = {
   \begin{flushleft}
     \sphinxlogo
     \vspace{1.8cm}
-    \Huge\bfseries\color{white} MACAMACA PyTorch User Guide\par
+    \Huge\bfseries\color{white} MACAMACA C++编程指南\par
     \vspace{0.4em}
-    \Large\bfseries CSOG-22004-021\_V1.0 \hspace{1cm} 2022-07-26\par
-    \small\bfseries MetaX Proprietary and Confidential\par
-    \small\bfseries Prepared and Provided Under NDA
+    \Large\bfseries CSPG-22001-000\_V1.0 \hspace{1cm} 2022-07-26\par
+    \small\bfseries 沐曦专有和保密信息 \hspace{2.1cm} 本文档受NDA管控
   \end{flushleft}
   \vspace{0.1em}
   \begin{figure}[htbp]
@@ -162,16 +176,14 @@ latex_elements = {
     \includegraphics[scale=3.5]{XlogoEN.png}
   \end{figure}  
   
-  \newpage\restoregeometry{{\Huge\bfseries DISCLAIMER}\par \vspace{2ex} Copyright 2022 MetaX Integrated Circuits (Shanghai) Co., Ltd.}
+  \newpage\restoregeometry{{\Huge\bfseries 声明}\par \vspace{2ex} 版权所有  沐曦集成电路（上海）有限公司　2022。保留一切权利。＼par本文档提供的信息...}
   \pagecolor{white}
-  
-\renewcommand*\contentsname{Table of Contents}
 
   \newpage
-  {\Huge\bfseries\color{purple} Update History}\par
+  {\Huge\bfseries\color{purple} 更新记录}\par
   \begin{figure}[htbp]
     \hspace*{-0.1cm}
-    \includegraphics[scale=1.05]{recordEN.png}
+    \includegraphics[scale=1.05]{record.png}
   \end{figure} 
 }   
 ''',
@@ -179,14 +191,14 @@ latex_elements = {
 
     'papersize': 'a4paper',
     'pointsize': '10pt',
-    'releasename': 'Release',
+    'releasename': '版本',
     'extraclassoptions': 'openany',
     'figure_align': 'H',
     'sphinxsetup': 'VerbatimColor={RGB}{218,218,218}, TitleColor={RGB}{102,8,116}, verbatimwithframe=false, verbatimhintsturnover=false, InnerLinkColor={RGB}{102,8,116}, OuterLinkColor={RGB}{102,8,116}',
     'passoptionstopackages': r'\PassOptionsToPackage{numfigreset=1}{sphinx}'
 }
 
-latex_additional_files=["XlogoEN.png", "metaxcolor.png", "muxi.PNG", "recordEN.png"]
+latex_additional_files=["XlogoCN.png", "metaxcolor.png", "record.png"]
 
 
 
