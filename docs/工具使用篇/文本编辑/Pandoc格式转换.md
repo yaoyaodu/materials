@@ -24,6 +24,10 @@ Pandoc载链接见[github](https://github.com/jgm/pandoc/releases)。
 
 pandoc安装：双击安装，打开命令行输入 pandoc -v 看是否安装成功。
 
+说明：
+
+必须在Pandoc安装路径（C:\Users\yydu\AppData\Local\Pandoc）下执行命令pandoc -v才能看到pandoc版本。其他路径下执行这个命令会报错。是不是因为没有设置环境变量。
+
 ## Linux环境中安装Pandoc
 
 sudo apt-get install pandoc (这样就够用了)
@@ -68,6 +72,13 @@ sudo apt-get install pandoc (这样就够用了)
 ## Word转RST
 
 命令：`pandoc D:\pandoc\mcfft.docx -o D:\pandoc\mcfft.rst`
+
+说明：
+
+1. 必须在Pandoc安装路径下C:\Users\yydu\AppData\Local\Pandoc，执行如下命令：pandoc 6012_V1.4_reST.docx -o rst_template.rst。在其他路径下执行pandoc命令会报错。
+2. 输出文档名后面必须加.rst，来指定生成的文档格式，不然会默认生成HTML文档。
+
+
 
 ## RST转PDF（有点麻烦）
 
