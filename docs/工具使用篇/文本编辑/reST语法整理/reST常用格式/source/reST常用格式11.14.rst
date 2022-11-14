@@ -283,16 +283,13 @@ This is a paragraph that contains `域名网址`_.
 表格
 ----------------
 
-
-
-
 .. table:: 表 1-1 UMD API Interface Table
 
    ==========    =============     =========    ========
    MARC0         API               Parameter    Other
    ==========    =============     =========    ========
-   MX1           neural1           Para1
-   MX2           neural2           Para2
+   MX1           neural1           Para1        E = mc\ :sup:`2`
+   MX2           neural2           Para2        H\ :sub:`2`\O
    MX3           neural3           Para3
    ==========    =============     =========    ========
 
@@ -339,11 +336,13 @@ This is a paragraph that contains `域名网址`_.
 List Table
 ++++++++++++++++++++++++
 
-List Table 1: 去掉align就能正确显示
-***************************************
+
+
+List Table 1: 去掉align就能正确显示(上下标+无序列表)
+*******************************************************
 
 .. list-table:: 表 2-1 协议格式
-    :widths: 50 50 50 50 50 50 50
+    :widths: 50 50 50 50 50 50 50 50
     :header-rows: 1
 
     *
@@ -354,14 +353,17 @@ List Table 1: 去掉align就能正确显示
        - Category
        - Command Data
        - Send/Receive
+       - H\ :sub:`2`\O
     *
-        - b[31:30]
+        - * b[31:30]
+          * good
         - b[29:28]
         - b[27:24]
         - b[23:20]
         - b[19:12]
         - b[11:4]
         - b[3:0]
+        - H\ :sub:`2`\O
 
 List Table 2：设置了align，显示不正确
 ***************************************
