@@ -369,8 +369,7 @@ output frequency is 50MHz.
    | Capture count mode is used to capture input pulse count, and capture time mode 
      is used to capture pulse width.
 
--  PWM mode
-
+-  | PWM mode
    | PWM can be configured as central-aligned mode (see :ref:`Figure 4-1 <4-1>`) and
      edge-aligned mode (see :ref:`Figure 4-2 <4-2>`).
 
