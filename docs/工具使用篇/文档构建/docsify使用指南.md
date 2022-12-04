@@ -18,6 +18,9 @@
 ### 安装
 
 **docsify是一个node.js插件，所以需要提前安装node.js**。
+下载地址：http://nodejs.cn/download/。下载后双击node-v16.18.0-x64.msi程序，直接安装默认设置安装即可。
+
+安装node.js之后会有Node.js command prompt工具，打开执行npm i docsify-cli -g命令安装docsify-cli工具。说明：可能会持续一段时间，请耐心等待。可能是网络问题，一次没安装好，执行了好几次该命令才安装好。
 
 官方推荐安装 [docsify-cli](https://www.npmjs.com/package/docsify-cli) 工具，可以方便创建及本地预览文档网站。
 
@@ -33,6 +36,10 @@ npm i docsify-cli -g
 docsify init ./docs
 ```
 
+实例：在Node.js command prompt工具中执行`docsify init D:\materials\docs`命令。
+Are you sure you want to rewrite it? (y/N) false
+
+
 这里我也可以直接创建一个纯文档项目：
 
 ```
@@ -46,6 +53,8 @@ docsify init ./
 ```
 docsify serve ./
 ```
+
+实例：在Node.js command prompt工具中执行`docsify serve D:\materials\docs`命令。说明：不要关掉该窗口。
 
 ## 基本操作
 
@@ -325,10 +334,16 @@ docsify 内置的代码高亮工具是 Prism ，默认支持 CSS 、JavaScript �
 
 docsify 扩展了一些 markdown 的语法，但由于这篇文章是在 Hexo 里编写，无法通过 Hexo 直接展示出效果，建议查看[官方文档](https://docsify.js.org/#/zh-cn/helpers)了解详情。
 
-## 最后
 
-最后把整个项目上传到 GitHub Pages 上，一份在线文档就大功告成了。
 
+## 利用Github Pages发布网页
+
+1.	点击要public的repository,点击Settings, 在General区域，拉到最后Danger Zone位置，看到Change repository visibility。点击Change visibility，将其设置为public。
+2.	点击左侧区域中的Pages, 出现GitHub Pages页面。
+说明：设置为Public后，可能要等一段时间，才会出现下图界面。
+3.	在Branch区域，分别选择main和/docs。稍等一些时间，网页链接会自动生成。如图所示。
+
+## 其他
 整体使用下来还是挺顺畅的，基本和原来写文档的流程一样，如果不会用到 docsify 提供的 markdown 扩展语法，那就可以继续使用原有的 markdown 编辑器进行编写，加上现在大部分 markdown 编辑器都会提供同步预览，所以也不一定非得使用 docsify 提供的本地预览方案。
 
 关于离线模式（PWA）和服务端渲染（SSR），因为目前用不上，所以就没有尝试。

@@ -24,12 +24,25 @@ Sphinx 是一种文档工具，它可以令人轻松的撰写出清晰且优美�
 Sphinx 使用 reStructuredText 作为标记语言, 可以享有 Docutils 为reStructuredText提供的分析，转换等多种工具。
 
 ## 安装Sphinx
+Sphinx官网：https://www.sphinx-doc.org/en/master/usage/installation.html#install-pypi。
 
-Sphinx为Python语言的一个第三方库。我们需要在终端中输入下列命令进行安装：
+Sphinx为Python语言的一个第三方库。
+
+找到pip3.exe所在的文件夹：C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts。
+点击上方文件路径所在方框，输入cmd。
+在终端中输入下列命令进行安装：
 
 ```text
-pip install sphinx
+pip3 install sphinx
 ```
+
+安装后如果不进行任何设置，则只能在C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts路径下生成HTML。
+如果在其他目录下生成HTML则会报错：
+
+需要设置环境变量，在桌面右击计算机->属性->高级系统设置（页面右侧）->环境变量，选择“系统变量”的path，然后点击编辑-新建，将以下文件路径复制过去即可：
+C:\Users\yydu\AppData\Local\Programs\Python\Python310\Scripts。
+
+设置环境变量后，则可在任何目录下生成HTML。
 
 ## 创建Sphinx项目
 

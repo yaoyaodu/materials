@@ -10,8 +10,11 @@
   * [翻译活动核查清单](写作规范篇/翻译活动核查清单.md)
   * [技术英语冠词用法详解](写作规范篇/技术英语冠词用法详解.md)
 * 工具使用篇
+  * Python办公自动化
   * 版本控制
     * [Git常用操作指南](工具使用篇/版本控制/Git常用操作指南.md)
+    * [Git常用命令](工具使用篇/版本控制/Git常用命令.md)
+    * [Tortoise SVN](工具使用篇/版本控制/TortoiseSVN.md)
     * [详解git pull命令](工具使用篇/版本控制/详解gitpull命令.md)
     * [Git中.gitignore文件的用法](工具使用篇/版本控制/Git中.gitignore文件的用法.md)
     * [Linux常用操作](工具使用篇/版本控制/Linux常用操作.md)
@@ -21,15 +24,18 @@
     * [常见的构建工具及对比](工具使用篇/文档构建/常见的构建工具及对比.md)
     * [用Sphinx快速制作文档](工具使用篇/文档构建/用Sphinx快速制作文档.md) 
   * 文本编辑
+    * [PyCharm使用指南](工具使用篇/文本编辑/PyCharm使用指南.md)
+    * [从Excel中提取数据自动生成Word文档](工具使用篇/文本编辑/从Excel中提取数据自动生成Word文档.md)
+    * [reStructuredText快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
+    * [reST语法整理](工具使用篇/文本编辑/reST语法整理.md)
+    * [Markdown Template](工具使用篇/文本编辑/MarkdownFileTemplate.md)
+    * [Pandoc格式转换](工具使用篇/文本编辑/Pandoc格式转换.md)
     * [CSS叠层样式表](工具使用篇/文本编辑/CSS.md)
     * [CSS属性](工具使用篇/文本编辑/CSS属性.md)
     * [Word富文本编辑器](工具使用篇/文本编辑/Word富文本编辑器.md)
     * [LaTeX基本数学公式](工具使用篇/文本编辑/LaTeX基本数学公式.md)
     * [常用轻量级标记语言对照](工具使用篇/文本编辑/常用轻量级标记语言对照.md)
-    * [reStructuredText快速入门语法说明](工具使用篇/文本编辑/reStructuredText(rst)快速入门语法说明.md)
-    * [reST语法整理](工具使用篇/文本编辑/reST语法整理.md)
-    * [Markdown Template](工具使用篇/文本编辑/MarkdownFileTemplate.md)
-    * [Pandoc格式转换](工具使用篇/文本编辑/Pandoc格式转换.md)
+    * [Trados](工具使用篇/文本编辑/Trados.md)
   * 绘图截图
     * [Typora绘图](工具使用篇/绘图截图/Typora绘图.html)
     * [Visio绘图](工具使用篇/绘图截图/Visio绘图.md)
@@ -39,6 +45,7 @@
     * [COCA语料库实用搜索功能](工具使用篇/搜索技能/COCA.md)
     * [搜索技能总结](工具使用篇/搜索技能/搜索技能总结.md)
     * [实用网址](工具使用篇/搜索技能/实用网址.md)
+
 * [技术知识篇](技术知识篇/)
   * [芯片](技术知识篇/芯片/)
     * [行业研报](技术知识篇/芯片/行业研报.md)
