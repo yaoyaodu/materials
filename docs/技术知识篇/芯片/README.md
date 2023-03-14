@@ -14,6 +14,8 @@
 * [21IC电子网 - 电子工程师的优选网站](https://www.21ic.com/)
 * [爱集微：专业的ICT产业咨询服务机构](https://laoyaoba.com/)
 * [半导体行业相关的比较常用的网站或论坛推荐](https://www.zhihu.com/question/21125910)
+* [如何阅读芯片硬件手册？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/33574137)
+* https://www.icspec.com/
 
 公众号：
 
@@ -46,6 +48,10 @@ APP:
   * AI训练：NVIDIA cuDNN Documentation [NVIDIA Deep Learning cuDNN Documentation](https://docs.nvidia.com/deeplearning/cudnn/index.html)
   * NVIDIA Virtual GPU (vGPU): [NVIDIA Virtual GPU (vGPU) Software Documentation](https://docs.nvidia.com/grid/index.html)
   * 英伟达开发者社区：https://developer.nvidia.com/zh-cn
+  
+- 英特尔：
+
+  - Technical Resources: Intel® Core™ Processors：https://www.intel.cn/content/www/cn/zh/products/docs/processors/core/core-technical-resources.html
   
 - 寒武纪：
 
