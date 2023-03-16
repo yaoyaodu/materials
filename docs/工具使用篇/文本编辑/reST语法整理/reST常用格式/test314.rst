@@ -18,6 +18,68 @@ pandoc是一个haskell编写的万能文档转换工具，可以在Markdown、re
 默认情况下，pandoc会把换行转换成空格，但这是为西方语言设置的默认值。对于中文，就需要开启east_asian_line_breaks，去除换行引入的空格。
 
 
+上标/下标
+----------------
+
+上标(superscript)：
+
+* E = mc\ :sup:`2`
+* E = m\ :sup:`2`\ c
+* E = m\ :sup:`2`\c
+* E = m\ :sup:`2` c （有空格）
+* I\ :sub:`DD` and V\ :sub:`DD`
+* I\ :sub:`DD`\ and V\ :sub:`DD`\
+* T\ :sub:`J`\max = T\ :sub:`A`\max + (P\ :sub:`D`\max x θ\ :sub:`JA`)
+* T\ :sub:`A`\max is the maximum ambient temperature in °C.
+
+下标(subscript)：
+
+* H\ :sub:`2`\ O
+* HO\ :sub:`2`
+
+
+replace
+-----------
+
+提高可读性也可使用下面的方式：
+
+The chemical formula for pure water is |H2O|.
+
+.. |H2O| replace:: H\ :sub:`2`\ O
+
+你好吗 |T2H| （注意前后都必须加空格）
+
+.. |T2H| replace:: T\ :sub:`2`\ H
+
+资料来源：https://docutils.sourceforge.io/docs/ref/rst/roles.html#subscript
+
+
+
+插入空行
+----------------------------------
+用空行之前先进行定义：
+
+.. |vspace| raw:: latex
+
+   \vspace{1mm}
+
+.. |br| raw:: html
+
+   <br />
+
+然后在需要插入空行的地方插入：|vspace| |br|
+
+
+
+
+小于等于号、大于等于号
+--------------------------------------
+
+小于等于号: Carrier frequency :math:`\leqslant` 60 KHz
+
+大于等于:  :math:`\geqslant`
+
+
 
 
 引用参考(Citation Reference)
@@ -257,6 +319,8 @@ X
 ----------
 
 乘号 ×
+
+摄氏度 °C
 
 
 分隔符
